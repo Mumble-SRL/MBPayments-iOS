@@ -1,0 +1,1 @@
+../../../NookoSDK/NookoSDK/NKManager/NKUtilities.h

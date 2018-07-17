@@ -1,0 +1,1 @@
+../../../NookoSDK/NookoSDK/NKClient/NKParameter/NKGeofenceParameter.h

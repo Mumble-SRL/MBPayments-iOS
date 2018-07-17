@@ -1,0 +1,1 @@
+../../../NookoSDK/NookoSDK/NKApiManager/NKResponse.h
