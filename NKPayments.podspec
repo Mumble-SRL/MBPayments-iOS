@@ -122,5 +122,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-  s.dependency 'NookoSDK', git: 'https://gitlab.mumbleserver.it/iOS/NookoSDK'
+  s.dependency 'NookoSDK', :git => 'https://gitlab.mumbleserver.it/iOS/NookoSDK'
 end
