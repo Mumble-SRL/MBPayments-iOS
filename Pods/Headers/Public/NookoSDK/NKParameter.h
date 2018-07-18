@@ -1,1 +1,0 @@
-../../../NookoSDK/NookoSDK/NKClient/NKParameter/NKParameter.h

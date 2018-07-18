@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NookoSDK.h"
 #import "NKSubscription.h"
 #import "NKPurchase.h"
+
+@import NookoSDK;
 
 @interface NKUserPaymentSettings : NSObject <NSCoding, NSSecureCoding>
 

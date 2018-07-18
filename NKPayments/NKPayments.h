@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NookoSDK.h"
 #import "NKUserPaymentSettings.h"
 #import "NKCard.h"
+
+@import NookoSDK;
 
 FOUNDATION_EXPORT NSString * const NKPaymentsUserKey;
 

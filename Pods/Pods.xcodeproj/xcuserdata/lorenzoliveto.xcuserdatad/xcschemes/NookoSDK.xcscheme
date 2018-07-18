@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2622424A3B1B7483CF16E037159CF652"
+               BlueprintIdentifier = "5D16807CDA68EC54AD67E1740E60661D"
                BlueprintName = "NookoSDK"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libNookoSDK.a">
+               BuildableName = "NookoSDK.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

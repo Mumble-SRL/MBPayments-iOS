@@ -1,1 +1,0 @@
-../../../NookoSDK/NookoSDK/NKAdmin/NKAdmin.h

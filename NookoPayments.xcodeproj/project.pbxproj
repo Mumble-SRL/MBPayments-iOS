@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050D8F855472B45B6F468581 /* Pods_NookoPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB685B42D017293AD3013E /* Pods_NookoPayments.framework */; };
 		6684450D20FDEEF700118F62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684450C20FDEEF700118F62 /* AppDelegate.m */; };
 		6684451020FDEEF700118F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684450F20FDEEF700118F62 /* ViewController.m */; };
 		6684451320FDEEF700118F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6684451120FDEEF700118F62 /* Main.storyboard */; };
@@ -18,11 +19,9 @@
 		6684452E20FE1CD000118F62 /* NKSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684452D20FE1CD000118F62 /* NKSubscription.m */; };
 		6684453120FE1CD800118F62 /* NKPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684453020FE1CD800118F62 /* NKPurchase.m */; };
 		66CA3D0220FE337C0023C246 /* NKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA3D0120FE337C0023C246 /* NKCard.m */; };
-		A75CE4CFC90194E740F3373F /* libPods-NookoPayments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BF54B8B78E453ECA6B7958 /* libPods-NookoPayments.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56BF54B8B78E453ECA6B7958 /* libPods-NookoPayments.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NookoPayments.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6684450820FDEEF700118F62 /* NookoPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NookoPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6684450B20FDEEF700118F62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6684450C20FDEEF700118F62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		6684453020FE1CD800118F62 /* NKPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKPurchase.m; sourceTree = "<group>"; };
 		66CA3D0020FE337C0023C246 /* NKCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKCard.h; sourceTree = "<group>"; };
 		66CA3D0120FE337C0023C246 /* NKCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKCard.m; sourceTree = "<group>"; };
+		68BB685B42D017293AD3013E /* Pods_NookoPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NookoPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF64F301FF4E57CD0D8D4027 /* Pods-NookoPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NookoPayments.release.xcconfig"; path = "Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments.release.xcconfig"; sourceTree = "<group>"; };
 		DCC046020C1906E631E771F4 /* Pods-NookoPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NookoPayments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75CE4CFC90194E740F3373F /* libPods-NookoPayments.a in Frameworks */,
+				050D8F855472B45B6F468581 /* Pods_NookoPayments.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 		52D6CB2654FC0A82561EE8AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				56BF54B8B78E453ECA6B7958 /* libPods-NookoPayments.a */,
+				68BB685B42D017293AD3013E /* Pods_NookoPayments.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,6 +139,7 @@
 				6684450420FDEEF700118F62 /* Sources */,
 				6684450520FDEEF700118F62 /* Frameworks */,
 				6684450620FDEEF700118F62 /* Resources */,
+				D29A3277440EDF2A70A8D6D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +212,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29A3277440EDF2A70A8D6D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/NookoSDK/NookoSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NookoSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
