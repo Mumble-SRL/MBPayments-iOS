@@ -1,40 +1,40 @@
 //
-//  NKSubscription.m
-//  NookoPayments
+//  MBSubscription.m
+//  MBPayments
 //
-//  Created by Lorenzo Oliveto on 17/07/18.
-//  Copyright © 2018 Mumble. All rights reserved.
+//  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
+//  All rights reserved.
 //
 
-#import "NKSubscription.h"
+#import "MBSubscription.h"
 
-@implementation NKSubscription
+@implementation MBSubscription
 
-- (instancetype) initWithResponseDictionary: (NSDictionary *) responseDictionary {
+- (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];
     if (self){
-        self.subscriptionId = [responseDictionary[@"id"] integerValue];
-        self.subscriptionName = responseDictionary[@"name"];
-        self.stripeId = responseDictionary[@"stripe_id"];
-        self.stripePlan = responseDictionary[@"stripe_plan"];
-        self.quantity = [responseDictionary[@"quantity"] integerValue];
-        if (responseDictionary[@"ends_at"] != [NSNull null]){
-            self.endsAt = [NSDate dateWithTimeIntervalSince1970: [responseDictionary[@"ends_at"] integerValue]];
+        self.subscriptionId = [dictionary[@"id"] integerValue];
+        self.subscriptionName = dictionary[@"name"];
+        self.stripeId = dictionary[@"stripe_id"];
+        self.stripePlan = dictionary[@"stripe_plan"];
+        self.quantity = [dictionary[@"quantity"] integerValue];
+        if (dictionary[@"ends_at"] != [NSNull null]){
+            self.endsAt = [NSDate dateWithTimeIntervalSince1970: [dictionary[@"ends_at"] integerValue]];
         }
-        if (responseDictionary[@"trial_ends_at"] != [NSNull null]){
-            self.trialEndsAt = [NSDate dateWithTimeIntervalSince1970: [responseDictionary[@"trial_ends_at"] integerValue]];
+        if (dictionary[@"trial_ends_at"] != [NSNull null]){
+            self.trialEndsAt = [NSDate dateWithTimeIntervalSince1970: [dictionary[@"trial_ends_at"] integerValue]];
         }
-        if (responseDictionary[@"created_at"] != [NSNull null]){
-            self.createdAt = [NSDate dateWithTimeIntervalSince1970: [responseDictionary[@"created_at"] integerValue]];
+        if (dictionary[@"created_at"] != [NSNull null]){
+            self.createdAt = [NSDate dateWithTimeIntervalSince1970: [dictionary[@"created_at"] integerValue]];
         }
-        if (responseDictionary[@"expires_at"] != [NSNull null]){
-            self.expiresAt = [NSDate dateWithTimeIntervalSince1970: [responseDictionary[@"expires_at"] integerValue]];
+        if (dictionary[@"expires_at"] != [NSNull null]){
+            self.expiresAt = [NSDate dateWithTimeIntervalSince1970: [dictionary[@"expires_at"] integerValue]];
         }
         
-        self.valid = [responseDictionary[@"valid"] boolValue];
-        self.onTrial = [responseDictionary[@"trial"] boolValue];
-        self.inGracePeriod = [responseDictionary[@"grace_period"] boolValue];
-        self.cancelled = [responseDictionary[@"cancelled"] boolValue];
+        self.valid = [dictionary[@"valid"] boolValue];
+        self.onTrial = [dictionary[@"trial"] boolValue];
+        self.inGracePeriod = [dictionary[@"grace_period"] boolValue];
+        self.cancelled = [dictionary[@"cancelled"] boolValue];
     }
     return self;
 }

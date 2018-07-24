@@ -1,27 +1,27 @@
 //
-//  NKPayments.m
-//  NookoPayments
+//  MBPaymentsClient.m
+//  MBPayments
 //
-//  Created by Lorenzo Oliveto on 17/07/18.
-//  Copyright © 2018 Mumble. All rights reserved.
+//  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
+//  All rights reserved.
 //
 
-#import "NKPayments.h"
-#import "NKManager.h"
-#import "NKApiManager.h"
+#import "MBPayments.h"
+#import "MBManager.h"
+#import "MBApiManager.h"
 
-@implementation NKPayments
+@implementation MBPPayments
 
 + (void) createCustomerForCurrentUserWithSuccess: (void (^)(void)) success
                                          Failure: (void (^)(NSError *error)) failure {
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:@"customers"
-                           HTTPMethod:NKHTTPMethodPost
+                           HTTPMethod:MBHTTPMethodPost
                            Parameters:nil
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -37,7 +37,7 @@
                DiscountCode: (NSString *) discountCode
                   TrialDays: (NSArray *) trialDays
                    Quantity: (NSInteger) quantity
-                       Meta: (NSString *) meta
+                       Meta: (id) meta
                     Success: (void (^)(void)) success
                     Failure: (void (^)(NSError *error)) failure {
     NSMutableDictionary *parameters = [[NSMutableDictionary alloc] init];
@@ -57,17 +57,19 @@
         parameters[@"quantity"] = @(quantity);
     }
     if (meta){
-        parameters[@"meta"] = meta;
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:meta options:0 error:nil];
+        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        parameters[@"meta"] = jsonString;
     }
 
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:@"subscriptions"
-                           HTTPMethod:NKHTTPMethodPost
+                           HTTPMethod:MBHTTPMethodPost
                            Parameters:parameters
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -85,14 +87,14 @@
     
     parameters[@"subscription"] = subscription;
     
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:@"subscriptions/cancel"
-                           HTTPMethod:NKHTTPMethodPost
+                           HTTPMethod:MBHTTPMethodPost
                            Parameters:parameters
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -110,14 +112,14 @@
     
     parameters[@"subscription"] = subscription;
     
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:@"subscriptions/resume"
-                           HTTPMethod:NKHTTPMethodPost
+                           HTTPMethod:MBHTTPMethodPost
                            Parameters:parameters
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -132,7 +134,7 @@
                 Amount: (float) amount
               Quantity: (NSInteger) quantity
                  Token: (NSString *) token
-                  Meta: (NSString *) meta
+                  Meta: (id) meta
                Success: (void (^)(void)) success
                Failure: (void (^)(NSError *error)) failure {
     NSMutableDictionary *parameters = [[NSMutableDictionary alloc] init];
@@ -145,17 +147,19 @@
         parameters[@"token"] = token;
     }
     if (meta){
-        parameters[@"meta"] = meta;
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:meta options:0 error:nil];
+        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        parameters[@"meta"] = jsonString;
     }
     
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:@"payments"
-                           HTTPMethod:NKHTTPMethodPost
+                           HTTPMethod:MBHTTPMethodPost
                            Parameters:parameters
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -173,14 +177,14 @@
     
     parameters[@"token"] = token;
     
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:@"cards"
-                           HTTPMethod:NKHTTPMethodPost
+                           HTTPMethod:MBHTTPMethodPost
                            Parameters:parameters
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -193,14 +197,14 @@
 
 + (void) getCardsWithSuccess: (nullable void (^)(NSArray <NKCard *> *cards)) success
                      Failure: (nullable void (^)(NSError *error)) failure {
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:@"cards"
-                           HTTPMethod:NKHTTPMethodGet
+                           HTTPMethod:MBHTTPMethodGet
                            Parameters:nil
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   NSArray *cardsResponse = response.payload[@"data"];
                                   NSMutableArray *cards = [[NSMutableArray alloc] init];
                                   for (NSDictionary *cardDictionary in cardsResponse) {
@@ -219,14 +223,14 @@
 + (void) setDefaultCardWithCardId: (NSString *) cardId
                           Success: (void (^)(void)) success
                           Failure: (void (^)(NSError *error)) failure {
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:[NSString stringWithFormat:@"cards/%@", cardId]
-                           HTTPMethod:NKHTTPMethodGet
+                           HTTPMethod:MBHTTPMethodGet
                            Parameters:nil
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -240,14 +244,14 @@
 + (void) deleteCardWithCardId: (NSString *) cardId
                       Success: (void (^)(void)) success
                       Failure: (void (^)(NSError *error)) failure {
-    [NKApiManager callApiWithApiToken:NKManager.sharedManager.apiToken
-                               Locale:[NKManager.sharedManager localeString]
+    [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
+                               Locale:[MBManager.sharedManager localeString]
                               ApiName:[NSString stringWithFormat:@"cards/%@", cardId]
-                           HTTPMethod:NKHTTPMethodDelete
+                           HTTPMethod:MBHTTPMethodDelete
                            Parameters:nil
                      HeaderParameters:nil
-                          Development:[NKManager sharedManager].development
-                              Success:^(NKResponse *response) {
+                          Development:[MBManager sharedManager].development
+                              Success:^(MBResponse *response) {
                                   if (success){
                                       success();
                                   }
@@ -260,15 +264,15 @@
 
 #pragma mark - NKPlugin
 
-NSString * const NKPaymentsUserKey = @"NKPaymentsUserKey";
+NSString * const MBPaymentsUserKey = @"NKPaymentsUserKey";
 
 - (id<NSCoding,NSSecureCoding>)objectForUserResponse:(NSDictionary *)userResponse {
-    NKUserPaymentSettings *settings = [[NKUserPaymentSettings alloc] initWithUserResponse:userResponse];
+    MBUserPaymentSettings *settings = [[MBUserPaymentSettings alloc] initWithDictionary:userResponse];
     return settings;
 }
 
 - (NSString *) pluginUserKey {
-    return NKPaymentsUserKey;
+    return MBPaymentsUserKey;
 }
 
 @end

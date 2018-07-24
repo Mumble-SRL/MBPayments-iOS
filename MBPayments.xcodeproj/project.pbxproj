@@ -42,6 +42,7 @@
 		6684453020FE1CD800118F62 /* NKPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKPurchase.m; sourceTree = "<group>"; };
 		66CA3D0020FE337C0023C246 /* NKCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKCard.h; sourceTree = "<group>"; };
 		66CA3D0120FE337C0023C246 /* NKCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKCard.m; sourceTree = "<group>"; };
+		66EBCD9621062BD6009ADB30 /* NookoPayments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NookoPayments.h; sourceTree = "<group>"; };
 		68BB685B42D017293AD3013E /* Pods_NookoPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NookoPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF64F301FF4E57CD0D8D4027 /* Pods-NookoPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NookoPayments.release.xcconfig"; path = "Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments.release.xcconfig"; sourceTree = "<group>"; };
 		DCC046020C1906E631E771F4 /* Pods-NookoPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NookoPayments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				6684450A20FDEEF700118F62 /* Example */,
-				6684452220FDF04900118F62 /* NKPayments */,
+				6684452220FDF04900118F62 /* NookoPayments */,
 				6684450920FDEEF700118F62 /* Products */,
 				0B4ADA81899E068655883584 /* Pods */,
 				52D6CB2654FC0A82561EE8AA /* Frameworks */,
@@ -111,9 +112,10 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		6684452220FDF04900118F62 /* NKPayments */ = {
+		6684452220FDF04900118F62 /* NookoPayments */ = {
 			isa = PBXGroup;
 			children = (
+				66EBCD9621062BD6009ADB30 /* NookoPayments.h */,
 				6684452620FDF6B400118F62 /* NKPayments.h */,
 				6684452720FDF6B400118F62 /* NKPayments.m */,
 				6684452920FDF78C00118F62 /* NKUserPaymentSettings.h */,
@@ -125,7 +127,7 @@
 				66CA3D0020FE337C0023C246 /* NKCard.h */,
 				66CA3D0120FE337C0023C246 /* NKCard.m */,
 			);
-			path = NKPayments;
+			path = NookoPayments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

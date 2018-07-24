@@ -2,21 +2,21 @@
 //  NKPayment.m
 //  NookoPayments
 //
-//  Created by Lorenzo Oliveto on 17/07/18.
-//  Copyright © 2018 Mumble. All rights reserved.
+//  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
+//  All rights reserved.
 //
 
 #import "NKPurchase.h"
 
 @implementation NKPurchase
 
-- (instancetype) initWithResponseDictionary: (NSDictionary *) responseDictionary {
+- (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];
     if (self){
-        self.purchaseId = [responseDictionary[@"id"] integerValue];
-        self.purchaseName = responseDictionary[@"purchaseName"];
-        self.quantity = [responseDictionary[@"quantity"] integerValue];
-        self.createdAt = [NSDate dateWithTimeIntervalSince1970: [responseDictionary[@"createdAt"] integerValue]];
+        self.purchaseId = [dictionary[@"id"] integerValue];
+        self.purchaseName = dictionary[@"purchaseName"];
+        self.quantity = [dictionary[@"quantity"] integerValue];
+        self.createdAt = [NSDate dateWithTimeIntervalSince1970: [dictionary[@"createdAt"] integerValue]];
     }
     return self;
 }

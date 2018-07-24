@@ -2,15 +2,15 @@
 //  NKCard.m
 //  NookoPayments
 //
-//  Created by Lorenzo Oliveto on 17/07/18.
-//  Copyright © 2018 Mumble. All rights reserved.
+//  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
+//  All rights reserved.
 //
 
 #import "NKCard.h"
 
 @implementation NKCard
 
-- (instancetype) initWithDictionary: (NSDictionary *) dictionary{
+- (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];
     if (self){
         self.cardId = dictionary[@"id"];

@@ -1,36 +1,36 @@
 //
-//  NKUserPaymentSettings.m
-//  NookoPayments
+//  MBUserPaymentSettings.m
+//  MBPayments
 //
-//  Created by Lorenzo Oliveto on 17/07/18.
-//  Copyright © 2018 Mumble. All rights reserved.
+//  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
+//  All rights reserved.
 //
 
-#import "NKUserPaymentSettings.h"
+#import "MBUserPaymentSettings.h"
 
-@implementation NKUserPaymentSettings
+@implementation MBUserPaymentSettings
 
-- (instancetype) initWithUserResponse: (NSDictionary *) userResponse {
+- (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];
     if (self){
-        self.stripeId = userResponse[@"stripe_id"];
-        self.cardBrand = userResponse[@"card_brand"];
-        self.cardLast4 = userResponse[@"card_last_four"];
-        self.trialEndsAt = userResponse[@"trial_ends_at"];
-        if (userResponse[@"subscriptions"]){
-            NSArray *responseSubscriptions = userResponse[@"subscriptions"];
+        self.stripeId = dictionary[@"stripe_id"];
+        self.cardBrand = dictionary[@"card_brand"];
+        self.cardLast4 = dictionary[@"card_last_four"];
+        self.trialEndsAt = dictionary[@"trial_ends_at"];
+        if (dictionary[@"subscriptions"]){
+            NSArray *responseSubscriptions = dictionary[@"subscriptions"];
             NSMutableArray *subscriptions = [[NSMutableArray alloc] init];
             for (NSDictionary *subscriptionDict in responseSubscriptions) {
-                NKSubscription *subscription = [[NKSubscription alloc] initWithResponseDictionary:subscriptionDict];
+                MBSubscription *subscription = [[MBSubscription alloc] initWithDictionary:subscriptionDict];
                 [subscriptions addObject:subscription];
             }
             self.subscriptions = subscriptions;
         }
-        if (userResponse[@"purchases"]){
-            NSArray *responsePurchases = userResponse[@"purchases"];
+        if (dictionary[@"purchases"]){
+            NSArray *responsePurchases = dictionary[@"purchases"];
             NSMutableArray *purchases = [[NSMutableArray alloc] init];
             for (NSDictionary *purchaseDict in responsePurchases) {
-                NKPurchase *purchase = [[NKPurchase alloc] initWithResponseDictionary:purchaseDict];
+                NKPurchase *purchase = [[NKPurchase alloc] initWithDictionary:purchaseDict];
                 [purchases addObject:purchase];
             }
             self.purchases = purchases;
