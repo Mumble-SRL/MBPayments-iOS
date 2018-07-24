@@ -1,0 +1,13 @@
+clean: true
+objc: true		
+umbrella_header: NookoPayments/NookoPayments.h
+framework_root: NookoPayments
+readme: Readme.md
+module_version: 0.0.1
+sdk: iphonesimulator
+
+author: Mumble
+author_url: https://mumbleideas.it/
+github_url: https://github.com/Mumble-SRL/NookoPayments-Objc
+
+theme: jony

@@ -7,329 +7,317 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00A62CBA642D81C5249FF1372BAF9B03 /* NKDateElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E55FBB7770DE806A8224E4ED449FE4 /* NKDateElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00D87B41C9229619AC1130101F0BFF2F /* NKAddressElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F6FE4DC5F93BC561331B4350FE9139 /* NKAddressElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04F3BBE71B24770E40CC66A993AD85D1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EE3F8174F9AA10AA1356DAF8FDB7E8 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06CF57916075E4486E2C0EBA3A4F0A81 /* NKDropdownElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF768C65E0FE78025F30C24B5491F74 /* NKDropdownElement.m */; };
-		0ACBBA158F4635FAE16AB5456ABADCA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3476B784BB29BD49C1F2A1FC2EBD1C31 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E4F4A78122871A8F13A8ADE5326178B /* NKMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A56D712AB7EFE6F120D1CB7C3125E2 /* NKMultipartForm.m */; };
-		0EFB8188EC952CCDE2D5D49ECEF2568F /* NKTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 52101768370F5921B61CA4D42CD0CF91 /* NKTextElement.m */; };
-		15F6265FCE0955CDB4967F7306407D67 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1911175A38027B1DD1604B7BFD25A1 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16C225D72A8B5EB6011CB64568488D83 /* NKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1093816C090C3760B28E6A50859A199A /* NKImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		174CFE10A126ADCF140B1F23E7516214 /* NookoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A55083AA5729E36D25F83E8484409C /* NookoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1964A04C79BFCC16AB4D5974BF7E672A /* NKUploadableElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ECA3E3B641FEC39A3E134177B5B17A /* NKUploadableElement.m */; };
-		19D95F6F9E9E5E883CC1F8266CE79FFD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */; };
-		1A336FAE6FA4186974BC6A7F4A0CAC7C /* NKProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A7759648006BF77962530309D67B7 /* NKProject.m */; };
-		1B233C544C80A1DB053C5921C64F5392 /* NKPaginationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 255B7A3D3094BE72723ADF53DD71722E /* NKPaginationInfo.m */; };
-		1E6F0171F0243602186F60BE9DF32EFB /* NKPaginationParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = ED174E6DAB75D81D8E5611FF9D504124 /* NKPaginationParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24407C2828B6C99A39972D228882BB1B /* NKSortParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB44D9F60C1FB531D8E27E65DE8386A8 /* NKSortParameter.m */; };
-		24531D0D700EEA7D48FF98C8B37D6464 /* NKPollElement.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC13CD6871943542BC678A042E21BE7 /* NKPollElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2688317FC7D83832B2D77E2AE1B2B482 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7371E654F4861787983B67FE82817 /* MapKit.framework */; };
-		2A0B42F984E8276C2C436A18F7F119A9 /* NKKeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E667576FEA956335C36E54A87AB356 /* NKKeychainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A9E3A82EA5E7D67BF70E5653DA6F401 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9107DA9BEF16CB6959873F42275A6C90 /* Security.framework */; };
-		2F8669C888B8A9CAF662C76DC86E39CA /* NKAddressElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906CA178CC03D312CAE9FC147F2E9D3 /* NKAddressElement.m */; };
-		32A4EA4B56046ACE6AD7EAA1DADAF098 /* NKMultipartForm.h in Headers */ = {isa = PBXBuildFile; fileRef = F34EA4ECF7CE59A56B3EE3C8E14B47E9 /* NKMultipartForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32E82A5A71E7AEE901079946FCA690AD /* NKFilterParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DFA13BF5BCE548EB83761DF83DDC46 /* NKFilterParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3345805C0D8E8D0726F7E5981DA61A5F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BD042576238276EF7C7F27D4D3F031BF /* UIWebView+AFNetworking.m */; };
+		04F3BBE71B24770E40CC66A993AD85D1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7051FCA81AEC7CBE46EE531AF4EF98A4 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EC02150364988E58CFE1B5B9F2FCB4 /* MBProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8441D1BEEFA8DDA86CCFDA22D0C5E217 /* MBProject.m */; };
+		08F04DC0F37B552A7B31EFD8E5683407 /* MBElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D0047B6763025D2884B6FDA7CF5B293F /* MBElement.m */; };
+		0ACBBA158F4635FAE16AB5456ABADCA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2484E0A1CF4E4B2AD80088822820D5D1 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D468384656BC9ECBD7F677F8CC53EDD /* MBElementsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 81249115E7370D4665E8C1C30DBC11AB /* MBElementsFactory.m */; };
+		0FFD1494B93541E33D897B285524F436 /* MBurger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C17EFA054CBB4675F3D99D30D4F30A0 /* MBurger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1427D5001CEB1AA9497C5B1550D2E7FF /* MBWysiwygElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7CEBF76D2601028F11FBB85BA791D /* MBWysiwygElement.m */; };
+		15C473EDF217A2E30EE0966CD45600AA /* MBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C95AB0BE72A6BE4A7FDBE6D79D7124 /* MBUtilities.m */; };
+		15F6265FCE0955CDB4967F7306407D67 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C5DE00C6786A386ED948A8AE5BF897 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		167781A55816BF1352257F9CB91AFA0E /* MBResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 681C0FE12E80CB4B747FCFB6CEC32634 /* MBResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		172932EB34D3CB325236049117C8BA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5601F3CF9C4C83351E20F7FAE45A247B /* Foundation.framework */; };
+		1F9868C3B9BF2114E97AD1E07E871ECC /* MBGeneralElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E57E26E6008B8C3EC07D6C365BCC13EF /* MBGeneralElement.m */; };
+		2303127F2206D88EF33D6F3905B20E77 /* MBApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FA080BE1FDDAAB1830971492D73EB7 /* MBApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23F7AE3C5D929F657D42E9FE6DF55155 /* MBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 100CED7ED4C5040D68380BFC75C86FC5 /* MBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE6D9A6988A8CD545EC4AF92ACAA703 /* Pods-MBPayments-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61883B7F114CAFDB40E958178F04BF2C /* Pods-MBPayments-dummy.m */; };
+		2EFF1D068DB6041CF25C7A4D1C7E4FC6 /* MBPaginationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A72F9F52312F5CAE10522C0B25E68503 /* MBPaginationInfo.m */; };
+		3300E1B9CDDE6AF869241E7C6BDDDCEA /* MBUploadableFilesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D44F0C2B0607DAD14B7DF1C4B09C9D /* MBUploadableFilesElement.m */; };
+		3345805C0D8E8D0726F7E5981DA61A5F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DC79E3D7695DE98FDFA8FFD84F7C69 /* UIWebView+AFNetworking.m */; };
+		338FFB8A6CB62D07C67CD6711AD0EE5E /* MBPaginationParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 210B89CA3FA1470A3EDF87AAB76C2CA5 /* MBPaginationParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35219476992B4F183F79ADAC9074EB50 /* MBPaginationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA4609BD458CD814D0DE5B7E7560E14 /* MBPaginationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36B8396A987805E00575D16D94602817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5601F3CF9C4C83351E20F7FAE45A247B /* Foundation.framework */; };
-		3BA18E5A837D06A7A6692553B0D10A7D /* NKGeneralElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BAD3F4FE23AD0325173D5B8806E752 /* NKGeneralElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BDEF4CB52A7153A65D2C5D2E76033FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2178A8E3EBF2AA06D567D5F4C6630F1F /* CoreLocation.framework */; };
-		3C5F01296C523143F44362779D789275 /* NKUploadableTextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C77A2B04F98E492B97767A17B70DA9F /* NKUploadableTextElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C9E113B7712442B4BCB59AB7EEC2085 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CB9D2C1B8ABFDB4E8847C1699E7AD0 /* AFURLResponseSerialization.m */; };
-		3DDB894364CEC991E61B04E9036D6D54 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5133D6722236387849ECED3A816F3C /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FB4D7EC369AE985C14C04C15512AE27 /* NKUploadableElementsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE92E5FAC1E08C16B3288725842EC /* NKUploadableElementsFactory.m */; };
-		404A2A18D58D8D60C5339C6A3EEC7A6E /* NKBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 164147E96C4EF80A192FB838AE92CC46 /* NKBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41BA86D35D4541F47B82CEB406AB8EA3 /* NKMediaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDF775646E8E0D6CF3C771A528D5B6 /* NKMediaElement.m */; };
-		45056B4CDA781500E6A93BC044232521 /* NookoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E9D22CECF8F19DE90E4C8D9CB69B /* NookoSDK-dummy.m */; };
-		45F83EDC43B28DE64A160331E754ACFD /* NKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F77ED7107CEDCEC67D1AAD4F303EA5 /* NKResponse.m */; };
+		3C9E113B7712442B4BCB59AB7EEC2085 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAD69959975B5D6490BCDD15D18E007 /* AFURLResponseSerialization.m */; };
+		3DDB894364CEC991E61B04E9036D6D54 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EA43403701E1BEFC7207AC53B8155 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FEE21255807BB46EBB22203298C52D5 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */; };
+		40BD5B419E4A9114FD9EBB5C22AC0C09 /* MBDateElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192AEFA6751CBAB56788A4208B7F4C7 /* MBDateElement.m */; };
 		474536168264AD2BE5DB880C351B9E04 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9107DA9BEF16CB6959873F42275A6C90 /* Security.framework */; };
-		4976AFC1675EF95ECF889B805F309A37 /* NKDropdownElement.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2C41BDA24D99F3C35CF0D9302FCEF4 /* NKDropdownElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AA21F40697CB42D7D219ACEDE4FBFCF /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 12066313FDC493733D2E6E6E39D57416 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AA3A9FC9AAD94C226CA975946C9395B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4915C63A30916B45AE6B4B2BD334F85E /* UIRefreshControl+AFNetworking.m */; };
-		4B38ACE60ECBD2F2CC304A15366A84BD /* NKPaginationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 66887D7BC20EAA2D4C3610CAEAADC50C /* NKPaginationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493392477B75505EE66080053C2668F2 /* MBParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5026EF4976EB0A576013B0A3EAF34480 /* MBParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA21F40697CB42D7D219ACEDE4FBFCF /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC90E373E160E6F39234E45967B297B /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA3A9FC9AAD94C226CA975946C9395B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 967CCBB23F1011E9C13749B0C9D37695 /* UIRefreshControl+AFNetworking.m */; };
 		4BBC5C917635FCC5401FAD2AC0F92527 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC5F466D4C1BEA7AAD215746959443F /* SystemConfiguration.framework */; };
-		4C321BA8844AA4C44D4416CC6948DF2B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 294FDCCD854C36C8EF3E49D97C920716 /* AFNetworking-dummy.m */; };
-		4C5DA96F7CAC26975EEEBD7450FF214D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E99E82ACFD38C680E317CE6754D387 /* AFURLSessionManager.m */; };
-		4D473C2E2F0EB732BDF3538222B79E26 /* NKParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 654AC30E1A9887A86E1976A63D1E679B /* NKParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E833F9CBF3354C1B51021C98AE7A71F /* NKApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7856411189710A440219CA83048306EE /* NKApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56915BF480C98CECD54140E28EDE3411 /* NKFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B43AC203A5262585A2910E44A40E8BB /* NKFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		571B7C1518477352A2B914D8AA4416E4 /* NKSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A6D6A8630E3C4EDE4AD887DCC80B74 /* NKSection.m */; };
-		5914D703E856BB4534FA7FA9C66E97A3 /* NKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 690511ED5D01AA7D1FEEF18D8607D31D /* NKBlock.m */; };
-		5AAB9CBDC25DE7B31526C5DCF4A2B7C6 /* NKAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 25910E6365D39DE29EFD9426E8385C9B /* NKAdmin.m */; };
-		5B8C318B55392AABAAE5D229AA6AE676 /* NKApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B38CE377B95066058E36B35DEFE36A96 /* NKApiManager.m */; };
-		5BAFD6FD3F6F2144F996C125A721CEA6 /* NKElementFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C02EC3EB3CB20642FFC7EB0F2DF3B90D /* NKElementFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BFE1CC79F693B6218B419AE50B2070E /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCE0C2E20B4D072D4784D2B4B84E273 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D6AEA54ADA5B041588385344903490B /* NKElementFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFADFEF392E3ADE54BC5E734C1955EB /* NKElementFactory.m */; };
-		63BA6FBA10304F4828DE97C0FA63ED9D /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F877D32C889207287257181A5A6CE072 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64EFFDE672AB9A236D4FDCD271F9A158 /* NKProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 944F02997E9A4E96BD6E133417ABA567 /* NKProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65768D409EF362225C8AD7422C7A5289 /* NKTextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BBD3F8EAA46377E89A8F59122FF62C /* NKTextElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6595C6295B9EBBF40751A376239681FD /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D24654CAFE439B82CB7519E91E8B8595 /* UIProgressView+AFNetworking.m */; };
-		65BBCA0B4BB65505AEB583DEB5588984 /* NKFilterParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E4A401AE53782D14CDCC22544A023 /* NKFilterParameter.m */; };
-		69685D992F0D3A0FB53B2073EAC958C0 /* NKClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 43222578F9826E1D64DC94F5FF693639 /* NKClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AB8F78680B3470391219F11D51A1DE7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9DBA7A986F0B275564202ED15F1E4B /* UIImageView+AFNetworking.m */; };
-		6ECF95ABC3642A6523ABF75F8234343C /* NKAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B95C45E2D6651B03004B5BDDE005A9 /* NKAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7099E4035C06D3116DA2586EFE563C0B /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA6E51C112C7C3503D52752A5BAF24D /* AFAutoPurgingImageCache.m */; };
-		72AB4DCEB7B3356AA87C0CA0AC1127DE /* NKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C863172999D60071DF0F7D3B10DBF372 /* NKUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C321BA8844AA4C44D4416CC6948DF2B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 159044D09F51E45E5D78FF92A5451D49 /* AFNetworking-dummy.m */; };
+		4C5DA96F7CAC26975EEEBD7450FF214D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E192C4EB9760E0C014662081211F7FC6 /* AFURLSessionManager.m */; };
+		4CD9DDD676E8CC914A4E2F51F0A6B487 /* MBCheckboxElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B600F8CA0B59D9E35871F81BFAB36F9 /* MBCheckboxElement.m */; };
+		4F0BF147133484B4A1985FD5DCEDA1E1 /* MBTextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 455D9908860F61C43C3E0C8FF293B89A /* MBTextElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		512FEE152A82FB03D191EFC74B6835A8 /* MBPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9B05F4FB15A158B99EA9156F60E037 /* MBPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5263624B4F04C3E3AC8428AF90D59E4E /* MBurger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBC20A67DF655EF02D71E26928C4693 /* MBurger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D9B522835C2ECA43068F273808FF06 /* MBImagesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 21820F22FED6345E864F96F4B25CCE71 /* MBImagesElement.m */; };
+		53511246DBBE93CD7287DAB85FC2E51D /* MBApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE457C1F5ADB1AF9C5FFA381E5757489 /* MBApiManager.m */; };
+		553DEE0994F3C7239A5EE96C6CFAA77F /* MBDropdownElementOption.h in Headers */ = {isa = PBXBuildFile; fileRef = AF56DD7C7DBC387EC6677ED7399FB5AD /* MBDropdownElementOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB5F3E2D865CDB585C1A9C09D3D5ADD /* MBUploadableElementsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE4FD96F4AB71FF636ED751279C3E4 /* MBUploadableElementsFactory.m */; };
+		5BFE1CC79F693B6218B419AE50B2070E /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 501E700716F15E20E3A5FF0E99003B8B /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61BE65DB3AFF4349BF04980B29EAA15D /* MBAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BF3CBAD41644E67DE9FDCC3F9CD9A /* MBAdmin.m */; };
+		63BA6FBA10304F4828DE97C0FA63ED9D /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3B4F51CE09FC56CDBA8EB86D9C7BAF /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D8AE53C69B51A802D8BAB9446FC745 /* Pods-MBPayments-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CF4046CB353D60C68BFCBA715FA163 /* Pods-MBPayments-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6595C6295B9EBBF40751A376239681FD /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7A0832A51305594D8D74E9222ACF6 /* UIProgressView+AFNetworking.m */; };
+		669EE4A49FAFC3A4367370A6858595A0 /* MBProject.h in Headers */ = {isa = PBXBuildFile; fileRef = F3669C5D493912445D2076BE8AEDBD3F /* MBProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6926011B92C55B1A7A3E0743FDFA37F2 /* MBUploadableElement.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0FB8C9C4E0798D3CD8781CD35E42D4 /* MBUploadableElement.m */; };
+		696D83511180B7A9B2B5EA8D48BB5667 /* MBDateElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E17F0DBBBD89CE6E47105CCBABF02FB0 /* MBDateElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A4042A116DA77AE4332E3751D04F12A /* MBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21599017A652374E212DC6F59B8340D8 /* MBManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB8F78680B3470391219F11D51A1DE7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D695525CE7108921BCC935E8CCE7589 /* UIImageView+AFNetworking.m */; };
+		6D75CB9CD284A3F4F754C91E06FE90AC /* MBGeofenceParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C687830B82BB58D0E820D78F2F19830 /* MBGeofenceParameter.m */; };
+		6E757CB813A4E1F147D609FFE8DDF5ED /* MBBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDB935EC4495643F2E55C0D4EA1EA11 /* MBBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702C5D58AC637F185B1E1FE16009DEF2 /* MBMediaElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7399CF8FA2068C474FD6E6A786862CE0 /* MBMediaElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7099E4035C06D3116DA2586EFE563C0B /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 318C081619090ABD48B7B0FA9286886D /* AFAutoPurgingImageCache.m */; };
+		715DF931C577FD56A845EF7A97E1FA85 /* MBGeneralParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 310F3B49C09F3CBA8ABD00E6B4846E33 /* MBGeneralParameter.m */; };
+		7430E93C2208CDCA12F2DE0C4D74FE1C /* MBAddressElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4274ECE8A7C857E832C98A0B97A06317 /* MBAddressElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74CB8C19CF3D39EB0B27AB353BD93870 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D17A9267AB70A4AACD2FF1B356F3B7 /* CoreGraphics.framework */; };
-		788C01685EE28D56B58A7CC5496F6BFB /* NKUploadableImagesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DA798944C1B37235FF42B272D10F8 /* NKUploadableImagesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A8EB9152073E66537D38991652209B5 /* NKUploadableFilesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 200CA3CD9EB645AF3FFBD62BBBE569E9 /* NKUploadableFilesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F3D5C20346B1AC8C2FC9287C526CD08 /* NKImagesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB3791B769AB4F8432B2DA4D0BDC888 /* NKImagesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F676E616BCD6800C049057EE62900F6 /* NKWysiwygElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D31E1CDD5813DC92B2738748AE0F703 /* NKWysiwygElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84C7D888ABADFABF6A0D90239F1BC942 /* NKDropdownElementOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 818CF9B8C588B45070BFC50413D26C0B /* NKDropdownElementOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86EA527BA1862E06A8E19E0960C66E7E /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7132A468CE06FB4E2424AD53EB918ECB /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87ED2E5CF30F1FB4D9D9FC0F7C5E479B /* Pods-NookoPayments-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC1AA95A7B421C31500E5765E133596 /* Pods-NookoPayments-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8814ACBC4AFF2F45D0474428B22F6BBD /* NKClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 58623C6C60520B84D5C1AD7796172ED9 /* NKClient.m */; };
-		8A1EB96C607F92E8AA20676F9A4BC7D9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B107BB0206326A4A3E29E0EE6F8077FA /* UIButton+AFNetworking.m */; };
-		8AAF2645613CBC6843D867BDC0A2AAE6 /* NKGeneralElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 953DF66B8E0244CA2B711D01EE0111DD /* NKGeneralElement.m */; };
-		8D9636C74777C684BDF312EE66F8A585 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 613C25544F52951A2D3F3E0639D41A11 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		929EAF040441F4687712C56E38F3D8B1 /* NKPaginationParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8815C8742336AB7CF30F8E8D51EC71DB /* NKPaginationParameter.m */; };
-		939EF882233B22D0321A70F6DADED11F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B14610300F4031B63EA876CF1DAA1 /* AFHTTPSessionManager.m */; };
-		94BC5782D12D6BF80A5E1E2D3B732AE9 /* NKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C75FE2AB43B626B9E96616FFCD6C2B /* NKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95EFD25D9223A901EFB485C398EBB492 /* NKDateElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4489013BDF092FCA0999DA0307875159 /* NKDateElement.m */; };
-		9630423709712D2847FDB27D42597F34 /* NKGeneralParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD5E9D3CF268FE4DD8EC4E54AEACBF /* NKGeneralParameter.m */; };
-		96F3315BFEB8C4A935B22EB7EF2507DE /* NKPollElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD737D0C133F5B6D97E6F6A965B70E /* NKPollElement.m */; };
-		9898B13B5771AC304E096319E72F8098 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D35DD2D6BEDB1BEC816AEFFEA3DBF3F6 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A3BBE1FE955861FD413CFB551F42AB6 /* NKKeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A36C7514AA84B208466B4E8CC3D024 /* NKKeychainItemWrapper.m */; };
-		9AC1064802A4D107353A87F2B4A963B0 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 269CF6DED8BC5DA9DEDEBE3623A6C869 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BFB5F9DF49425DFA4D2ABEE97AB0E55 /* NKElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D91204F99BA29FDAF1CFE00252AA4D29 /* NKElement.m */; };
-		9CC62F22808A72B2E6D1F2F395DD4814 /* NKAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C15E8F555D957D39D542177C6E938 /* NKAuth.m */; };
-		A12A3BC640B690479F345A49C6C48209 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7557DC83EACD321676383E562C6A6 /* AFNetworkReachabilityManager.m */; };
-		A5B069CA1170E03891AC5648DE5CF87D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 901A14E4DAD799E158244BC88A67DF7F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6112310474DFBC732C828D8F57265F2 /* NKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEEBB5E552B9D6102661290D421D7A3 /* NKManager.m */; };
-		AD868043328B2125E27A5DC14D11958F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B0F77BB95785AFF6FA4CFD94DFFCAC /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD991440873D5BA31BC034E202011FF0 /* NKElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 910002FB303A789C34A22450599324A7 /* NKElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADD011E9ABBD96D70AAA32A4B9ACBD02 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B462437CC8B10F6EC07011070F4E4220 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B086C8017A694E281B3F30DCCE8FA588 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 403320D0B08832914E8327D09BAA6C92 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B17D37F5453A8DD3BFAE9F4090E1F06E /* NKGeneralParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C65B8A5BEC924F905FF5FBB203BE9EB /* NKGeneralParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4073C4CE5C9B20E3864F600645B8574 /* NKUploadableElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EFD54B511F82D40E9BCAD286AFBF08 /* NKUploadableElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B46FE8C00C2CDDE0B4790FFD3DC961A4 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3BF66CBD28CE42B27123F68D893BE /* AFImageDownloader.m */; };
-		B59BA0C3F14CA98D05DB7934FA91F92D /* NKPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = B1ADDBF51E3ECF9ABC6788D7D2D91994 /* NKPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6658E9E7FDBCDDBB6816764A6FBCC02 /* Pods-NookoPayments-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B60ACDA43BBDB7BFAE427643C1FF4 /* Pods-NookoPayments-dummy.m */; };
-		BCA34AB10B9B5F138415F5383BB29AC0 /* NKAdmin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A026203338B1B02E1E074C76375C5D6 /* NKAdmin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD1FA3A03899EBB9F36F760D3316F104 /* NKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF5DCF21DE8CD708D9161463352617E /* NKUser.m */; };
-		BE3BFEA3363089925AA6435B855B492E /* NKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8186002F405F89ABC32DF6FAD9F1C05B /* NKUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C0A48EAB1D454DDB8DA8E483B7B667 /* NKGeofenceParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9924137BC5BFCECA2C059CFEDA334AE /* NKGeofenceParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C12BAA822391D670C53FF0C2299654AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3C91DF52052C73FAD6E0B1CECB727F /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C19F07D7FF0E218773AD3CA0466F7497 /* NookoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA071FFAABB96E5FE393044FE10BCF1 /* NookoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C257BE809D4C4357A8EB7118960E3143 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD595B5F51D4E3BAA736F4A4CA8D3012 /* UIActivityIndicatorView+AFNetworking.m */; };
-		C4A10A8E3261645253EBC25D73D4910E /* NKUploadableElementsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A755FF4EB207565932F133C0B3A0B59 /* NKUploadableElementsFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C50AC29ACA90431B1CC3A65C8E960338 /* NKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D08D0800131ADAF3847706109B3E7B2A /* NKUtilities.m */; };
-		CA0D37AE5433954573D3E37771CDDBFA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FF851DD77E29CF0025A5C376E0212C39 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD7A68DB6F651FE074DF4BD83940E115 /* NKWysiwygElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D2D7FC17B27BD44B7CBE86DBA5922 /* NKWysiwygElement.m */; };
-		D028FE0CAA17729BEA895DFA38AD8819 /* NKSortParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DE0E6787C73D50190B1A9D25BA9F03 /* NKSortParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D03962BC3301B064EB85FDEC18912B50 /* NKCheckboxElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF432AA18EC6DB1A7273A2DD34E560A /* NKCheckboxElement.m */; };
-		D04B89C31F73CADBC8AAE3CD8D8DBC1E /* NKMediaElement.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC12FC9140A2559D0122E99CFE5BC74 /* NKMediaElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A12FB11476765BA3C25073E13B611F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5601F3CF9C4C83351E20F7FAE45A247B /* Foundation.framework */; };
+		786CAC651317903E89BA5A9A63EEE124 /* MBPollElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CF7C148FC2BC1FCEB37A90E8B3389D /* MBPollElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6921824CEC0603CFC2813C2245CD60 /* MBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B2301C7C54038D531B045CC7472F27 /* MBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC1F9FD7850AEE5327C9D5657F2B9D4 /* MBWysiwygElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7791AA8133417BB43D30B8CBA162A0B8 /* MBWysiwygElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D10B10FE8F8119C34EB734801056867 /* MBTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C99005E2D2079936E30FA3B78C2049C /* MBTextElement.m */; };
+		7DA153A28DF88383476A252562B81DA4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7371E654F4861787983B67FE82817 /* MapKit.framework */; };
+		8360A605C22EDEFC38AD6BB4CE7B9621 /* MBAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C0CCEBBEBB4CA9205D895AE8DE19A /* MBAuth.m */; };
+		85BCEDEA6DA8EC581A675F1883A6F4F2 /* MBurger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46841EF97B0196C62C224B8ABB048FFD /* MBurger-dummy.m */; };
+		86EA527BA1862E06A8E19E0960C66E7E /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5669BA0C99269C22D9FF83F389CA1B /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		872AD6697D88B4EF6824878999F3A22C /* MBGeofenceParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F041C188C2E3CD17F97036C6A250EF3 /* MBGeofenceParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1EB96C607F92E8AA20676F9A4BC7D9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 216F1B1DA7594B1EEC69364F22A30744 /* UIButton+AFNetworking.m */; };
+		8D9636C74777C684BDF312EE66F8A585 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F1A3295923BDDCFBD660C739163A1E /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E83AD8E951F886EDF9CC5C6DB18F61 /* MBAddressElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 878D6BF698DFBE37514EF32F8306965B /* MBAddressElement.m */; };
+		939EF882233B22D0321A70F6DADED11F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE44D30162102E4F2C4B4012A3DE6DB8 /* AFHTTPSessionManager.m */; };
+		97FF234231E9591C72F7A765451E61A7 /* MBBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E71912937A1C0E21FE8B4331CFFF80 /* MBBlock.m */; };
+		9898B13B5771AC304E096319E72F8098 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0665B7A6D70F687824071818B82C69BF /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		998DDB62895CD4B5BDA91695D71C5324 /* MBSortParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 147A3C94A973A9EEFA41A4B828D4ABA3 /* MBSortParameter.m */; };
+		9AC1064802A4D107353A87F2B4A963B0 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBDBFF333B546DBABE911F7754C8BEB /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE88CD6534A44F1C54E31522C7803FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2178A8E3EBF2AA06D567D5F4C6630F1F /* CoreLocation.framework */; };
+		9CCCA7BAE35CEBDAB435BD6D6F2D8AB1 /* MBSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B112F16F7FA818D28E31D94142FA25A /* MBSection.m */; };
+		9ECFD9C2BE297B3A2084081BA2BF231F /* MBPollElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AF55BF8F535DF5D5365848816A69CA04 /* MBPollElement.m */; };
+		A03F80E04F4953833B87EE1A48EE658B /* MBDropdownElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6DC87F897E99C38B22E217B6BAC78E /* MBDropdownElement.m */; };
+		A0C88A63DC40F8C48B2F149477A58E58 /* MBUploadableImagesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C107BC81FFF197146910462A2B66B6 /* MBUploadableImagesElement.m */; };
+		A0D72FB918B0FC63550DEF58E187EA19 /* MBElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D819B97816D886F8D5EDECB151742F29 /* MBElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12A3BC640B690479F345A49C6C48209 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E928BBB9DFF9E5B3CFAD063DFD9848 /* AFNetworkReachabilityManager.m */; };
+		A5B069CA1170E03891AC5648DE5CF87D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0680C88EB4298F42102AA5B9D41682C /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7003ECF3FD987E9D92B1BE85AE01ABB /* MBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9B02B5F7833E4C4FB17AFBEE14108B /* MBUser.m */; };
+		ACCCADA9EF6FBE87FF775BA039D31C35 /* MBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B09F959ACA86E0DBF170D58CD449C7 /* MBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD868043328B2125E27A5DC14D11958F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9854EA0C5FFE2447F3586E99BC3E95CC /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD011E9ABBD96D70AAA32A4B9ACBD02 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F1AD19A923053F9BC35A4FCD19C1EE /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF700DC9E5F96BC4ACC339F5836A5329 /* MBUploadableImagesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851C12AC344AC6CBC74CB13F79E6EE6 /* MBUploadableImagesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B086C8017A694E281B3F30DCCE8FA588 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D07FBB0321A2C03FE6FFE4E417E5782 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19C7D5A8EB8E99EA0B860FDD5B486F6 /* MBSortParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE685768C63971631A994EB95C072068 /* MBSortParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46FE8C00C2CDDE0B4790FFD3DC961A4 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F8E14CD78C0E0A1DCF1EB0D8A3BFA7 /* AFImageDownloader.m */; };
+		B9CA0B7D4127D97766B056185349DB25 /* MBElementsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 074A73BCE56738F0163EF88A27C529D5 /* MBElementsFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD444B0B0BF07B62A131CB63B0F0E19 /* MBUploadableTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED015EF2609A1B5911223D4216B6D2A /* MBUploadableTextElement.m */; };
+		BF0C0297E1717718922FB2B984B35890 /* MBCheckboxElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BD075F07811E19B53C6371AFFC146A17 /* MBCheckboxElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF32C8846411B1D0F5D0AB5F03B3CF0F /* MBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F21E1DF29B8F681F2FA026E513AA03 /* MBFile.m */; };
+		BFD5DE79E06DDA17FABC91749ECAD775 /* MBAdmin.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBE6C929DCB85C968B7E52584FA3404 /* MBAdmin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A328EE615F9050E7F135092E93BC70 /* MBUploadableElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ECE023349CD6641E6F264CAB3D5D7F /* MBUploadableElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C12BAA822391D670C53FF0C2299654AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC5C7E3699A1A4D2B456DC642327687 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C257BE809D4C4357A8EB7118960E3143 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4607EA86CDFEFEC7C63E7F671800A /* UIActivityIndicatorView+AFNetworking.m */; };
+		C392649B321B575BF2FF28EFFB533858 /* MBKeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D2B4683D7AF67F79F86E5DAD48CAC /* MBKeychainItemWrapper.m */; };
+		C474CB698D7951C2ACFC6EC763C3BE91 /* MBResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F167C3F7A42EB6A229A3D5F902F4A /* MBResponse.m */; };
+		CA0D37AE5433954573D3E37771CDDBFA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1ECB46EA290D77CA12C7A036172000 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D02DC76E6789068F0998CC999BC4B06C /* MBClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 097739787E21E5CC1FCCD71F0785CF1D /* MBClient.m */; };
 		D102219F0342C02F61E150DD73E4150E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D945DA374542CB7478C03EC51A79F634 /* MobileCoreServices.framework */; };
-		D2BBCD5B32E2E9DB9C042E7967DF671F /* NKCheckboxElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 310B3EA3C4681D12F90A9B64992D5553 /* NKCheckboxElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9B429AA9664B6CC8BFEF4FC7A40A7FF /* NKUploadableFilesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 440C4D09997305107693EC9BFFFF4FB8 /* NKUploadableFilesElement.m */; };
-		DCABA7117398265B1E4971C2F9535843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5601F3CF9C4C83351E20F7FAE45A247B /* Foundation.framework */; };
-		E5CD5C797956697DDCC98A3EAC7E99E3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AD829C08025F282A7B21F5F47A95A /* AFURLRequestSerialization.m */; };
-		E8A3FEE8C269A80CB83BF2B59FCDF2B8 /* NKUploadableImagesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 105218A5902963F7F08108896F279A5B /* NKUploadableImagesElement.m */; };
-		E9CD9986AC04B0ABD74935B0763D56F8 /* NKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BF659A0F7CD3D22CD16F2C1A8B3AAC /* NKFile.m */; };
-		EA23726556D213DB485BD1791C7164CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5493964961048B34343647D66ED8711D /* AFNetworkActivityIndicatorManager.m */; };
-		EB3FFA2568C5D1D6428244C034B2931C /* NKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 373ED49B67C0B3847CB6E7F150B44995 /* NKImage.m */; };
-		ED9B3D657490F192AE9242E319B9563C /* NKImagesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BD31EC89417525BBEB5327A902AD2 /* NKImagesElement.m */; };
-		F053F5D0FD9FDF15C3AC1EF5D4DECFEF /* NKGeofenceParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A6A6C4C27ADED43D0DAC8B4524FEF7 /* NKGeofenceParameter.m */; };
-		F1199E40BF416FC1ACA2DDCD7B2E23A1 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E85E13E49FAE0C7AFE0C5BEF40E2FB83 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F12523935384B87DD9919DE0B3739DDE /* NKUploadableTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A08533051FCC778AAB0609F411D82 /* NKUploadableTextElement.m */; };
-		F26CD9A1DF452688BF3C98BBA9090F92 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDE642617DA5ACC9A736B1D5ED13A2A /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F30950E63F3D8D6C07FFB50C5971116E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B283725EAAA65533513FD7B41733361 /* AFSecurityPolicy.m */; };
-		F3CF28F5332F2486B8C070C34F139AC4 /* NKDropdownElementOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1729C72A5705B2D5106D8E25D1D0B20A /* NKDropdownElementOption.m */; };
-		F4868EAC9AFA1C3D0B93B0978543CA0A /* NKSection.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FB0420B6A2A7A3E9B38D24A08BCA85 /* NKSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F54879EEAE223E90AC9674197E6B1ADE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD1F31C316991535842F2CB20BBA716 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7281430D9CC47D875A9CBFB1585C3A6 /* NKResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9268D5CDD13989EE98337B91104D9A29 /* NKResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9F2631C305588FC651B677F0A31429C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5601F3CF9C4C83351E20F7FAE45A247B /* Foundation.framework */; };
+		D4F383BAB3518B6012FCF139EFCF6065 /* MBUploadableTextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BE4A2E487ECE8FF9632AFD93228198 /* MBUploadableTextElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC4DECB59BB928964FAB30202E24A5E3 /* MBUploadableElementsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5060AED62C176E441D10323E5E515EEF /* MBUploadableElementsFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF6C02C19636150E012035469EA004C6 /* MBDropdownElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7653E580E78CEB806F2E05FA20C4384B /* MBDropdownElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E026C9F280DEC13E665B3B83D9E3F055 /* MBMultipartForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC2F7A8B63FA277A97E58B160A86CBB /* MBMultipartForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32402AD416397DD9D64B5D0DEC894E4 /* MBKeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 828214C56722D974AA2B018F7853919A /* MBKeychainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55A58986134D501A72273F781B23336 /* MBPaginationParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCBD2554F44C94E0DE7333E9D6E12 /* MBPaginationParameter.m */; };
+		E5CD5C797956697DDCC98A3EAC7E99E3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC2AC589ABC94FB5F04DDD993078524 /* AFURLRequestSerialization.m */; };
+		E7EA34D579BEF4973D65F11267D47F15 /* MBImagesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = CC465313D0058C15DDE2E3BB00FA8AF1 /* MBImagesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8EE51F355EBB4418B063D596879C07E /* MBMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 42472F064815DA226416A6ABCCD4C0DA /* MBMultipartForm.m */; };
+		EA23726556D213DB485BD1791C7164CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA3EB968351A5327D276FCFA4D858A5 /* AFNetworkActivityIndicatorManager.m */; };
+		EB17DE229C7E8E73BBF1ADA54C5CBB6F /* MBMediaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9DBC9DC384115E1D8998F1961C4E41 /* MBMediaElement.m */; };
+		EB4910A02F71A8DC8E6DF67E5B3EC07C /* MBAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B02443161E51C55C7896E5AE6D0949B /* MBAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB86F11D0154096A1C4A0C01AE8C229D /* MBFilterParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 754210D3BF9E91DFD65F33F1A1C46D59 /* MBFilterParameter.m */; };
+		EC1BFC5F961A3BCB82750FA34222B1B2 /* MBSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 80077A34E07DEB9062CB9DF02C41583A /* MBSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDDE0FC1632131057A98FBCED815C8A2 /* MBUploadableFilesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E7079FC9C2F9D152F12D7F50BAF40BFC /* MBUploadableFilesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF11B61B9FFDCC2E8E317AB45BC1ECF /* MBDropdownElementOption.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6E56179D5306710D6EA5FB99E55BB /* MBDropdownElementOption.m */; };
+		EF85D0F73F008990FCFE8BE2C3C7448C /* MBGeneralParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FE5CD016EDC93C64D5E4A914A74B22 /* MBGeneralParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1199E40BF416FC1ACA2DDCD7B2E23A1 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F29FF1293957A659CB173777359C930A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26CD9A1DF452688BF3C98BBA9090F92 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B7123BC10DB3E41A8AD12C885E355F8F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F297E716E78A6771EAAE6016B3C80F89 /* MBImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E118B893F076B8DBE147C0598C4D389A /* MBImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F30950E63F3D8D6C07FFB50C5971116E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A096DCA4A962C71E6C6EE36D95A76 /* AFSecurityPolicy.m */; };
+		F3616F80D9FA69201E45F418BE7707A6 /* MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D029924E74EF200E20098B3E893D62D /* MBImage.m */; };
+		F54879EEAE223E90AC9674197E6B1ADE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A4E2F8C12BCCA4578A19B0C13DE2F1 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C7E48FA70D930334BA5BE3013E43FE /* MBGeneralElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AE1E62EF8A8E568CAC30A3C49E6582 /* MBGeneralElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF7B14C81B4D9E5E743E51661A0B85F /* MBFilterParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCC19BFB5176BC2DF2EAED8AEABB8F5 /* MBFilterParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD15793F350E03F5851014B615D4B570 /* MBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A317570CE48AC06734A2D9F0799590 /* MBManager.m */; };
+		FDAA68A837CEB890C2D86A53E5472A6D /* MBClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 281A2C5D259AB98A201249EE6E5EE10A /* MBClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE99B99BD581E08ACC0672062E28CCC1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9107DA9BEF16CB6959873F42275A6C90 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B24727B49C4253A26F3BE5B8BDA9E773 /* PBXContainerItemProxy */ = {
+		000A80405256CF66D9D879A6564B6D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37862A26910C3E4532448F072D5C19AB;
+			remoteInfo = MBurger;
+		};
+		A7E8ECA76B08A4BDBAFE631BDD96958D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F4160500DCEA3DA3E93FBA579E88CA0A;
 			remoteInfo = AFNetworking;
 		};
-		EB501D469D064EEFC7BB08EA9271760F /* PBXContainerItemProxy */ = {
+		D52C8F2F064B81EC7D64E04759C86C31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F4160500DCEA3DA3E93FBA579E88CA0A;
 			remoteInfo = AFNetworking;
-		};
-		F217FC8E443846C5D0CBA0BEEF9BFACC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D16807CDA68EC54AD67E1740E60661D;
-			remoteInfo = NookoSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F6FE4DC5F93BC561331B4350FE9139 /* NKAddressElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKAddressElement.h; path = NookoSDK/NKClient/NKElement/NKAddressElement.h; sourceTree = "<group>"; };
-		02DE0E6787C73D50190B1A9D25BA9F03 /* NKSortParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKSortParameter.h; path = NookoSDK/NKClient/NKParameter/NKSortParameter.h; sourceTree = "<group>"; };
-		03C75FE2AB43B626B9E96616FFCD6C2B /* NKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKManager.h; path = NookoSDK/NKManager/NKManager.h; sourceTree = "<group>"; };
-		09BAD3F4FE23AD0325173D5B8806E752 /* NKGeneralElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKGeneralElement.h; path = NookoSDK/NKClient/NKElement/NKGeneralElement.h; sourceTree = "<group>"; };
-		09BF659A0F7CD3D22CD16F2C1A8B3AAC /* NKFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKFile.m; path = NookoSDK/NKClient/NKElement/NKFile.m; sourceTree = "<group>"; };
-		09E55FBB7770DE806A8224E4ED449FE4 /* NKDateElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKDateElement.h; path = NookoSDK/NKClient/NKElement/NKDateElement.h; sourceTree = "<group>"; };
-		0AF768C65E0FE78025F30C24B5491F74 /* NKDropdownElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKDropdownElement.m; path = NookoSDK/NKClient/NKElement/NKDropdownElement.m; sourceTree = "<group>"; };
-		0B283725EAAA65533513FD7B41733361 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		0BF432AA18EC6DB1A7273A2DD34E560A /* NKCheckboxElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKCheckboxElement.m; path = NookoSDK/NKClient/NKElement/NKCheckboxElement.m; sourceTree = "<group>"; };
-		0DACE92E5FAC1E08C16B3288725842EC /* NKUploadableElementsFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKUploadableElementsFactory.m; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableElementsFactory.m; sourceTree = "<group>"; };
-		105218A5902963F7F08108896F279A5B /* NKUploadableImagesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKUploadableImagesElement.m; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableImagesElement.m; sourceTree = "<group>"; };
-		1093816C090C3760B28E6A50859A199A /* NKImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKImage.h; path = NookoSDK/NKClient/NKElement/NKImage.h; sourceTree = "<group>"; };
-		12066313FDC493733D2E6E6E39D57416 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		164147E96C4EF80A192FB838AE92CC46 /* NKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKBlock.h; path = NookoSDK/NKClient/NKBlock/NKBlock.h; sourceTree = "<group>"; };
-		16BF4000D53FDD3EDBC9AF0F1E8BAB0C /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		1729C72A5705B2D5106D8E25D1D0B20A /* NKDropdownElementOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKDropdownElementOption.m; path = NookoSDK/NKClient/NKElement/NKDropdownElementOption.m; sourceTree = "<group>"; };
-		1B8A83DF571750D95F1EA31809B142DF /* Pods-NookoPayments-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NookoPayments-frameworks.sh"; sourceTree = "<group>"; };
+		0206C385A1743D00E2BB1501B778BB8A /* Pods-MBPayments-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBPayments-resources.sh"; sourceTree = "<group>"; };
+		02AE1E62EF8A8E568CAC30A3C49E6582 /* MBGeneralElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBGeneralElement.h; path = MBurger/MBClient/MBElement/MBGeneralElement.h; sourceTree = "<group>"; };
+		047417AA4C2A7568F03C0D2209877D95 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		0665B7A6D70F687824071818B82C69BF /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		074A73BCE56738F0163EF88A27C529D5 /* MBElementsFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBElementsFactory.h; path = MBurger/MBClient/MBElement/MBElementsFactory.h; sourceTree = "<group>"; };
+		08E928BBB9DFF9E5B3CFAD063DFD9848 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		097739787E21E5CC1FCCD71F0785CF1D /* MBClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBClient.m; path = MBurger/MBClient/MBClient.m; sourceTree = "<group>"; };
+		09C95AB0BE72A6BE4A7FDBE6D79D7124 /* MBUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBUtilities.m; path = MBurger/MBManager/MBUtilities.m; sourceTree = "<group>"; };
+		09D912989A5ACA610171BBD4756508DE /* MBurger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBurger.xcconfig; sourceTree = "<group>"; };
+		0B112F16F7FA818D28E31D94142FA25A /* MBSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSection.m; path = MBurger/MBClient/MBSection/MBSection.m; sourceTree = "<group>"; };
+		0C17EFA054CBB4675F3D99D30D4F30A0 /* MBurger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBurger-umbrella.h"; sourceTree = "<group>"; };
+		0FBDAC6164EDD31D8B7AA556A05C7603 /* Pods-MBPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBPayments.debug.xcconfig"; sourceTree = "<group>"; };
+		100CED7ED4C5040D68380BFC75C86FC5 /* MBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBUser.h; path = MBurger/MBAuth/MBUser.h; sourceTree = "<group>"; };
+		12CF4046CB353D60C68BFCBA715FA163 /* Pods-MBPayments-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBPayments-umbrella.h"; sourceTree = "<group>"; };
+		147A3C94A973A9EEFA41A4B828D4ABA3 /* MBSortParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSortParameter.m; path = MBurger/MBClient/MBParameter/MBSortParameter.m; sourceTree = "<group>"; };
+		159044D09F51E45E5D78FF92A5451D49 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		16F8E14CD78C0E0A1DCF1EB0D8A3BFA7 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		18C107BC81FFF197146910462A2B66B6 /* MBUploadableImagesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBUploadableImagesElement.m; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableImagesElement.m; sourceTree = "<group>"; };
+		19A4E2F8C12BCCA4578A19B0C13DE2F1 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		19C7CEBF76D2601028F11FBB85BA791D /* MBWysiwygElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBWysiwygElement.m; path = MBurger/MBClient/MBElement/MBWysiwygElement.m; sourceTree = "<group>"; };
 		1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D9DBA7A986F0B275564202ED15F1E4B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		1DF7557DC83EACD321676383E562C6A6 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		200CA3CD9EB645AF3FFBD62BBBE569E9 /* NKUploadableFilesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKUploadableFilesElement.h; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableFilesElement.h; sourceTree = "<group>"; };
+		1FE4607EA86CDFEFEC7C63E7F671800A /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		210B89CA3FA1470A3EDF87AAB76C2CA5 /* MBPaginationParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBPaginationParameter.h; path = MBurger/MBClient/MBParameter/MBPaginationParameter.h; sourceTree = "<group>"; };
+		21599017A652374E212DC6F59B8340D8 /* MBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBManager.h; path = MBurger/MBManager/MBManager.h; sourceTree = "<group>"; };
+		216D2B4683D7AF67F79F86E5DAD48CAC /* MBKeychainItemWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBKeychainItemWrapper.m; path = MBurger/MBAuth/MBKeychainItemWrapper.m; sourceTree = "<group>"; };
+		216F1B1DA7594B1EEC69364F22A30744 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		2178A8E3EBF2AA06D567D5F4C6630F1F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		21FB205EEB0EF2D429DD875F4FA185B8 /* Pods-NookoPayments-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NookoPayments-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23DFA13BF5BCE548EB83761DF83DDC46 /* NKFilterParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKFilterParameter.h; path = NookoSDK/NKClient/NKParameter/NKFilterParameter.h; sourceTree = "<group>"; };
-		255B7A3D3094BE72723ADF53DD71722E /* NKPaginationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKPaginationInfo.m; path = NookoSDK/NKClient/NKPaginationInfo/NKPaginationInfo.m; sourceTree = "<group>"; };
-		25910E6365D39DE29EFD9426E8385C9B /* NKAdmin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKAdmin.m; path = NookoSDK/NKAdmin/NKAdmin.m; sourceTree = "<group>"; };
-		268A08533051FCC778AAB0609F411D82 /* NKUploadableTextElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKUploadableTextElement.m; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableTextElement.m; sourceTree = "<group>"; };
-		269CF6DED8BC5DA9DEDEBE3623A6C869 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		294FDCCD854C36C8EF3E49D97C920716 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		2A026203338B1B02E1E074C76375C5D6 /* NKAdmin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKAdmin.h; path = NookoSDK/NKAdmin/NKAdmin.h; sourceTree = "<group>"; };
-		2AEEBB5E552B9D6102661290D421D7A3 /* NKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKManager.m; path = NookoSDK/NKManager/NKManager.m; sourceTree = "<group>"; };
-		2DFADFEF392E3ADE54BC5E734C1955EB /* NKElementFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKElementFactory.m; path = NookoSDK/NKClient/NKElement/NKElementFactory.m; sourceTree = "<group>"; };
-		2F260AA9DDB2240EC1ED5BAAC8BDE6C3 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		310B3EA3C4681D12F90A9B64992D5553 /* NKCheckboxElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKCheckboxElement.h; path = NookoSDK/NKClient/NKElement/NKCheckboxElement.h; sourceTree = "<group>"; };
-		313C15E8F555D957D39D542177C6E938 /* NKAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKAuth.m; path = NookoSDK/NKAuth/NKAuth.m; sourceTree = "<group>"; };
-		3476B784BB29BD49C1F2A1FC2EBD1C31 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		34A36C7514AA84B208466B4E8CC3D024 /* NKKeychainItemWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKKeychainItemWrapper.m; path = NookoSDK/NKAuth/NKKeychainItemWrapper.m; sourceTree = "<group>"; };
-		36DDF775646E8E0D6CF3C771A528D5B6 /* NKMediaElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKMediaElement.m; path = NookoSDK/NKClient/NKElement/NKMediaElement.m; sourceTree = "<group>"; };
-		373ED49B67C0B3847CB6E7F150B44995 /* NKImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKImage.m; path = NookoSDK/NKClient/NKElement/NKImage.m; sourceTree = "<group>"; };
-		3A755FF4EB207565932F133C0B3A0B59 /* NKUploadableElementsFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKUploadableElementsFactory.h; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableElementsFactory.h; sourceTree = "<group>"; };
-		3B5133D6722236387849ECED3A816F3C /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		3FCE0C2E20B4D072D4784D2B4B84E273 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		403320D0B08832914E8327D09BAA6C92 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		40B0F77BB95785AFF6FA4CFD94DFFCAC /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		43222578F9826E1D64DC94F5FF693639 /* NKClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKClient.h; path = NookoSDK/NKClient/NKClient.h; sourceTree = "<group>"; };
-		440C4D09997305107693EC9BFFFF4FB8 /* NKUploadableFilesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKUploadableFilesElement.m; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableFilesElement.m; sourceTree = "<group>"; };
-		4489013BDF092FCA0999DA0307875159 /* NKDateElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKDateElement.m; path = NookoSDK/NKClient/NKElement/NKDateElement.m; sourceTree = "<group>"; };
-		4915C63A30916B45AE6B4B2BD334F85E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		4A544478CC9252C3E20C3A83038FF724 /* Pods-NookoPayments-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NookoPayments-resources.sh"; sourceTree = "<group>"; };
-		52101768370F5921B61CA4D42CD0CF91 /* NKTextElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKTextElement.m; path = NookoSDK/NKClient/NKElement/NKTextElement.m; sourceTree = "<group>"; };
-		5493964961048B34343647D66ED8711D /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		21820F22FED6345E864F96F4B25CCE71 /* MBImagesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBImagesElement.m; path = MBurger/MBClient/MBElement/MBImagesElement.m; sourceTree = "<group>"; };
+		245581A94F9A3CD9C3A55071AA29F13C /* MBurger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBurger.framework; path = MBurger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2484E0A1CF4E4B2AD80088822820D5D1 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		27F21E1DF29B8F681F2FA026E513AA03 /* MBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBFile.m; path = MBurger/MBClient/MBElement/MBFile.m; sourceTree = "<group>"; };
+		281A2C5D259AB98A201249EE6E5EE10A /* MBClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBClient.h; path = MBurger/MBClient/MBClient.h; sourceTree = "<group>"; };
+		2AC90E373E160E6F39234E45967B297B /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		2DA3EB968351A5327D276FCFA4D858A5 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		2DC5C7E3699A1A4D2B456DC642327687 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		310F3B49C09F3CBA8ABD00E6B4846E33 /* MBGeneralParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBGeneralParameter.m; path = MBurger/MBClient/MBParameter/MBGeneralParameter.m; sourceTree = "<group>"; };
+		318C081619090ABD48B7B0FA9286886D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		36FA080BE1FDDAAB1830971492D73EB7 /* MBApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBApiManager.h; path = MBurger/MBApiManager/MBApiManager.h; sourceTree = "<group>"; };
+		3AC2F7A8B63FA277A97E58B160A86CBB /* MBMultipartForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBMultipartForm.h; path = MBurger/MBApiManager/MBMultipartForm.h; sourceTree = "<group>"; };
+		3C99005E2D2079936E30FA3B78C2049C /* MBTextElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBTextElement.m; path = MBurger/MBClient/MBElement/MBTextElement.m; sourceTree = "<group>"; };
+		3CDB935EC4495643F2E55C0D4EA1EA11 /* MBBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBBlock.h; path = MBurger/MBClient/MBBlock/MBBlock.h; sourceTree = "<group>"; };
+		3FCC19BFB5176BC2DF2EAED8AEABB8F5 /* MBFilterParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBFilterParameter.h; path = MBurger/MBClient/MBParameter/MBFilterParameter.h; sourceTree = "<group>"; };
+		40B2301C7C54038D531B045CC7472F27 /* MBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBUtilities.h; path = MBurger/MBManager/MBUtilities.h; sourceTree = "<group>"; };
+		4192AEFA6751CBAB56788A4208B7F4C7 /* MBDateElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBDateElement.m; path = MBurger/MBClient/MBElement/MBDateElement.m; sourceTree = "<group>"; };
+		42472F064815DA226416A6ABCCD4C0DA /* MBMultipartForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBMultipartForm.m; path = MBurger/MBApiManager/MBMultipartForm.m; sourceTree = "<group>"; };
+		4274ECE8A7C857E832C98A0B97A06317 /* MBAddressElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBAddressElement.h; path = MBurger/MBClient/MBElement/MBAddressElement.h; sourceTree = "<group>"; };
+		43C5DE00C6786A386ED948A8AE5BF897 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		455D9908860F61C43C3E0C8FF293B89A /* MBTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBTextElement.h; path = MBurger/MBClient/MBElement/MBTextElement.h; sourceTree = "<group>"; };
+		46841EF97B0196C62C224B8ABB048FFD /* MBurger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBurger-dummy.m"; sourceTree = "<group>"; };
+		4851C12AC344AC6CBC74CB13F79E6EE6 /* MBUploadableImagesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBUploadableImagesElement.h; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableImagesElement.h; sourceTree = "<group>"; };
+		4AA4609BD458CD814D0DE5B7E7560E14 /* MBPaginationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBPaginationInfo.h; path = MBurger/MBClient/MBPaginationInfo/MBPaginationInfo.h; sourceTree = "<group>"; };
+		4C687830B82BB58D0E820D78F2F19830 /* MBGeofenceParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBGeofenceParameter.m; path = MBurger/MBClient/MBParameter/MBGeofenceParameter.m; sourceTree = "<group>"; };
+		501E700716F15E20E3A5FF0E99003B8B /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		5026EF4976EB0A576013B0A3EAF34480 /* MBParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBParameter.h; path = MBurger/MBClient/MBParameter/MBParameter.h; sourceTree = "<group>"; };
+		5060AED62C176E441D10323E5E515EEF /* MBUploadableElementsFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBUploadableElementsFactory.h; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableElementsFactory.h; sourceTree = "<group>"; };
 		5601F3CF9C4C83351E20F7FAE45A247B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		56EFD54B511F82D40E9BCAD286AFBF08 /* NKUploadableElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKUploadableElement.h; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableElement.h; sourceTree = "<group>"; };
-		58623C6C60520B84D5C1AD7796172ED9 /* NKClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKClient.m; path = NookoSDK/NKClient/NKClient.m; sourceTree = "<group>"; };
-		59A6A6C4C27ADED43D0DAC8B4524FEF7 /* NKGeofenceParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKGeofenceParameter.m; path = NookoSDK/NKClient/NKParameter/NKGeofenceParameter.m; sourceTree = "<group>"; };
-		5A7BD31EC89417525BBEB5327A902AD2 /* NKImagesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKImagesElement.m; path = NookoSDK/NKClient/NKElement/NKImagesElement.m; sourceTree = "<group>"; };
-		5C77A2B04F98E492B97767A17B70DA9F /* NKUploadableTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKUploadableTextElement.h; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableTextElement.h; sourceTree = "<group>"; };
-		5CA071FFAABB96E5FE393044FE10BCF1 /* NookoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NookoSDK-umbrella.h"; sourceTree = "<group>"; };
-		5CDE642617DA5ACC9A736B1D5ED13A2A /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		5EF5DCF21DE8CD708D9161463352617E /* NKUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKUser.m; path = NookoSDK/NKAuth/NKUser.m; sourceTree = "<group>"; };
-		613C25544F52951A2D3F3E0639D41A11 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		61F3E9D22CECF8F19DE90E4C8D9CB69B /* NookoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NookoSDK-dummy.m"; sourceTree = "<group>"; };
-		642E4A401AE53782D14CDCC22544A023 /* NKFilterParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKFilterParameter.m; path = NookoSDK/NKClient/NKParameter/NKFilterParameter.m; sourceTree = "<group>"; };
-		654AC30E1A9887A86E1976A63D1E679B /* NKParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKParameter.h; path = NookoSDK/NKClient/NKParameter/NKParameter.h; sourceTree = "<group>"; };
-		664D6F5320BCA8C6647656FEB456EAC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66887D7BC20EAA2D4C3610CAEAADC50C /* NKPaginationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKPaginationInfo.h; path = NookoSDK/NKClient/NKPaginationInfo/NKPaginationInfo.h; sourceTree = "<group>"; };
-		690511ED5D01AA7D1FEEF18D8607D31D /* NKBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKBlock.m; path = NookoSDK/NKClient/NKBlock/NKBlock.m; sourceTree = "<group>"; };
-		6906CA178CC03D312CAE9FC147F2E9D3 /* NKAddressElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKAddressElement.m; path = NookoSDK/NKClient/NKElement/NKAddressElement.m; sourceTree = "<group>"; };
-		7132A468CE06FB4E2424AD53EB918ECB /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		7856411189710A440219CA83048306EE /* NKApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKApiManager.h; path = NookoSDK/NKApiManager/NKApiManager.h; sourceTree = "<group>"; };
-		7B43AC203A5262585A2910E44A40E8BB /* NKFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKFile.h; path = NookoSDK/NKClient/NKElement/NKFile.h; sourceTree = "<group>"; };
-		7D31E1CDD5813DC92B2738748AE0F703 /* NKWysiwygElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKWysiwygElement.h; path = NookoSDK/NKClient/NKElement/NKWysiwygElement.h; sourceTree = "<group>"; };
-		7D4DA798944C1B37235FF42B272D10F8 /* NKUploadableImagesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKUploadableImagesElement.h; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableImagesElement.h; sourceTree = "<group>"; };
-		7D5A7759648006BF77962530309D67B7 /* NKProject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKProject.m; path = NookoSDK/NKClient/NKProject/NKProject.m; sourceTree = "<group>"; };
-		7DB3791B769AB4F8432B2DA4D0BDC888 /* NKImagesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKImagesElement.h; path = NookoSDK/NKClient/NKElement/NKImagesElement.h; sourceTree = "<group>"; };
-		7F8BB295F2CCC06327F5D79EFB3491BF /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		7FFD737D0C133F5B6D97E6F6A965B70E /* NKPollElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKPollElement.m; path = NookoSDK/NKClient/NKElement/NKPollElement.m; sourceTree = "<group>"; };
-		813B60ACDA43BBDB7BFAE427643C1FF4 /* Pods-NookoPayments-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NookoPayments-dummy.m"; sourceTree = "<group>"; };
-		8186002F405F89ABC32DF6FAD9F1C05B /* NKUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKUser.h; path = NookoSDK/NKAuth/NKUser.h; sourceTree = "<group>"; };
-		818CF9B8C588B45070BFC50413D26C0B /* NKDropdownElementOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKDropdownElementOption.h; path = NookoSDK/NKClient/NKElement/NKDropdownElementOption.h; sourceTree = "<group>"; };
+		59ECE023349CD6641E6F264CAB3D5D7F /* MBUploadableElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBUploadableElement.h; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableElement.h; sourceTree = "<group>"; };
+		5AAD69959975B5D6490BCDD15D18E007 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5B600F8CA0B59D9E35871F81BFAB36F9 /* MBCheckboxElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCheckboxElement.m; path = MBurger/MBClient/MBElement/MBCheckboxElement.m; sourceTree = "<group>"; };
+		5D07FBB0321A2C03FE6FFE4E417E5782 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5DB7A0832A51305594D8D74E9222ACF6 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		5F041C188C2E3CD17F97036C6A250EF3 /* MBGeofenceParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBGeofenceParameter.h; path = MBurger/MBClient/MBParameter/MBGeofenceParameter.h; sourceTree = "<group>"; };
+		5FBC20A67DF655EF02D71E26928C4693 /* MBurger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBurger.h; path = MBurger/MBurger.h; sourceTree = "<group>"; };
+		60BF2374B73DD6472B098202AA16C699 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61883B7F114CAFDB40E958178F04BF2C /* Pods-MBPayments-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBPayments-dummy.m"; sourceTree = "<group>"; };
+		681C0FE12E80CB4B747FCFB6CEC32634 /* MBResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBResponse.h; path = MBurger/MBApiManager/MBResponse.h; sourceTree = "<group>"; };
+		6B9DBC9DC384115E1D8998F1961C4E41 /* MBMediaElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBMediaElement.m; path = MBurger/MBClient/MBElement/MBMediaElement.m; sourceTree = "<group>"; };
+		6D695525CE7108921BCC935E8CCE7589 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		6EB18E95D805E91707260BF1D05CC561 /* Pods-MBPayments.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBPayments.modulemap"; sourceTree = "<group>"; };
+		6EF80DD80A9A253CC86BB671FDF300BB /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7051FCA81AEC7CBE46EE531AF4EF98A4 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		706EA43403701E1BEFC7207AC53B8155 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		7399CF8FA2068C474FD6E6A786862CE0 /* MBMediaElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBMediaElement.h; path = MBurger/MBClient/MBElement/MBMediaElement.h; sourceTree = "<group>"; };
+		73FE5CD016EDC93C64D5E4A914A74B22 /* MBGeneralParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBGeneralParameter.h; path = MBurger/MBClient/MBParameter/MBGeneralParameter.h; sourceTree = "<group>"; };
+		754210D3BF9E91DFD65F33F1A1C46D59 /* MBFilterParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBFilterParameter.m; path = MBurger/MBClient/MBParameter/MBFilterParameter.m; sourceTree = "<group>"; };
+		7653E580E78CEB806F2E05FA20C4384B /* MBDropdownElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBDropdownElement.h; path = MBurger/MBClient/MBElement/MBDropdownElement.h; sourceTree = "<group>"; };
+		7791AA8133417BB43D30B8CBA162A0B8 /* MBWysiwygElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBWysiwygElement.h; path = MBurger/MBClient/MBElement/MBWysiwygElement.h; sourceTree = "<group>"; };
+		7B9B02B5F7833E4C4FB17AFBEE14108B /* MBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBUser.m; path = MBurger/MBAuth/MBUser.m; sourceTree = "<group>"; };
+		7C1ECB46EA290D77CA12C7A036172000 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7FBE4FD96F4AB71FF636ED751279C3E4 /* MBUploadableElementsFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBUploadableElementsFactory.m; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableElementsFactory.m; sourceTree = "<group>"; };
+		80077A34E07DEB9062CB9DF02C41583A /* MBSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSection.h; path = MBurger/MBClient/MBSection/MBSection.h; sourceTree = "<group>"; };
+		80CF7C148FC2BC1FCEB37A90E8B3389D /* MBPollElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBPollElement.h; path = MBurger/MBClient/MBElement/MBPollElement.h; sourceTree = "<group>"; };
+		81249115E7370D4665E8C1C30DBC11AB /* MBElementsFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBElementsFactory.m; path = MBurger/MBClient/MBElement/MBElementsFactory.m; sourceTree = "<group>"; };
+		828214C56722D974AA2B018F7853919A /* MBKeychainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBKeychainItemWrapper.h; path = MBurger/MBAuth/MBKeychainItemWrapper.h; sourceTree = "<group>"; };
 		82D17A9267AB70A4AACD2FF1B356F3B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		82E667576FEA956335C36E54A87AB356 /* NKKeychainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKKeychainItemWrapper.h; path = NookoSDK/NKAuth/NKKeychainItemWrapper.h; sourceTree = "<group>"; };
-		86EE3F8174F9AA10AA1356DAF8FDB7E8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		8815C8742336AB7CF30F8E8D51EC71DB /* NKPaginationParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKPaginationParameter.m; path = NookoSDK/NKClient/NKParameter/NKPaginationParameter.m; sourceTree = "<group>"; };
-		8C1911175A38027B1DD1604B7BFD25A1 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		8C65B8A5BEC924F905FF5FBB203BE9EB /* NKGeneralParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKGeneralParameter.h; path = NookoSDK/NKClient/NKParameter/NKGeneralParameter.h; sourceTree = "<group>"; };
-		8DDD5E9D3CF268FE4DD8EC4E54AEACBF /* NKGeneralParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKGeneralParameter.m; path = NookoSDK/NKClient/NKParameter/NKGeneralParameter.m; sourceTree = "<group>"; };
-		8EA6E51C112C7C3503D52752A5BAF24D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		8EB6B12CD91124CE457DED91D6EFC230 /* Pods-NookoPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NookoPayments.debug.xcconfig"; sourceTree = "<group>"; };
-		901A14E4DAD799E158244BC88A67DF7F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		910002FB303A789C34A22450599324A7 /* NKElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKElement.h; path = NookoSDK/NKClient/NKElement/NKElement.h; sourceTree = "<group>"; };
+		8441D1BEEFA8DDA86CCFDA22D0C5E217 /* MBProject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProject.m; path = MBurger/MBClient/MBProject/MBProject.m; sourceTree = "<group>"; };
+		84CCF8A2198D7B3B2EC3DA8D8F6F5147 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		878D6BF698DFBE37514EF32F8306965B /* MBAddressElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBAddressElement.m; path = MBurger/MBClient/MBElement/MBAddressElement.m; sourceTree = "<group>"; };
+		8B02443161E51C55C7896E5AE6D0949B /* MBAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBAuth.h; path = MBurger/MBAuth/MBAuth.h; sourceTree = "<group>"; };
+		8D029924E74EF200E20098B3E893D62D /* MBImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBImage.m; path = MBurger/MBClient/MBElement/MBImage.m; sourceTree = "<group>"; };
+		8FBDBFF333B546DBABE911F7754C8BEB /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		9107DA9BEF16CB6959873F42275A6C90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		9268D5CDD13989EE98337B91104D9A29 /* NKResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKResponse.h; path = NookoSDK/NKApiManager/NKResponse.h; sourceTree = "<group>"; };
-		92BBD3F8EAA46377E89A8F59122FF62C /* NKTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKTextElement.h; path = NookoSDK/NKClient/NKElement/NKTextElement.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		944F02997E9A4E96BD6E133417ABA567 /* NKProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKProject.h; path = NookoSDK/NKClient/NKProject/NKProject.h; sourceTree = "<group>"; };
-		94860D6C196300AD3D0418E3B197035E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		953DF66B8E0244CA2B711D01EE0111DD /* NKGeneralElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKGeneralElement.m; path = NookoSDK/NKClient/NKElement/NKGeneralElement.m; sourceTree = "<group>"; };
-		9C3AD829C08025F282A7B21F5F47A95A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		9D1E09803E0B6D4B1411D4C99EE932F9 /* NookoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NookoSDK.framework; path = NookoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E3C91DF52052C73FAD6E0B1CECB727F /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		A4A56D712AB7EFE6F120D1CB7C3125E2 /* NKMultipartForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKMultipartForm.m; path = NookoSDK/NKApiManager/NKMultipartForm.m; sourceTree = "<group>"; };
-		A8F77ED7107CEDCEC67D1AAD4F303EA5 /* NKResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKResponse.m; path = NookoSDK/NKApiManager/NKResponse.m; sourceTree = "<group>"; };
-		ACC12FC9140A2559D0122E99CFE5BC74 /* NKMediaElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKMediaElement.h; path = NookoSDK/NKClient/NKElement/NKMediaElement.h; sourceTree = "<group>"; };
-		B107BB0206326A4A3E29E0EE6F8077FA /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		B1ADDBF51E3ECF9ABC6788D7D2D91994 /* NKPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKPlugin.h; path = NookoSDK/NKPlugin/NKPlugin.h; sourceTree = "<group>"; };
-		B38CE377B95066058E36B35DEFE36A96 /* NKApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKApiManager.m; path = NookoSDK/NKApiManager/NKApiManager.m; sourceTree = "<group>"; };
-		B462437CC8B10F6EC07011070F4E4220 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		93E71912937A1C0E21FE8B4331CFFF80 /* MBBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBBlock.m; path = MBurger/MBClient/MBBlock/MBBlock.m; sourceTree = "<group>"; };
+		967CCBB23F1011E9C13749B0C9D37695 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9854EA0C5FFE2447F3586E99BC3E95CC /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		9C1922C74B527511C862F25439B9CBDF /* Pods-MBPayments-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBPayments-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9ED015EF2609A1B5911223D4216B6D2A /* MBUploadableTextElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBUploadableTextElement.m; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableTextElement.m; sourceTree = "<group>"; };
+		A38F167C3F7A42EB6A229A3D5F902F4A /* MBResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBResponse.m; path = MBurger/MBApiManager/MBResponse.m; sourceTree = "<group>"; };
+		A4F1A3295923BDDCFBD660C739163A1E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A6F1AD19A923053F9BC35A4FCD19C1EE /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		A71D5E63F1A9E86D0F32E9AAE5D4BDCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72F9F52312F5CAE10522C0B25E68503 /* MBPaginationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBPaginationInfo.m; path = MBurger/MBClient/MBPaginationInfo/MBPaginationInfo.m; sourceTree = "<group>"; };
+		AB9A096DCA4A962C71E6C6EE36D95A76 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AC6DC87F897E99C38B22E217B6BAC78E /* MBDropdownElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBDropdownElement.m; path = MBurger/MBClient/MBElement/MBDropdownElement.m; sourceTree = "<group>"; };
+		ACF7FB97E093125538BCD10198648BAF /* Pods-MBPayments-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBPayments-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE457C1F5ADB1AF9C5FFA381E5757489 /* MBApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBApiManager.m; path = MBurger/MBApiManager/MBApiManager.m; sourceTree = "<group>"; };
+		AF55BF8F535DF5D5365848816A69CA04 /* MBPollElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBPollElement.m; path = MBurger/MBClient/MBElement/MBPollElement.m; sourceTree = "<group>"; };
+		AF56DD7C7DBC387EC6677ED7399FB5AD /* MBDropdownElementOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBDropdownElementOption.h; path = MBurger/MBClient/MBElement/MBDropdownElementOption.h; sourceTree = "<group>"; };
+		B1BE4A2E487ECE8FF9632AFD93228198 /* MBUploadableTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBUploadableTextElement.h; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableTextElement.h; sourceTree = "<group>"; };
 		B4A7371E654F4861787983B67FE82817 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		BD042576238276EF7C7F27D4D3F031BF /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		C02EC3EB3CB20642FFC7EB0F2DF3B90D /* NKElementFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKElementFactory.h; path = NookoSDK/NKClient/NKElement/NKElementFactory.h; sourceTree = "<group>"; };
-		C0CB9D2C1B8ABFDB4E8847C1699E7AD0 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		C4A6D6A8630E3C4EDE4AD887DCC80B74 /* NKSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKSection.m; path = NookoSDK/NKClient/NKSection/NKSection.m; sourceTree = "<group>"; };
-		C57211386B2F1A0379B58DDE3DB82AA9 /* Pods-NookoPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NookoPayments.release.xcconfig"; sourceTree = "<group>"; };
-		C73B14610300F4031B63EA876CF1DAA1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		C863172999D60071DF0F7D3B10DBF372 /* NKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKUtilities.h; path = NookoSDK/NKManager/NKUtilities.h; sourceTree = "<group>"; };
-		C8B95C45E2D6651B03004B5BDDE005A9 /* NKAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKAuth.h; path = NookoSDK/NKAuth/NKAuth.h; sourceTree = "<group>"; };
-		C9924137BC5BFCECA2C059CFEDA334AE /* NKGeofenceParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKGeofenceParameter.h; path = NookoSDK/NKClient/NKParameter/NKGeofenceParameter.h; sourceTree = "<group>"; };
-		CB44D9F60C1FB531D8E27E65DE8386A8 /* NKSortParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKSortParameter.m; path = NookoSDK/NKClient/NKParameter/NKSortParameter.m; sourceTree = "<group>"; };
-		CBC1AA95A7B421C31500E5765E133596 /* Pods-NookoPayments-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NookoPayments-umbrella.h"; sourceTree = "<group>"; };
-		CBDAA4A4118428B74A3FDF9ACDB2661F /* NookoSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NookoSDK.xcconfig; sourceTree = "<group>"; };
-		D08D0800131ADAF3847706109B3E7B2A /* NKUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKUtilities.m; path = NookoSDK/NKManager/NKUtilities.m; sourceTree = "<group>"; };
-		D24654CAFE439B82CB7519E91E8B8595 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		D35DD2D6BEDB1BEC816AEFFEA3DBF3F6 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		D5B3BF66CBD28CE42B27123F68D893BE /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		D91204F99BA29FDAF1CFE00252AA4D29 /* NKElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKElement.m; path = NookoSDK/NKClient/NKElement/NKElement.m; sourceTree = "<group>"; };
+		B7123BC10DB3E41A8AD12C885E355F8F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		BA3B4F51CE09FC56CDBA8EB86D9C7BAF /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		BCE98765F7ECC3AF00A8B2060E1C3383 /* Pods_MBPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBPayments.framework; path = "Pods-MBPayments.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD075F07811E19B53C6371AFFC146A17 /* MBCheckboxElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCheckboxElement.h; path = MBurger/MBClient/MBElement/MBCheckboxElement.h; sourceTree = "<group>"; };
+		BE685768C63971631A994EB95C072068 /* MBSortParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSortParameter.h; path = MBurger/MBClient/MBParameter/MBSortParameter.h; sourceTree = "<group>"; };
+		C0D44F0C2B0607DAD14B7DF1C4B09C9D /* MBUploadableFilesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBUploadableFilesElement.m; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableFilesElement.m; sourceTree = "<group>"; };
+		C45BF3CBAD41644E67DE9FDCC3F9CD9A /* MBAdmin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBAdmin.m; path = MBurger/MBAdmin/MBAdmin.m; sourceTree = "<group>"; };
+		C90536378EC7D1CE9F9C91AAEBF049BB /* MBurger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBurger-prefix.pch"; sourceTree = "<group>"; };
+		CA5669BA0C99269C22D9FF83F389CA1B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		CC465313D0058C15DDE2E3BB00FA8AF1 /* MBImagesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBImagesElement.h; path = MBurger/MBClient/MBElement/MBImagesElement.h; sourceTree = "<group>"; };
+		CE44D30162102E4F2C4B4012A3DE6DB8 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CF3DCBD2554F44C94E0DE7333E9D6E12 /* MBPaginationParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBPaginationParameter.m; path = MBurger/MBClient/MBParameter/MBPaginationParameter.m; sourceTree = "<group>"; };
+		D0047B6763025D2884B6FDA7CF5B293F /* MBElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBElement.m; path = MBurger/MBClient/MBElement/MBElement.m; sourceTree = "<group>"; };
+		D1E6E56179D5306710D6EA5FB99E55BB /* MBDropdownElementOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBDropdownElementOption.m; path = MBurger/MBClient/MBElement/MBDropdownElementOption.m; sourceTree = "<group>"; };
+		D42BC4B11880614314748A3C294788FD /* MBurger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBurger.modulemap; sourceTree = "<group>"; };
+		D4A317570CE48AC06734A2D9F0799590 /* MBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBManager.m; path = MBurger/MBManager/MBManager.m; sourceTree = "<group>"; };
+		D6DC79E3D7695DE98FDFA8FFD84F7C69 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		D819B97816D886F8D5EDECB151742F29 /* MBElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBElement.h; path = MBurger/MBClient/MBElement/MBElement.h; sourceTree = "<group>"; };
 		D945DA374542CB7478C03EC51A79F634 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		DD8C6E1687A77593530EB80E964DE62E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDD1F31C316991535842F2CB20BBA716 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		DEC5F466D4C1BEA7AAD215746959443F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		E0FB0420B6A2A7A3E9B38D24A08BCA85 /* NKSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKSection.h; path = NookoSDK/NKClient/NKSection/NKSection.h; sourceTree = "<group>"; };
-		E1A0C2C5A213EBA58C30B5C792910331 /* NookoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NookoSDK.modulemap; sourceTree = "<group>"; };
-		E2A55083AA5729E36D25F83E8484409C /* NookoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NookoSDK.h; path = NookoSDK/NookoSDK.h; sourceTree = "<group>"; };
-		E60B800AAC683F80E2C6759EDABEDD3B /* NookoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NookoSDK-prefix.pch"; sourceTree = "<group>"; };
-		E801E65C914D9025A52972B3B2736694 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E85E13E49FAE0C7AFE0C5BEF40E2FB83 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		EAD645A67B35264B791140B49684D940 /* Pods-NookoPayments-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NookoPayments-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBC13CD6871943542BC678A042E21BE7 /* NKPollElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKPollElement.h; path = NookoSDK/NKClient/NKElement/NKPollElement.h; sourceTree = "<group>"; };
-		ED174E6DAB75D81D8E5611FF9D504124 /* NKPaginationParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKPaginationParameter.h; path = NookoSDK/NKClient/NKParameter/NKPaginationParameter.h; sourceTree = "<group>"; };
-		F07D2D7FC17B27BD44B7CBE86DBA5922 /* NKWysiwygElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKWysiwygElement.m; path = NookoSDK/NKClient/NKElement/NKWysiwygElement.m; sourceTree = "<group>"; };
-		F2E99E82ACFD38C680E317CE6754D387 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		F34EA4ECF7CE59A56B3EE3C8E14B47E9 /* NKMultipartForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKMultipartForm.h; path = NookoSDK/NKApiManager/NKMultipartForm.h; sourceTree = "<group>"; };
-		F877D32C889207287257181A5A6CE072 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		F8ECA3E3B641FEC39A3E134177B5B17A /* NKUploadableElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKUploadableElement.m; path = NookoSDK/NKAdmin/NKUploadableElement/NKUploadableElement.m; sourceTree = "<group>"; };
-		F9F880C855596533E6ABF2B38327685F /* Pods_NookoPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NookoPayments.framework; path = "Pods-NookoPayments.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2C41BDA24D99F3C35CF0D9302FCEF4 /* NKDropdownElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKDropdownElement.h; path = NookoSDK/NKClient/NKElement/NKDropdownElement.h; sourceTree = "<group>"; };
-		FD595B5F51D4E3BAA736F4A4CA8D3012 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		FF071158BE36F3A8B9C9A556EEB0BBBE /* Pods-NookoPayments.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NookoPayments.modulemap"; sourceTree = "<group>"; };
-		FF851DD77E29CF0025A5C376E0212C39 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DF0FB8C9C4E0798D3CD8781CD35E42D4 /* MBUploadableElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBUploadableElement.m; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableElement.m; sourceTree = "<group>"; };
+		DFC2AC589ABC94FB5F04DDD993078524 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E0680C88EB4298F42102AA5B9D41682C /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		E118B893F076B8DBE147C0598C4D389A /* MBImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBImage.h; path = MBurger/MBClient/MBElement/MBImage.h; sourceTree = "<group>"; };
+		E17F0DBBBD89CE6E47105CCBABF02FB0 /* MBDateElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBDateElement.h; path = MBurger/MBClient/MBElement/MBDateElement.h; sourceTree = "<group>"; };
+		E192C4EB9760E0C014662081211F7FC6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		E4819EF46BFA4F4A367AE93671D872CD /* Pods-MBPayments-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBPayments-frameworks.sh"; sourceTree = "<group>"; };
+		E537116CBE48956345A8AFC9EC7CBC4B /* Pods-MBPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBPayments.release.xcconfig"; sourceTree = "<group>"; };
+		E57E26E6008B8C3EC07D6C365BCC13EF /* MBGeneralElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBGeneralElement.m; path = MBurger/MBClient/MBElement/MBGeneralElement.m; sourceTree = "<group>"; };
+		E7079FC9C2F9D152F12D7F50BAF40BFC /* MBUploadableFilesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBUploadableFilesElement.h; path = MBurger/MBAdmin/MBUploadableElement/MBUploadableFilesElement.h; sourceTree = "<group>"; };
+		EA7C0CCEBBEBB4CA9205D895AE8DE19A /* MBAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBAuth.m; path = MBurger/MBAuth/MBAuth.m; sourceTree = "<group>"; };
+		EF9B05F4FB15A158B99EA9156F60E037 /* MBPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBPlugin.h; path = MBurger/MBPlugin/MBPlugin.h; sourceTree = "<group>"; };
+		EFDB502B13F593C053E9D2D48FECCE11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29FF1293957A659CB173777359C930A /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		F3669C5D493912445D2076BE8AEDBD3F /* MBProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProject.h; path = MBurger/MBClient/MBProject/MBProject.h; sourceTree = "<group>"; };
+		F4B09F959ACA86E0DBF170D58CD449C7 /* MBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBFile.h; path = MBurger/MBClient/MBElement/MBFile.h; sourceTree = "<group>"; };
+		FDC4C69CAF3564B19F9618DF35F8716E /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		FFBE6C929DCB85C968B7E52584FA3404 /* MBAdmin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBAdmin.h; path = MBurger/MBAdmin/MBAdmin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42FA9DD5282B34B95E0391572B4B4B94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19D95F6F9E9E5E883CC1F8266CE79FFD /* AFNetworking.framework in Frameworks */,
-				3BDEF4CB52A7153A65D2C5D2E76033FE /* CoreLocation.framework in Frameworks */,
-				DCABA7117398265B1E4971C2F9535843 /* Foundation.framework in Frameworks */,
-				2688317FC7D83832B2D77E2AE1B2B482 /* MapKit.framework in Frameworks */,
-				2A9E3A82EA5E7D67BF70E5653DA6F401 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DE9B3A8689C804A43D970F1265675A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,191 +330,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3F3B03B0FBF775C6E4A90C4A833B994 /* Frameworks */ = {
+		F4581D8C3D67317A518336A03A10568A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F2631C305588FC651B677F0A31429C /* Foundation.framework in Frameworks */,
+				172932EB34D3CB325236049117C8BA67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF10A347CC4D85DE3097D9D71E90AE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE21255807BB46EBB22203298C52D5 /* AFNetworking.framework in Frameworks */,
+				9AE88CD6534A44F1C54E31522C7803FB /* CoreLocation.framework in Frameworks */,
+				76A12FB11476765BA3C25073E13B611F /* Foundation.framework in Frameworks */,
+				7DA153A28DF88383476A252562B81DA4 /* MapKit.framework in Frameworks */,
+				FE99B99BD581E08ACC0672062E28CCC1 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12AA3B66085464DCCC97C9E1F1A37B2E /* AFNetworking */ = {
+		2AAD37C7588DF2F5ED176A4601B0ECD0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B5133D6722236387849ECED3A816F3C /* AFNetworking.h */,
-				3308BC1CA4CF91ED476D166704502AA8 /* NSURLSession */,
-				E7BDFBC0F4B1C70743592AE3FBA1E0D0 /* Reachability */,
-				3BD9058BA6940D866B3FB97D1438F0A8 /* Security */,
-				DC51A3D65552C249B10B78C3F8ABCF73 /* Serialization */,
-				B9E99CAD0893152F12F73DEA9AB93E53 /* Support Files */,
-				2D074154B3A1767EB57DAFD8DBE3E277 /* UIKit */,
+				84CCF8A2198D7B3B2EC3DA8D8F6F5147 /* AFNetworking.modulemap */,
+				FDC4C69CAF3564B19F9618DF35F8716E /* AFNetworking.xcconfig */,
+				159044D09F51E45E5D78FF92A5451D49 /* AFNetworking-dummy.m */,
+				047417AA4C2A7568F03C0D2209877D95 /* AFNetworking-prefix.pch */,
+				501E700716F15E20E3A5FF0E99003B8B /* AFNetworking-umbrella.h */,
+				60BF2374B73DD6472B098202AA16C699 /* Info.plist */,
 			);
-			name = AFNetworking;
-			path = AFNetworking;
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		2D074154B3A1767EB57DAFD8DBE3E277 /* UIKit */ = {
+		3A09C97BE9CF3271CB57807B0690E5CB /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				12066313FDC493733D2E6E6E39D57416 /* AFAutoPurgingImageCache.h */,
-				8EA6E51C112C7C3503D52752A5BAF24D /* AFAutoPurgingImageCache.m */,
-				DDD1F31C316991535842F2CB20BBA716 /* AFImageDownloader.h */,
-				D5B3BF66CBD28CE42B27123F68D893BE /* AFImageDownloader.m */,
-				269CF6DED8BC5DA9DEDEBE3623A6C869 /* AFNetworkActivityIndicatorManager.h */,
-				5493964961048B34343647D66ED8711D /* AFNetworkActivityIndicatorManager.m */,
-				40B0F77BB95785AFF6FA4CFD94DFFCAC /* UIActivityIndicatorView+AFNetworking.h */,
-				FD595B5F51D4E3BAA736F4A4CA8D3012 /* UIActivityIndicatorView+AFNetworking.m */,
-				3476B784BB29BD49C1F2A1FC2EBD1C31 /* UIButton+AFNetworking.h */,
-				B107BB0206326A4A3E29E0EE6F8077FA /* UIButton+AFNetworking.m */,
-				E85E13E49FAE0C7AFE0C5BEF40E2FB83 /* UIImage+AFNetworking.h */,
-				901A14E4DAD799E158244BC88A67DF7F /* UIImageView+AFNetworking.h */,
-				1D9DBA7A986F0B275564202ED15F1E4B /* UIImageView+AFNetworking.m */,
-				B462437CC8B10F6EC07011070F4E4220 /* UIKit+AFNetworking.h */,
-				F877D32C889207287257181A5A6CE072 /* UIProgressView+AFNetworking.h */,
-				D24654CAFE439B82CB7519E91E8B8595 /* UIProgressView+AFNetworking.m */,
-				7132A468CE06FB4E2424AD53EB918ECB /* UIRefreshControl+AFNetworking.h */,
-				4915C63A30916B45AE6B4B2BD334F85E /* UIRefreshControl+AFNetworking.m */,
-				8C1911175A38027B1DD1604B7BFD25A1 /* UIWebView+AFNetworking.h */,
-				BD042576238276EF7C7F27D4D3F031BF /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		3308BC1CA4CF91ED476D166704502AA8 /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				D35DD2D6BEDB1BEC816AEFFEA3DBF3F6 /* AFCompatibilityMacros.h */,
-				403320D0B08832914E8327D09BAA6C92 /* AFHTTPSessionManager.h */,
-				C73B14610300F4031B63EA876CF1DAA1 /* AFHTTPSessionManager.m */,
-				9E3C91DF52052C73FAD6E0B1CECB727F /* AFURLSessionManager.h */,
-				F2E99E82ACFD38C680E317CE6754D387 /* AFURLSessionManager.m */,
+				0665B7A6D70F687824071818B82C69BF /* AFCompatibilityMacros.h */,
+				5D07FBB0321A2C03FE6FFE4E417E5782 /* AFHTTPSessionManager.h */,
+				CE44D30162102E4F2C4B4012A3DE6DB8 /* AFHTTPSessionManager.m */,
+				2DC5C7E3699A1A4D2B456DC642327687 /* AFURLSessionManager.h */,
+				E192C4EB9760E0C014662081211F7FC6 /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		3BD9058BA6940D866B3FB97D1438F0A8 /* Security */ = {
+		480A146A56F0B00B93B1EF812E733B19 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				86EE3F8174F9AA10AA1356DAF8FDB7E8 /* AFSecurityPolicy.h */,
-				0B283725EAAA65533513FD7B41733361 /* AFSecurityPolicy.m */,
+				9D4E0C07065A0A30B95B20FD05FEFACD /* Pods-MBPayments */,
 			);
-			name = Security;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		460BA2F030B1DF0EE3CBABBB9620198C /* NookoSDK */ = {
+		7C5873BB1764BB835B61D566EB5A6887 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				00F6FE4DC5F93BC561331B4350FE9139 /* NKAddressElement.h */,
-				6906CA178CC03D312CAE9FC147F2E9D3 /* NKAddressElement.m */,
-				2A026203338B1B02E1E074C76375C5D6 /* NKAdmin.h */,
-				25910E6365D39DE29EFD9426E8385C9B /* NKAdmin.m */,
-				7856411189710A440219CA83048306EE /* NKApiManager.h */,
-				B38CE377B95066058E36B35DEFE36A96 /* NKApiManager.m */,
-				C8B95C45E2D6651B03004B5BDDE005A9 /* NKAuth.h */,
-				313C15E8F555D957D39D542177C6E938 /* NKAuth.m */,
-				164147E96C4EF80A192FB838AE92CC46 /* NKBlock.h */,
-				690511ED5D01AA7D1FEEF18D8607D31D /* NKBlock.m */,
-				310B3EA3C4681D12F90A9B64992D5553 /* NKCheckboxElement.h */,
-				0BF432AA18EC6DB1A7273A2DD34E560A /* NKCheckboxElement.m */,
-				43222578F9826E1D64DC94F5FF693639 /* NKClient.h */,
-				58623C6C60520B84D5C1AD7796172ED9 /* NKClient.m */,
-				09E55FBB7770DE806A8224E4ED449FE4 /* NKDateElement.h */,
-				4489013BDF092FCA0999DA0307875159 /* NKDateElement.m */,
-				FB2C41BDA24D99F3C35CF0D9302FCEF4 /* NKDropdownElement.h */,
-				0AF768C65E0FE78025F30C24B5491F74 /* NKDropdownElement.m */,
-				818CF9B8C588B45070BFC50413D26C0B /* NKDropdownElementOption.h */,
-				1729C72A5705B2D5106D8E25D1D0B20A /* NKDropdownElementOption.m */,
-				910002FB303A789C34A22450599324A7 /* NKElement.h */,
-				D91204F99BA29FDAF1CFE00252AA4D29 /* NKElement.m */,
-				C02EC3EB3CB20642FFC7EB0F2DF3B90D /* NKElementFactory.h */,
-				2DFADFEF392E3ADE54BC5E734C1955EB /* NKElementFactory.m */,
-				7B43AC203A5262585A2910E44A40E8BB /* NKFile.h */,
-				09BF659A0F7CD3D22CD16F2C1A8B3AAC /* NKFile.m */,
-				23DFA13BF5BCE548EB83761DF83DDC46 /* NKFilterParameter.h */,
-				642E4A401AE53782D14CDCC22544A023 /* NKFilterParameter.m */,
-				09BAD3F4FE23AD0325173D5B8806E752 /* NKGeneralElement.h */,
-				953DF66B8E0244CA2B711D01EE0111DD /* NKGeneralElement.m */,
-				8C65B8A5BEC924F905FF5FBB203BE9EB /* NKGeneralParameter.h */,
-				8DDD5E9D3CF268FE4DD8EC4E54AEACBF /* NKGeneralParameter.m */,
-				C9924137BC5BFCECA2C059CFEDA334AE /* NKGeofenceParameter.h */,
-				59A6A6C4C27ADED43D0DAC8B4524FEF7 /* NKGeofenceParameter.m */,
-				1093816C090C3760B28E6A50859A199A /* NKImage.h */,
-				373ED49B67C0B3847CB6E7F150B44995 /* NKImage.m */,
-				7DB3791B769AB4F8432B2DA4D0BDC888 /* NKImagesElement.h */,
-				5A7BD31EC89417525BBEB5327A902AD2 /* NKImagesElement.m */,
-				82E667576FEA956335C36E54A87AB356 /* NKKeychainItemWrapper.h */,
-				34A36C7514AA84B208466B4E8CC3D024 /* NKKeychainItemWrapper.m */,
-				03C75FE2AB43B626B9E96616FFCD6C2B /* NKManager.h */,
-				2AEEBB5E552B9D6102661290D421D7A3 /* NKManager.m */,
-				ACC12FC9140A2559D0122E99CFE5BC74 /* NKMediaElement.h */,
-				36DDF775646E8E0D6CF3C771A528D5B6 /* NKMediaElement.m */,
-				F34EA4ECF7CE59A56B3EE3C8E14B47E9 /* NKMultipartForm.h */,
-				A4A56D712AB7EFE6F120D1CB7C3125E2 /* NKMultipartForm.m */,
-				66887D7BC20EAA2D4C3610CAEAADC50C /* NKPaginationInfo.h */,
-				255B7A3D3094BE72723ADF53DD71722E /* NKPaginationInfo.m */,
-				ED174E6DAB75D81D8E5611FF9D504124 /* NKPaginationParameter.h */,
-				8815C8742336AB7CF30F8E8D51EC71DB /* NKPaginationParameter.m */,
-				654AC30E1A9887A86E1976A63D1E679B /* NKParameter.h */,
-				B1ADDBF51E3ECF9ABC6788D7D2D91994 /* NKPlugin.h */,
-				EBC13CD6871943542BC678A042E21BE7 /* NKPollElement.h */,
-				7FFD737D0C133F5B6D97E6F6A965B70E /* NKPollElement.m */,
-				944F02997E9A4E96BD6E133417ABA567 /* NKProject.h */,
-				7D5A7759648006BF77962530309D67B7 /* NKProject.m */,
-				9268D5CDD13989EE98337B91104D9A29 /* NKResponse.h */,
-				A8F77ED7107CEDCEC67D1AAD4F303EA5 /* NKResponse.m */,
-				E0FB0420B6A2A7A3E9B38D24A08BCA85 /* NKSection.h */,
-				C4A6D6A8630E3C4EDE4AD887DCC80B74 /* NKSection.m */,
-				02DE0E6787C73D50190B1A9D25BA9F03 /* NKSortParameter.h */,
-				CB44D9F60C1FB531D8E27E65DE8386A8 /* NKSortParameter.m */,
-				92BBD3F8EAA46377E89A8F59122FF62C /* NKTextElement.h */,
-				52101768370F5921B61CA4D42CD0CF91 /* NKTextElement.m */,
-				56EFD54B511F82D40E9BCAD286AFBF08 /* NKUploadableElement.h */,
-				F8ECA3E3B641FEC39A3E134177B5B17A /* NKUploadableElement.m */,
-				3A755FF4EB207565932F133C0B3A0B59 /* NKUploadableElementsFactory.h */,
-				0DACE92E5FAC1E08C16B3288725842EC /* NKUploadableElementsFactory.m */,
-				200CA3CD9EB645AF3FFBD62BBBE569E9 /* NKUploadableFilesElement.h */,
-				440C4D09997305107693EC9BFFFF4FB8 /* NKUploadableFilesElement.m */,
-				7D4DA798944C1B37235FF42B272D10F8 /* NKUploadableImagesElement.h */,
-				105218A5902963F7F08108896F279A5B /* NKUploadableImagesElement.m */,
-				5C77A2B04F98E492B97767A17B70DA9F /* NKUploadableTextElement.h */,
-				268A08533051FCC778AAB0609F411D82 /* NKUploadableTextElement.m */,
-				8186002F405F89ABC32DF6FAD9F1C05B /* NKUser.h */,
-				5EF5DCF21DE8CD708D9161463352617E /* NKUser.m */,
-				C863172999D60071DF0F7D3B10DBF372 /* NKUtilities.h */,
-				D08D0800131ADAF3847706109B3E7B2A /* NKUtilities.m */,
-				7D31E1CDD5813DC92B2738748AE0F703 /* NKWysiwygElement.h */,
-				F07D2D7FC17B27BD44B7CBE86DBA5922 /* NKWysiwygElement.m */,
-				E2A55083AA5729E36D25F83E8484409C /* NookoSDK.h */,
-				64A5EC09618A525D624F3C843A195448 /* Support Files */,
+				A4F1A3295923BDDCFBD660C739163A1E /* AFNetworkReachabilityManager.h */,
+				08E928BBB9DFF9E5B3CFAD063DFD9848 /* AFNetworkReachabilityManager.m */,
 			);
-			name = NookoSDK;
-			path = NookoSDK;
-			sourceTree = "<group>";
-		};
-		64A5EC09618A525D624F3C843A195448 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				664D6F5320BCA8C6647656FEB456EAC6 /* Info.plist */,
-				E1A0C2C5A213EBA58C30B5C792910331 /* NookoSDK.modulemap */,
-				CBDAA4A4118428B74A3FDF9ACDB2661F /* NookoSDK.xcconfig */,
-				61F3E9D22CECF8F19DE90E4C8D9CB69B /* NookoSDK-dummy.m */,
-				E60B800AAC683F80E2C6759EDABEDD3B /* NookoSDK-prefix.pch */,
-				5CA071FFAABB96E5FE393044FE10BCF1 /* NookoSDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NookoSDK";
-			sourceTree = "<group>";
-		};
-		65B12C8BD87166471DF49B4018E88730 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				12AA3B66085464DCCC97C9E1F1A37B2E /* AFNetworking */,
-				460BA2F030B1DF0EE3CBABBB9620198C /* NookoSDK */,
-			);
-			name = Pods;
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -534,10 +401,33 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F6DEF2D45BB72943C9E424D8F20DB9CD /* Frameworks */,
-				65B12C8BD87166471DF49B4018E88730 /* Pods */,
-				E1B6F3A53F28D7076A6F3D940376690B /* Products */,
-				9D287683485DFA209EA45A31CA7E2D2F /* Targets Support Files */,
+				812B8046179566B9F5C993384B87BD04 /* Pods */,
+				E013E9DEB370038E142D437873E2E298 /* Products */,
+				480A146A56F0B00B93B1EF812E733B19 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		812B8046179566B9F5C993384B87BD04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C06BB81D72D8BDCEC8A8755F828844F4 /* AFNetworking */,
+				B706BB69E43F9A2F13069E13B7FC7BE9 /* MBurger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A0189C4C11A2A04FE2B55A0ACD5CBCE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB502B13F593C053E9D2D48FECCE11 /* Info.plist */,
+				D42BC4B11880614314748A3C294788FD /* MBurger.modulemap */,
+				09D912989A5ACA610171BBD4756508DE /* MBurger.xcconfig */,
+				46841EF97B0196C62C224B8ABB048FFD /* MBurger-dummy.m */,
+				C90536378EC7D1CE9F9C91AAEBF049BB /* MBurger-prefix.pch */,
+				0C17EFA054CBB4675F3D99D30D4F30A0 /* MBurger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBurger";
 			sourceTree = "<group>";
 		};
 		94457EBBC753BCA3A85FB1E5B3A715C8 /* iOS */ = {
@@ -554,74 +444,184 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9D287683485DFA209EA45A31CA7E2D2F /* Targets Support Files */ = {
+		980DBABAF35B9B6AF1B83EFC2CE9F495 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				B18E3B7C7136612B4E7DAC4CDF6C59AE /* Pods-NookoPayments */,
+				7051FCA81AEC7CBE46EE531AF4EF98A4 /* AFSecurityPolicy.h */,
+				AB9A096DCA4A962C71E6C6EE36D95A76 /* AFSecurityPolicy.m */,
 			);
-			name = "Targets Support Files";
+			name = Security;
 			sourceTree = "<group>";
 		};
-		B18E3B7C7136612B4E7DAC4CDF6C59AE /* Pods-NookoPayments */ = {
+		9D4E0C07065A0A30B95B20FD05FEFACD /* Pods-MBPayments */ = {
 			isa = PBXGroup;
 			children = (
-				94860D6C196300AD3D0418E3B197035E /* Info.plist */,
-				FF071158BE36F3A8B9C9A556EEB0BBBE /* Pods-NookoPayments.modulemap */,
-				21FB205EEB0EF2D429DD875F4FA185B8 /* Pods-NookoPayments-acknowledgements.markdown */,
-				EAD645A67B35264B791140B49684D940 /* Pods-NookoPayments-acknowledgements.plist */,
-				813B60ACDA43BBDB7BFAE427643C1FF4 /* Pods-NookoPayments-dummy.m */,
-				1B8A83DF571750D95F1EA31809B142DF /* Pods-NookoPayments-frameworks.sh */,
-				4A544478CC9252C3E20C3A83038FF724 /* Pods-NookoPayments-resources.sh */,
-				CBC1AA95A7B421C31500E5765E133596 /* Pods-NookoPayments-umbrella.h */,
-				8EB6B12CD91124CE457DED91D6EFC230 /* Pods-NookoPayments.debug.xcconfig */,
-				C57211386B2F1A0379B58DDE3DB82AA9 /* Pods-NookoPayments.release.xcconfig */,
+				A71D5E63F1A9E86D0F32E9AAE5D4BDCA /* Info.plist */,
+				6EB18E95D805E91707260BF1D05CC561 /* Pods-MBPayments.modulemap */,
+				9C1922C74B527511C862F25439B9CBDF /* Pods-MBPayments-acknowledgements.markdown */,
+				ACF7FB97E093125538BCD10198648BAF /* Pods-MBPayments-acknowledgements.plist */,
+				61883B7F114CAFDB40E958178F04BF2C /* Pods-MBPayments-dummy.m */,
+				E4819EF46BFA4F4A367AE93671D872CD /* Pods-MBPayments-frameworks.sh */,
+				0206C385A1743D00E2BB1501B778BB8A /* Pods-MBPayments-resources.sh */,
+				12CF4046CB353D60C68BFCBA715FA163 /* Pods-MBPayments-umbrella.h */,
+				0FBDAC6164EDD31D8B7AA556A05C7603 /* Pods-MBPayments.debug.xcconfig */,
+				E537116CBE48956345A8AFC9EC7CBC4B /* Pods-MBPayments.release.xcconfig */,
 			);
-			name = "Pods-NookoPayments";
-			path = "Target Support Files/Pods-NookoPayments";
+			name = "Pods-MBPayments";
+			path = "Target Support Files/Pods-MBPayments";
 			sourceTree = "<group>";
 		};
-		B9E99CAD0893152F12F73DEA9AB93E53 /* Support Files */ = {
+		B706BB69E43F9A2F13069E13B7FC7BE9 /* MBurger */ = {
 			isa = PBXGroup;
 			children = (
-				7F8BB295F2CCC06327F5D79EFB3491BF /* AFNetworking.modulemap */,
-				2F260AA9DDB2240EC1ED5BAAC8BDE6C3 /* AFNetworking.xcconfig */,
-				294FDCCD854C36C8EF3E49D97C920716 /* AFNetworking-dummy.m */,
-				16BF4000D53FDD3EDBC9AF0F1E8BAB0C /* AFNetworking-prefix.pch */,
-				3FCE0C2E20B4D072D4784D2B4B84E273 /* AFNetworking-umbrella.h */,
-				DD8C6E1687A77593530EB80E964DE62E /* Info.plist */,
+				4274ECE8A7C857E832C98A0B97A06317 /* MBAddressElement.h */,
+				878D6BF698DFBE37514EF32F8306965B /* MBAddressElement.m */,
+				FFBE6C929DCB85C968B7E52584FA3404 /* MBAdmin.h */,
+				C45BF3CBAD41644E67DE9FDCC3F9CD9A /* MBAdmin.m */,
+				36FA080BE1FDDAAB1830971492D73EB7 /* MBApiManager.h */,
+				AE457C1F5ADB1AF9C5FFA381E5757489 /* MBApiManager.m */,
+				8B02443161E51C55C7896E5AE6D0949B /* MBAuth.h */,
+				EA7C0CCEBBEBB4CA9205D895AE8DE19A /* MBAuth.m */,
+				3CDB935EC4495643F2E55C0D4EA1EA11 /* MBBlock.h */,
+				93E71912937A1C0E21FE8B4331CFFF80 /* MBBlock.m */,
+				BD075F07811E19B53C6371AFFC146A17 /* MBCheckboxElement.h */,
+				5B600F8CA0B59D9E35871F81BFAB36F9 /* MBCheckboxElement.m */,
+				281A2C5D259AB98A201249EE6E5EE10A /* MBClient.h */,
+				097739787E21E5CC1FCCD71F0785CF1D /* MBClient.m */,
+				E17F0DBBBD89CE6E47105CCBABF02FB0 /* MBDateElement.h */,
+				4192AEFA6751CBAB56788A4208B7F4C7 /* MBDateElement.m */,
+				7653E580E78CEB806F2E05FA20C4384B /* MBDropdownElement.h */,
+				AC6DC87F897E99C38B22E217B6BAC78E /* MBDropdownElement.m */,
+				AF56DD7C7DBC387EC6677ED7399FB5AD /* MBDropdownElementOption.h */,
+				D1E6E56179D5306710D6EA5FB99E55BB /* MBDropdownElementOption.m */,
+				D819B97816D886F8D5EDECB151742F29 /* MBElement.h */,
+				D0047B6763025D2884B6FDA7CF5B293F /* MBElement.m */,
+				074A73BCE56738F0163EF88A27C529D5 /* MBElementsFactory.h */,
+				81249115E7370D4665E8C1C30DBC11AB /* MBElementsFactory.m */,
+				F4B09F959ACA86E0DBF170D58CD449C7 /* MBFile.h */,
+				27F21E1DF29B8F681F2FA026E513AA03 /* MBFile.m */,
+				3FCC19BFB5176BC2DF2EAED8AEABB8F5 /* MBFilterParameter.h */,
+				754210D3BF9E91DFD65F33F1A1C46D59 /* MBFilterParameter.m */,
+				02AE1E62EF8A8E568CAC30A3C49E6582 /* MBGeneralElement.h */,
+				E57E26E6008B8C3EC07D6C365BCC13EF /* MBGeneralElement.m */,
+				73FE5CD016EDC93C64D5E4A914A74B22 /* MBGeneralParameter.h */,
+				310F3B49C09F3CBA8ABD00E6B4846E33 /* MBGeneralParameter.m */,
+				5F041C188C2E3CD17F97036C6A250EF3 /* MBGeofenceParameter.h */,
+				4C687830B82BB58D0E820D78F2F19830 /* MBGeofenceParameter.m */,
+				E118B893F076B8DBE147C0598C4D389A /* MBImage.h */,
+				8D029924E74EF200E20098B3E893D62D /* MBImage.m */,
+				CC465313D0058C15DDE2E3BB00FA8AF1 /* MBImagesElement.h */,
+				21820F22FED6345E864F96F4B25CCE71 /* MBImagesElement.m */,
+				828214C56722D974AA2B018F7853919A /* MBKeychainItemWrapper.h */,
+				216D2B4683D7AF67F79F86E5DAD48CAC /* MBKeychainItemWrapper.m */,
+				21599017A652374E212DC6F59B8340D8 /* MBManager.h */,
+				D4A317570CE48AC06734A2D9F0799590 /* MBManager.m */,
+				7399CF8FA2068C474FD6E6A786862CE0 /* MBMediaElement.h */,
+				6B9DBC9DC384115E1D8998F1961C4E41 /* MBMediaElement.m */,
+				3AC2F7A8B63FA277A97E58B160A86CBB /* MBMultipartForm.h */,
+				42472F064815DA226416A6ABCCD4C0DA /* MBMultipartForm.m */,
+				4AA4609BD458CD814D0DE5B7E7560E14 /* MBPaginationInfo.h */,
+				A72F9F52312F5CAE10522C0B25E68503 /* MBPaginationInfo.m */,
+				210B89CA3FA1470A3EDF87AAB76C2CA5 /* MBPaginationParameter.h */,
+				CF3DCBD2554F44C94E0DE7333E9D6E12 /* MBPaginationParameter.m */,
+				5026EF4976EB0A576013B0A3EAF34480 /* MBParameter.h */,
+				EF9B05F4FB15A158B99EA9156F60E037 /* MBPlugin.h */,
+				80CF7C148FC2BC1FCEB37A90E8B3389D /* MBPollElement.h */,
+				AF55BF8F535DF5D5365848816A69CA04 /* MBPollElement.m */,
+				F3669C5D493912445D2076BE8AEDBD3F /* MBProject.h */,
+				8441D1BEEFA8DDA86CCFDA22D0C5E217 /* MBProject.m */,
+				681C0FE12E80CB4B747FCFB6CEC32634 /* MBResponse.h */,
+				A38F167C3F7A42EB6A229A3D5F902F4A /* MBResponse.m */,
+				80077A34E07DEB9062CB9DF02C41583A /* MBSection.h */,
+				0B112F16F7FA818D28E31D94142FA25A /* MBSection.m */,
+				BE685768C63971631A994EB95C072068 /* MBSortParameter.h */,
+				147A3C94A973A9EEFA41A4B828D4ABA3 /* MBSortParameter.m */,
+				455D9908860F61C43C3E0C8FF293B89A /* MBTextElement.h */,
+				3C99005E2D2079936E30FA3B78C2049C /* MBTextElement.m */,
+				59ECE023349CD6641E6F264CAB3D5D7F /* MBUploadableElement.h */,
+				DF0FB8C9C4E0798D3CD8781CD35E42D4 /* MBUploadableElement.m */,
+				5060AED62C176E441D10323E5E515EEF /* MBUploadableElementsFactory.h */,
+				7FBE4FD96F4AB71FF636ED751279C3E4 /* MBUploadableElementsFactory.m */,
+				E7079FC9C2F9D152F12D7F50BAF40BFC /* MBUploadableFilesElement.h */,
+				C0D44F0C2B0607DAD14B7DF1C4B09C9D /* MBUploadableFilesElement.m */,
+				4851C12AC344AC6CBC74CB13F79E6EE6 /* MBUploadableImagesElement.h */,
+				18C107BC81FFF197146910462A2B66B6 /* MBUploadableImagesElement.m */,
+				B1BE4A2E487ECE8FF9632AFD93228198 /* MBUploadableTextElement.h */,
+				9ED015EF2609A1B5911223D4216B6D2A /* MBUploadableTextElement.m */,
+				5FBC20A67DF655EF02D71E26928C4693 /* MBurger.h */,
+				100CED7ED4C5040D68380BFC75C86FC5 /* MBUser.h */,
+				7B9B02B5F7833E4C4FB17AFBEE14108B /* MBUser.m */,
+				40B2301C7C54038D531B045CC7472F27 /* MBUtilities.h */,
+				09C95AB0BE72A6BE4A7FDBE6D79D7124 /* MBUtilities.m */,
+				7791AA8133417BB43D30B8CBA162A0B8 /* MBWysiwygElement.h */,
+				19C7CEBF76D2601028F11FBB85BA791D /* MBWysiwygElement.m */,
+				8A0189C4C11A2A04FE2B55A0ACD5CBCE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
+			name = MBurger;
+			path = MBurger;
 			sourceTree = "<group>";
 		};
-		DC51A3D65552C249B10B78C3F8ABCF73 /* Serialization */ = {
+		B8B50ECC85EFD31A7D9C956C147BC09F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				5CDE642617DA5ACC9A736B1D5ED13A2A /* AFURLRequestSerialization.h */,
-				9C3AD829C08025F282A7B21F5F47A95A /* AFURLRequestSerialization.m */,
-				FF851DD77E29CF0025A5C376E0212C39 /* AFURLResponseSerialization.h */,
-				C0CB9D2C1B8ABFDB4E8847C1699E7AD0 /* AFURLResponseSerialization.m */,
+				2AC90E373E160E6F39234E45967B297B /* AFAutoPurgingImageCache.h */,
+				318C081619090ABD48B7B0FA9286886D /* AFAutoPurgingImageCache.m */,
+				19A4E2F8C12BCCA4578A19B0C13DE2F1 /* AFImageDownloader.h */,
+				16F8E14CD78C0E0A1DCF1EB0D8A3BFA7 /* AFImageDownloader.m */,
+				8FBDBFF333B546DBABE911F7754C8BEB /* AFNetworkActivityIndicatorManager.h */,
+				2DA3EB968351A5327D276FCFA4D858A5 /* AFNetworkActivityIndicatorManager.m */,
+				9854EA0C5FFE2447F3586E99BC3E95CC /* UIActivityIndicatorView+AFNetworking.h */,
+				1FE4607EA86CDFEFEC7C63E7F671800A /* UIActivityIndicatorView+AFNetworking.m */,
+				2484E0A1CF4E4B2AD80088822820D5D1 /* UIButton+AFNetworking.h */,
+				216F1B1DA7594B1EEC69364F22A30744 /* UIButton+AFNetworking.m */,
+				F29FF1293957A659CB173777359C930A /* UIImage+AFNetworking.h */,
+				E0680C88EB4298F42102AA5B9D41682C /* UIImageView+AFNetworking.h */,
+				6D695525CE7108921BCC935E8CCE7589 /* UIImageView+AFNetworking.m */,
+				A6F1AD19A923053F9BC35A4FCD19C1EE /* UIKit+AFNetworking.h */,
+				BA3B4F51CE09FC56CDBA8EB86D9C7BAF /* UIProgressView+AFNetworking.h */,
+				5DB7A0832A51305594D8D74E9222ACF6 /* UIProgressView+AFNetworking.m */,
+				CA5669BA0C99269C22D9FF83F389CA1B /* UIRefreshControl+AFNetworking.h */,
+				967CCBB23F1011E9C13749B0C9D37695 /* UIRefreshControl+AFNetworking.m */,
+				43C5DE00C6786A386ED948A8AE5BF897 /* UIWebView+AFNetworking.h */,
+				D6DC79E3D7695DE98FDFA8FFD84F7C69 /* UIWebView+AFNetworking.m */,
 			);
-			name = Serialization;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		E1B6F3A53F28D7076A6F3D940376690B /* Products */ = {
+		C06BB81D72D8BDCEC8A8755F828844F4 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				E801E65C914D9025A52972B3B2736694 /* AFNetworking.framework */,
-				9D1E09803E0B6D4B1411D4C99EE932F9 /* NookoSDK.framework */,
-				F9F880C855596533E6ABF2B38327685F /* Pods_NookoPayments.framework */,
+				706EA43403701E1BEFC7207AC53B8155 /* AFNetworking.h */,
+				3A09C97BE9CF3271CB57807B0690E5CB /* NSURLSession */,
+				7C5873BB1764BB835B61D566EB5A6887 /* Reachability */,
+				980DBABAF35B9B6AF1B83EFC2CE9F495 /* Security */,
+				E8A5251EB0503CA60DE43A89D29F7318 /* Serialization */,
+				2AAD37C7588DF2F5ED176A4601B0ECD0 /* Support Files */,
+				B8B50ECC85EFD31A7D9C956C147BC09F /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		E013E9DEB370038E142D437873E2E298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF80DD80A9A253CC86BB671FDF300BB /* AFNetworking.framework */,
+				245581A94F9A3CD9C3A55071AA29F13C /* MBurger.framework */,
+				BCE98765F7ECC3AF00A8B2060E1C3383 /* Pods_MBPayments.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7BDFBC0F4B1C70743592AE3FBA1E0D0 /* Reachability */ = {
+		E8A5251EB0503CA60DE43A89D29F7318 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				613C25544F52951A2D3F3E0639D41A11 /* AFNetworkReachabilityManager.h */,
-				1DF7557DC83EACD321676383E562C6A6 /* AFNetworkReachabilityManager.m */,
+				B7123BC10DB3E41A8AD12C885E355F8F /* AFURLRequestSerialization.h */,
+				DFC2AC589ABC94FB5F04DDD993078524 /* AFURLRequestSerialization.m */,
+				7C1ECB46EA290D77CA12C7A036172000 /* AFURLResponseSerialization.h */,
+				5AAD69959975B5D6490BCDD15D18E007 /* AFURLResponseSerialization.m */,
 			);
-			name = Reachability;
+			name = Serialization;
 			sourceTree = "<group>";
 		};
 		F6DEF2D45BB72943C9E424D8F20DB9CD /* Frameworks */ = {
@@ -636,56 +636,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C51A50B708E76D3824EE21DB5582C56 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00D87B41C9229619AC1130101F0BFF2F /* NKAddressElement.h in Headers */,
-				BCA34AB10B9B5F138415F5383BB29AC0 /* NKAdmin.h in Headers */,
-				4E833F9CBF3354C1B51021C98AE7A71F /* NKApiManager.h in Headers */,
-				6ECF95ABC3642A6523ABF75F8234343C /* NKAuth.h in Headers */,
-				404A2A18D58D8D60C5339C6A3EEC7A6E /* NKBlock.h in Headers */,
-				D2BBCD5B32E2E9DB9C042E7967DF671F /* NKCheckboxElement.h in Headers */,
-				69685D992F0D3A0FB53B2073EAC958C0 /* NKClient.h in Headers */,
-				00A62CBA642D81C5249FF1372BAF9B03 /* NKDateElement.h in Headers */,
-				4976AFC1675EF95ECF889B805F309A37 /* NKDropdownElement.h in Headers */,
-				84C7D888ABADFABF6A0D90239F1BC942 /* NKDropdownElementOption.h in Headers */,
-				AD991440873D5BA31BC034E202011FF0 /* NKElement.h in Headers */,
-				5BAFD6FD3F6F2144F996C125A721CEA6 /* NKElementFactory.h in Headers */,
-				56915BF480C98CECD54140E28EDE3411 /* NKFile.h in Headers */,
-				32E82A5A71E7AEE901079946FCA690AD /* NKFilterParameter.h in Headers */,
-				3BA18E5A837D06A7A6692553B0D10A7D /* NKGeneralElement.h in Headers */,
-				B17D37F5453A8DD3BFAE9F4090E1F06E /* NKGeneralParameter.h in Headers */,
-				C0C0A48EAB1D454DDB8DA8E483B7B667 /* NKGeofenceParameter.h in Headers */,
-				16C225D72A8B5EB6011CB64568488D83 /* NKImage.h in Headers */,
-				7F3D5C20346B1AC8C2FC9287C526CD08 /* NKImagesElement.h in Headers */,
-				2A0B42F984E8276C2C436A18F7F119A9 /* NKKeychainItemWrapper.h in Headers */,
-				94BC5782D12D6BF80A5E1E2D3B732AE9 /* NKManager.h in Headers */,
-				D04B89C31F73CADBC8AAE3CD8D8DBC1E /* NKMediaElement.h in Headers */,
-				32A4EA4B56046ACE6AD7EAA1DADAF098 /* NKMultipartForm.h in Headers */,
-				4B38ACE60ECBD2F2CC304A15366A84BD /* NKPaginationInfo.h in Headers */,
-				1E6F0171F0243602186F60BE9DF32EFB /* NKPaginationParameter.h in Headers */,
-				4D473C2E2F0EB732BDF3538222B79E26 /* NKParameter.h in Headers */,
-				B59BA0C3F14CA98D05DB7934FA91F92D /* NKPlugin.h in Headers */,
-				24531D0D700EEA7D48FF98C8B37D6464 /* NKPollElement.h in Headers */,
-				64EFFDE672AB9A236D4FDCD271F9A158 /* NKProject.h in Headers */,
-				F7281430D9CC47D875A9CBFB1585C3A6 /* NKResponse.h in Headers */,
-				F4868EAC9AFA1C3D0B93B0978543CA0A /* NKSection.h in Headers */,
-				D028FE0CAA17729BEA895DFA38AD8819 /* NKSortParameter.h in Headers */,
-				65768D409EF362225C8AD7422C7A5289 /* NKTextElement.h in Headers */,
-				B4073C4CE5C9B20E3864F600645B8574 /* NKUploadableElement.h in Headers */,
-				C4A10A8E3261645253EBC25D73D4910E /* NKUploadableElementsFactory.h in Headers */,
-				7A8EB9152073E66537D38991652209B5 /* NKUploadableFilesElement.h in Headers */,
-				788C01685EE28D56B58A7CC5496F6BFB /* NKUploadableImagesElement.h in Headers */,
-				3C5F01296C523143F44362779D789275 /* NKUploadableTextElement.h in Headers */,
-				BE3BFEA3363089925AA6435B855B492E /* NKUser.h in Headers */,
-				72AB4DCEB7B3356AA87C0CA0AC1127DE /* NKUtilities.h in Headers */,
-				7F676E616BCD6800C049057EE62900F6 /* NKWysiwygElement.h in Headers */,
-				C19F07D7FF0E218773AD3CA0466F7497 /* NookoSDK-umbrella.h in Headers */,
-				174CFE10A126ADCF140B1F23E7516214 /* NookoSDK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		437E0B8BDA100834FD20877E5FCDC59D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -713,52 +663,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEA442D02CD381E291FC5A855205B92E /* Headers */ = {
+		A841118A725070F47F92BE9382DD754E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87ED2E5CF30F1FB4D9D9FC0F7C5E479B /* Pods-NookoPayments-umbrella.h in Headers */,
+				7430E93C2208CDCA12F2DE0C4D74FE1C /* MBAddressElement.h in Headers */,
+				BFD5DE79E06DDA17FABC91749ECAD775 /* MBAdmin.h in Headers */,
+				2303127F2206D88EF33D6F3905B20E77 /* MBApiManager.h in Headers */,
+				EB4910A02F71A8DC8E6DF67E5B3EC07C /* MBAuth.h in Headers */,
+				6E757CB813A4E1F147D609FFE8DDF5ED /* MBBlock.h in Headers */,
+				BF0C0297E1717718922FB2B984B35890 /* MBCheckboxElement.h in Headers */,
+				FDAA68A837CEB890C2D86A53E5472A6D /* MBClient.h in Headers */,
+				696D83511180B7A9B2B5EA8D48BB5667 /* MBDateElement.h in Headers */,
+				DF6C02C19636150E012035469EA004C6 /* MBDropdownElement.h in Headers */,
+				553DEE0994F3C7239A5EE96C6CFAA77F /* MBDropdownElementOption.h in Headers */,
+				A0D72FB918B0FC63550DEF58E187EA19 /* MBElement.h in Headers */,
+				B9CA0B7D4127D97766B056185349DB25 /* MBElementsFactory.h in Headers */,
+				ACCCADA9EF6FBE87FF775BA039D31C35 /* MBFile.h in Headers */,
+				FCF7B14C81B4D9E5E743E51661A0B85F /* MBFilterParameter.h in Headers */,
+				F7C7E48FA70D930334BA5BE3013E43FE /* MBGeneralElement.h in Headers */,
+				EF85D0F73F008990FCFE8BE2C3C7448C /* MBGeneralParameter.h in Headers */,
+				872AD6697D88B4EF6824878999F3A22C /* MBGeofenceParameter.h in Headers */,
+				F297E716E78A6771EAAE6016B3C80F89 /* MBImage.h in Headers */,
+				E7EA34D579BEF4973D65F11267D47F15 /* MBImagesElement.h in Headers */,
+				E32402AD416397DD9D64B5D0DEC894E4 /* MBKeychainItemWrapper.h in Headers */,
+				6A4042A116DA77AE4332E3751D04F12A /* MBManager.h in Headers */,
+				702C5D58AC637F185B1E1FE16009DEF2 /* MBMediaElement.h in Headers */,
+				E026C9F280DEC13E665B3B83D9E3F055 /* MBMultipartForm.h in Headers */,
+				35219476992B4F183F79ADAC9074EB50 /* MBPaginationInfo.h in Headers */,
+				338FFB8A6CB62D07C67CD6711AD0EE5E /* MBPaginationParameter.h in Headers */,
+				493392477B75505EE66080053C2668F2 /* MBParameter.h in Headers */,
+				512FEE152A82FB03D191EFC74B6835A8 /* MBPlugin.h in Headers */,
+				786CAC651317903E89BA5A9A63EEE124 /* MBPollElement.h in Headers */,
+				669EE4A49FAFC3A4367370A6858595A0 /* MBProject.h in Headers */,
+				167781A55816BF1352257F9CB91AFA0E /* MBResponse.h in Headers */,
+				EC1BFC5F961A3BCB82750FA34222B1B2 /* MBSection.h in Headers */,
+				B19C7D5A8EB8E99EA0B860FDD5B486F6 /* MBSortParameter.h in Headers */,
+				4F0BF147133484B4A1985FD5DCEDA1E1 /* MBTextElement.h in Headers */,
+				C0A328EE615F9050E7F135092E93BC70 /* MBUploadableElement.h in Headers */,
+				DC4DECB59BB928964FAB30202E24A5E3 /* MBUploadableElementsFactory.h in Headers */,
+				EDDE0FC1632131057A98FBCED815C8A2 /* MBUploadableFilesElement.h in Headers */,
+				AF700DC9E5F96BC4ACC339F5836A5329 /* MBUploadableImagesElement.h in Headers */,
+				D4F383BAB3518B6012FCF139EFCF6065 /* MBUploadableTextElement.h in Headers */,
+				0FFD1494B93541E33D897B285524F436 /* MBurger-umbrella.h in Headers */,
+				5263624B4F04C3E3AC8428AF90D59E4E /* MBurger.h in Headers */,
+				23F7AE3C5D929F657D42E9FE6DF55155 /* MBUser.h in Headers */,
+				7C6921824CEC0603CFC2813C2245CD60 /* MBUtilities.h in Headers */,
+				7CC1F9FD7850AEE5327C9D5657F2B9D4 /* MBWysiwygElement.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D319A50564C9D6B29B29F25A39FF45DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D8AE53C69B51A802D8BAB9446FC745 /* Pods-MBPayments-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5D16807CDA68EC54AD67E1740E60661D /* NookoSDK */ = {
+		37862A26910C3E4532448F072D5C19AB /* MBurger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2ECE04070019E3C463DEFBCA29773FDF /* Build configuration list for PBXNativeTarget "NookoSDK" */;
+			buildConfigurationList = 32F9F90AE1726B6CF6F94419B8B60D76 /* Build configuration list for PBXNativeTarget "MBurger" */;
 			buildPhases = (
-				D92D25AE41B63E245AE6A7AC65487037 /* Sources */,
-				42FA9DD5282B34B95E0391572B4B4B94 /* Frameworks */,
-				0C51A50B708E76D3824EE21DB5582C56 /* Headers */,
+				258E37DBB673CBB26C47021029858AE5 /* Sources */,
+				FF10A347CC4D85DE3097D9D71E90AE0C /* Frameworks */,
+				A841118A725070F47F92BE9382DD754E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B31193207F95A4C2BADF5B921349A40 /* PBXTargetDependency */,
+				C3471D37E6118B61F4FB80B5F4201849 /* PBXTargetDependency */,
 			);
-			name = NookoSDK;
-			productName = NookoSDK;
-			productReference = 9D1E09803E0B6D4B1411D4C99EE932F9 /* NookoSDK.framework */;
+			name = MBurger;
+			productName = MBurger;
+			productReference = 245581A94F9A3CD9C3A55071AA29F13C /* MBurger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B781BC888F69FC57DAD9CC4F4007CA95 /* Pods-NookoPayments */ = {
+		C4A5B6706DB412D2A0E4A0096B8A1494 /* Pods-MBPayments */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98419AB9AF9ECD3FFA476CCD743D1202 /* Build configuration list for PBXNativeTarget "Pods-NookoPayments" */;
+			buildConfigurationList = D8DCF5811F3B09DB7B6F69BADE2D222C /* Build configuration list for PBXNativeTarget "Pods-MBPayments" */;
 			buildPhases = (
-				B61B5E57174B1DADADB36BA9C33570F3 /* Sources */,
-				C3F3B03B0FBF775C6E4A90C4A833B994 /* Frameworks */,
-				EEA442D02CD381E291FC5A855205B92E /* Headers */,
+				AF3DC90BF5D80DFB086CCD611670A276 /* Sources */,
+				F4581D8C3D67317A518336A03A10568A /* Frameworks */,
+				D319A50564C9D6B29B29F25A39FF45DE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B780594E8C14F37A00792502F56F1D0 /* PBXTargetDependency */,
-				3A8A2F382D4F6BB00EB968E7F0965F68 /* PBXTargetDependency */,
+				43D7D71EBCAF1BBA94A775DF2DEB5B31 /* PBXTargetDependency */,
+				9784D619F2AA402CCF42C86E3A3C9576 /* PBXTargetDependency */,
 			);
-			name = "Pods-NookoPayments";
-			productName = "Pods-NookoPayments";
-			productReference = F9F880C855596533E6ABF2B38327685F /* Pods_NookoPayments.framework */;
+			name = "Pods-MBPayments";
+			productName = "Pods-MBPayments";
+			productReference = BCE98765F7ECC3AF00A8B2060E1C3383 /* Pods_MBPayments.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4160500DCEA3DA3E93FBA579E88CA0A /* AFNetworking */ = {
@@ -775,7 +775,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = E801E65C914D9025A52972B3B2736694 /* AFNetworking.framework */;
+			productReference = 6EF80DD80A9A253CC86BB671FDF300BB /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -795,18 +795,65 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E1B6F3A53F28D7076A6F3D940376690B /* Products */;
+			productRefGroup = E013E9DEB370038E142D437873E2E298 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F4160500DCEA3DA3E93FBA579E88CA0A /* AFNetworking */,
-				5D16807CDA68EC54AD67E1740E60661D /* NookoSDK */,
-				B781BC888F69FC57DAD9CC4F4007CA95 /* Pods-NookoPayments */,
+				37862A26910C3E4532448F072D5C19AB /* MBurger */,
+				C4A5B6706DB412D2A0E4A0096B8A1494 /* Pods-MBPayments */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		258E37DBB673CBB26C47021029858AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E83AD8E951F886EDF9CC5C6DB18F61 /* MBAddressElement.m in Sources */,
+				61BE65DB3AFF4349BF04980B29EAA15D /* MBAdmin.m in Sources */,
+				53511246DBBE93CD7287DAB85FC2E51D /* MBApiManager.m in Sources */,
+				8360A605C22EDEFC38AD6BB4CE7B9621 /* MBAuth.m in Sources */,
+				97FF234231E9591C72F7A765451E61A7 /* MBBlock.m in Sources */,
+				4CD9DDD676E8CC914A4E2F51F0A6B487 /* MBCheckboxElement.m in Sources */,
+				D02DC76E6789068F0998CC999BC4B06C /* MBClient.m in Sources */,
+				40BD5B419E4A9114FD9EBB5C22AC0C09 /* MBDateElement.m in Sources */,
+				A03F80E04F4953833B87EE1A48EE658B /* MBDropdownElement.m in Sources */,
+				EEF11B61B9FFDCC2E8E317AB45BC1ECF /* MBDropdownElementOption.m in Sources */,
+				08F04DC0F37B552A7B31EFD8E5683407 /* MBElement.m in Sources */,
+				0D468384656BC9ECBD7F677F8CC53EDD /* MBElementsFactory.m in Sources */,
+				BF32C8846411B1D0F5D0AB5F03B3CF0F /* MBFile.m in Sources */,
+				EB86F11D0154096A1C4A0C01AE8C229D /* MBFilterParameter.m in Sources */,
+				1F9868C3B9BF2114E97AD1E07E871ECC /* MBGeneralElement.m in Sources */,
+				715DF931C577FD56A845EF7A97E1FA85 /* MBGeneralParameter.m in Sources */,
+				6D75CB9CD284A3F4F754C91E06FE90AC /* MBGeofenceParameter.m in Sources */,
+				F3616F80D9FA69201E45F418BE7707A6 /* MBImage.m in Sources */,
+				52D9B522835C2ECA43068F273808FF06 /* MBImagesElement.m in Sources */,
+				C392649B321B575BF2FF28EFFB533858 /* MBKeychainItemWrapper.m in Sources */,
+				FD15793F350E03F5851014B615D4B570 /* MBManager.m in Sources */,
+				EB17DE229C7E8E73BBF1ADA54C5CBB6F /* MBMediaElement.m in Sources */,
+				E8EE51F355EBB4418B063D596879C07E /* MBMultipartForm.m in Sources */,
+				2EFF1D068DB6041CF25C7A4D1C7E4FC6 /* MBPaginationInfo.m in Sources */,
+				E55A58986134D501A72273F781B23336 /* MBPaginationParameter.m in Sources */,
+				9ECFD9C2BE297B3A2084081BA2BF231F /* MBPollElement.m in Sources */,
+				05EC02150364988E58CFE1B5B9F2FCB4 /* MBProject.m in Sources */,
+				C474CB698D7951C2ACFC6EC763C3BE91 /* MBResponse.m in Sources */,
+				9CCCA7BAE35CEBDAB435BD6D6F2D8AB1 /* MBSection.m in Sources */,
+				998DDB62895CD4B5BDA91695D71C5324 /* MBSortParameter.m in Sources */,
+				7D10B10FE8F8119C34EB734801056867 /* MBTextElement.m in Sources */,
+				6926011B92C55B1A7A3E0743FDFA37F2 /* MBUploadableElement.m in Sources */,
+				5AB5F3E2D865CDB585C1A9C09D3D5ADD /* MBUploadableElementsFactory.m in Sources */,
+				3300E1B9CDDE6AF869241E7C6BDDDCEA /* MBUploadableFilesElement.m in Sources */,
+				A0C88A63DC40F8C48B2F149477A58E58 /* MBUploadableImagesElement.m in Sources */,
+				BAD444B0B0BF07B62A131CB63B0F0E19 /* MBUploadableTextElement.m in Sources */,
+				85BCEDEA6DA8EC581A675F1883A6F4F2 /* MBurger-dummy.m in Sources */,
+				A7003ECF3FD987E9D92B1BE85AE01ABB /* MBUser.m in Sources */,
+				15C473EDF217A2E30EE0966CD45600AA /* MBUtilities.m in Sources */,
+				1427D5001CEB1AA9497C5B1550D2E7FF /* MBWysiwygElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CC771DB3008E2E9E454A6212D41A5E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -830,89 +877,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B61B5E57174B1DADADB36BA9C33570F3 /* Sources */ = {
+		AF3DC90BF5D80DFB086CCD611670A276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6658E9E7FDBCDDBB6816764A6FBCC02 /* Pods-NookoPayments-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D92D25AE41B63E245AE6A7AC65487037 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F8669C888B8A9CAF662C76DC86E39CA /* NKAddressElement.m in Sources */,
-				5AAB9CBDC25DE7B31526C5DCF4A2B7C6 /* NKAdmin.m in Sources */,
-				5B8C318B55392AABAAE5D229AA6AE676 /* NKApiManager.m in Sources */,
-				9CC62F22808A72B2E6D1F2F395DD4814 /* NKAuth.m in Sources */,
-				5914D703E856BB4534FA7FA9C66E97A3 /* NKBlock.m in Sources */,
-				D03962BC3301B064EB85FDEC18912B50 /* NKCheckboxElement.m in Sources */,
-				8814ACBC4AFF2F45D0474428B22F6BBD /* NKClient.m in Sources */,
-				95EFD25D9223A901EFB485C398EBB492 /* NKDateElement.m in Sources */,
-				06CF57916075E4486E2C0EBA3A4F0A81 /* NKDropdownElement.m in Sources */,
-				F3CF28F5332F2486B8C070C34F139AC4 /* NKDropdownElementOption.m in Sources */,
-				9BFB5F9DF49425DFA4D2ABEE97AB0E55 /* NKElement.m in Sources */,
-				5D6AEA54ADA5B041588385344903490B /* NKElementFactory.m in Sources */,
-				E9CD9986AC04B0ABD74935B0763D56F8 /* NKFile.m in Sources */,
-				65BBCA0B4BB65505AEB583DEB5588984 /* NKFilterParameter.m in Sources */,
-				8AAF2645613CBC6843D867BDC0A2AAE6 /* NKGeneralElement.m in Sources */,
-				9630423709712D2847FDB27D42597F34 /* NKGeneralParameter.m in Sources */,
-				F053F5D0FD9FDF15C3AC1EF5D4DECFEF /* NKGeofenceParameter.m in Sources */,
-				EB3FFA2568C5D1D6428244C034B2931C /* NKImage.m in Sources */,
-				ED9B3D657490F192AE9242E319B9563C /* NKImagesElement.m in Sources */,
-				9A3BBE1FE955861FD413CFB551F42AB6 /* NKKeychainItemWrapper.m in Sources */,
-				A6112310474DFBC732C828D8F57265F2 /* NKManager.m in Sources */,
-				41BA86D35D4541F47B82CEB406AB8EA3 /* NKMediaElement.m in Sources */,
-				0E4F4A78122871A8F13A8ADE5326178B /* NKMultipartForm.m in Sources */,
-				1B233C544C80A1DB053C5921C64F5392 /* NKPaginationInfo.m in Sources */,
-				929EAF040441F4687712C56E38F3D8B1 /* NKPaginationParameter.m in Sources */,
-				96F3315BFEB8C4A935B22EB7EF2507DE /* NKPollElement.m in Sources */,
-				1A336FAE6FA4186974BC6A7F4A0CAC7C /* NKProject.m in Sources */,
-				45F83EDC43B28DE64A160331E754ACFD /* NKResponse.m in Sources */,
-				571B7C1518477352A2B914D8AA4416E4 /* NKSection.m in Sources */,
-				24407C2828B6C99A39972D228882BB1B /* NKSortParameter.m in Sources */,
-				0EFB8188EC952CCDE2D5D49ECEF2568F /* NKTextElement.m in Sources */,
-				1964A04C79BFCC16AB4D5974BF7E672A /* NKUploadableElement.m in Sources */,
-				3FB4D7EC369AE985C14C04C15512AE27 /* NKUploadableElementsFactory.m in Sources */,
-				D9B429AA9664B6CC8BFEF4FC7A40A7FF /* NKUploadableFilesElement.m in Sources */,
-				E8A3FEE8C269A80CB83BF2B59FCDF2B8 /* NKUploadableImagesElement.m in Sources */,
-				F12523935384B87DD9919DE0B3739DDE /* NKUploadableTextElement.m in Sources */,
-				BD1FA3A03899EBB9F36F760D3316F104 /* NKUser.m in Sources */,
-				C50AC29ACA90431B1CC3A65C8E960338 /* NKUtilities.m in Sources */,
-				CD7A68DB6F651FE074DF4BD83940E115 /* NKWysiwygElement.m in Sources */,
-				45056B4CDA781500E6A93BC044232521 /* NookoSDK-dummy.m in Sources */,
+				2AE6D9A6988A8CD545EC4AF92ACAA703 /* Pods-MBPayments-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A8A2F382D4F6BB00EB968E7F0965F68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NookoSDK;
-			target = 5D16807CDA68EC54AD67E1740E60661D /* NookoSDK */;
-			targetProxy = F217FC8E443846C5D0CBA0BEEF9BFACC /* PBXContainerItemProxy */;
-		};
-		3B31193207F95A4C2BADF5B921349A40 /* PBXTargetDependency */ = {
+		43D7D71EBCAF1BBA94A775DF2DEB5B31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = F4160500DCEA3DA3E93FBA579E88CA0A /* AFNetworking */;
-			targetProxy = EB501D469D064EEFC7BB08EA9271760F /* PBXContainerItemProxy */;
+			targetProxy = A7E8ECA76B08A4BDBAFE631BDD96958D /* PBXContainerItemProxy */;
 		};
-		5B780594E8C14F37A00792502F56F1D0 /* PBXTargetDependency */ = {
+		9784D619F2AA402CCF42C86E3A3C9576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBurger;
+			target = 37862A26910C3E4532448F072D5C19AB /* MBurger */;
+			targetProxy = 000A80405256CF66D9D879A6564B6D6F /* PBXContainerItemProxy */;
+		};
+		C3471D37E6118B61F4FB80B5F4201849 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = F4160500DCEA3DA3E93FBA579E88CA0A /* AFNetworking */;
-			targetProxy = B24727B49C4253A26F3BE5B8BDA9E773 /* PBXContainerItemProxy */;
+			targetProxy = D52C8F2F064B81EC7D64E04759C86C31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		032F53E44C3E0437CF2DF42F89CB3300 /* Debug */ = {
+		075F682CD5EA480C6A7F34C5D972D65A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDAA4A4118428B74A3FDF9ACDB2661F /* NookoSDK.xcconfig */;
+			baseConfigurationReference = E537116CBE48956345A8AFC9EC7CBC4B /* Pods-MBPayments.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -923,8 +924,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NookoSDK/NookoSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NookoSDK/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBPayments/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -932,17 +932,21 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/NookoSDK/NookoSDK.modulemap";
-				PRODUCT_MODULE_NAME = NookoSDK;
-				PRODUCT_NAME = NookoSDK;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBPayments/Pods-MBPayments.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1065,9 +1069,45 @@
 			};
 			name = Release;
 		};
-		70D06542767FEA3A6448125E22781C21 /* Debug */ = {
+		7B58486E2A1A6E74DF081EF623EB13DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EB6B12CD91124CE457DED91D6EFC230 /* Pods-NookoPayments.debug.xcconfig */;
+			baseConfigurationReference = 09D912989A5ACA610171BBD4756508DE /* MBurger.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBurger/MBurger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBurger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBurger/MBurger.modulemap";
+				PRODUCT_MODULE_NAME = MBurger;
+				PRODUCT_NAME = MBurger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9341C4FDA4834F46265E58F1632A9358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBDAC6164EDD31D8B7AA556A05C7603 /* Pods-MBPayments.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1080,7 +1120,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NookoPayments/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBPayments/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1089,7 +1129,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NookoPayments/Pods-NookoPayments.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MBPayments/Pods-MBPayments.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1103,84 +1143,9 @@
 			};
 			name = Debug;
 		};
-		7116B177B2F68D2DC0DC17190E0ABA4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDAA4A4118428B74A3FDF9ACDB2661F /* NookoSDK.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NookoSDK/NookoSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NookoSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NookoSDK/NookoSDK.modulemap";
-				PRODUCT_MODULE_NAME = NookoSDK;
-				PRODUCT_NAME = NookoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7DEF880435FC319D168C9A8B15186C2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C57211386B2F1A0379B58DDE3DB82AA9 /* Pods-NookoPayments.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NookoPayments/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NookoPayments/Pods-NookoPayments.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9DB789882BAFB3FAAAC0CE3010D697E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F260AA9DDB2240EC1ED5BAAC8BDE6C3 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = FDC4C69CAF3564B19F9618DF35F8716E /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1212,9 +1177,44 @@
 			};
 			name = Debug;
 		};
+		C6DEF016E8D2C39DE868F9368D0A65BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D912989A5ACA610171BBD4756508DE /* MBurger.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBurger/MBurger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBurger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBurger/MBurger.modulemap";
+				PRODUCT_MODULE_NAME = MBurger;
+				PRODUCT_NAME = MBurger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DF7FA40181E08DC392346D86E3A8405C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F260AA9DDB2240EC1ED5BAAC8BDE6C3 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = FDC4C69CAF3564B19F9618DF35F8716E /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1268,20 +1268,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2ECE04070019E3C463DEFBCA29773FDF /* Build configuration list for PBXNativeTarget "NookoSDK" */ = {
+		32F9F90AE1726B6CF6F94419B8B60D76 /* Build configuration list for PBXNativeTarget "MBurger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				032F53E44C3E0437CF2DF42F89CB3300 /* Debug */,
-				7116B177B2F68D2DC0DC17190E0ABA4F /* Release */,
+				C6DEF016E8D2C39DE868F9368D0A65BB /* Debug */,
+				7B58486E2A1A6E74DF081EF623EB13DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98419AB9AF9ECD3FFA476CCD743D1202 /* Build configuration list for PBXNativeTarget "Pods-NookoPayments" */ = {
+		D8DCF5811F3B09DB7B6F69BADE2D222C /* Build configuration list for PBXNativeTarget "Pods-MBPayments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70D06542767FEA3A6448125E22781C21 /* Debug */,
-				7DEF880435FC319D168C9A8B15186C2E /* Release */,
+				9341C4FDA4834F46265E58F1632A9358 /* Debug */,
+				075F682CD5EA480C6A7F34C5D972D65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

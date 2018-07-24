@@ -1,6 +1,0 @@
-framework module NookoSDK {
-  umbrella header "NookoSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

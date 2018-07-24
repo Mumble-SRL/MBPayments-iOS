@@ -1,6 +1,0 @@
-framework module Pods_NookoPayments {
-  umbrella header "Pods-NookoPayments-umbrella.h"
-
-  export *
-  module * { export * }
-}

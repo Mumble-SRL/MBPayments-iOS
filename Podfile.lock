@@ -14,30 +14,30 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - NookoSDK (0.0.17):
+  - MBurger (0.0.18):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
-  - NookoSDK (from `https://gitlab.mumbleserver.it/iOS/NookoSDK`, branch `develop`)
+  - MBurger (from `https://gitlab.mumbleserver.it/iOS/MBurger`, branch `develop`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
 
 EXTERNAL SOURCES:
-  NookoSDK:
+  MBurger:
     :branch: develop
-    :git: https://gitlab.mumbleserver.it/iOS/NookoSDK
+    :git: https://gitlab.mumbleserver.it/iOS/MBurger
 
 CHECKOUT OPTIONS:
-  NookoSDK:
-    :commit: adc7859d994c61eafc7e7f1c73a44a49d27de3b3
-    :git: https://gitlab.mumbleserver.it/iOS/NookoSDK
+  MBurger:
+    :commit: 60cd30226bdbcf0a98b45a3f379c431354e954bf
+    :git: https://gitlab.mumbleserver.it/iOS/MBurger
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  NookoSDK: 5559622181f98f2318f741f9bcac2775e7a56b06
+  MBurger: dfaf03d0889e1ae4c0be97dae7b5b3109354b7bb
 
-PODFILE CHECKSUM: be6a678449269e2dad9aa6e47496c0681cc32f2f
+PODFILE CHECKSUM: 9a6840c583bdea581ae4f37d530d605ef9a6ee5e
 
 COCOAPODS: 1.5.3

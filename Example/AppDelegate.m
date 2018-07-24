@@ -1,14 +1,14 @@
 //
 //  AppDelegate.m
-//  NookoPayments
+//  MBPayments
 //
-//  Created by Lorenzo Oliveto on 17/07/18.
-//  Copyright © 2018 Mumble. All rights reserved.
+//  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
+//  All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "NookoSDK.h"
-#import "NKPayments.h"
+#import "MBurger.h"
+#import "MBPayments.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    NKManager.sharedManager.apiToken = @"584ec54cd61c597857b20516135a25c708827b8a";
-    NKManager.sharedManager.development = TRUE;
-    NKManager.sharedManager.plugins = @[[NKPayments new]];
+    MBManager.sharedManager.apiToken = @"584ec54cd61c597857b20516135a25c708827b8a";
+    MBManager.sharedManager.development = TRUE;
+    MBManager.sharedManager.plugins = @[[MBPPayments new]];
     
     return YES;
 }

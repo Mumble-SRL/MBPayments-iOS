@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050D8F855472B45B6F468581 /* Pods_NookoPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB685B42D017293AD3013E /* Pods_NookoPayments.framework */; };
+		444869D743B34C18EC618F74 /* Pods_MBPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91C6BF73E3184751AFBB2B8 /* Pods_MBPayments.framework */; };
 		6684450D20FDEEF700118F62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684450C20FDEEF700118F62 /* AppDelegate.m */; };
 		6684451020FDEEF700118F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684450F20FDEEF700118F62 /* ViewController.m */; };
 		6684451320FDEEF700118F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6684451120FDEEF700118F62 /* Main.storyboard */; };
 		6684451520FDEEFA00118F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6684451420FDEEFA00118F62 /* Assets.xcassets */; };
 		6684451820FDEEFA00118F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6684451620FDEEFA00118F62 /* LaunchScreen.storyboard */; };
 		6684451B20FDEEFA00118F62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684451A20FDEEFA00118F62 /* main.m */; };
-		6684452820FDF6B400118F62 /* NKPayments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684452720FDF6B400118F62 /* NKPayments.m */; };
-		6684452B20FDF78C00118F62 /* NKUserPaymentSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684452A20FDF78C00118F62 /* NKUserPaymentSettings.m */; };
-		6684452E20FE1CD000118F62 /* NKSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684452D20FE1CD000118F62 /* NKSubscription.m */; };
-		6684453120FE1CD800118F62 /* NKPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684453020FE1CD800118F62 /* NKPurchase.m */; };
-		66CA3D0220FE337C0023C246 /* NKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA3D0120FE337C0023C246 /* NKCard.m */; };
+		6684452820FDF6B400118F62 /* MBPPayments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684452720FDF6B400118F62 /* MBPPayments.m */; };
+		6684452B20FDF78C00118F62 /* MBPUserPaymentSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684452A20FDF78C00118F62 /* MBPUserPaymentSettings.m */; };
+		6684452E20FE1CD000118F62 /* MBPSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684452D20FE1CD000118F62 /* MBPSubscription.m */; };
+		6684453120FE1CD800118F62 /* MBPPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684453020FE1CD800118F62 /* MBPPurchase.m */; };
+		66CA3D0220FE337C0023C246 /* MBPCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA3D0120FE337C0023C246 /* MBPCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6684450820FDEEF700118F62 /* NookoPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NookoPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6684450820FDEEF700118F62 /* MBPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6684450B20FDEEF700118F62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6684450C20FDEEF700118F62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6684450E20FDEEF700118F62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -32,20 +32,21 @@
 		6684451720FDEEFA00118F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6684451920FDEEFA00118F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6684451A20FDEEFA00118F62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6684452620FDF6B400118F62 /* NKPayments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKPayments.h; sourceTree = "<group>"; };
-		6684452720FDF6B400118F62 /* NKPayments.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKPayments.m; sourceTree = "<group>"; };
-		6684452920FDF78C00118F62 /* NKUserPaymentSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKUserPaymentSettings.h; sourceTree = "<group>"; };
-		6684452A20FDF78C00118F62 /* NKUserPaymentSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKUserPaymentSettings.m; sourceTree = "<group>"; };
-		6684452C20FE1CD000118F62 /* NKSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKSubscription.h; sourceTree = "<group>"; };
-		6684452D20FE1CD000118F62 /* NKSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKSubscription.m; sourceTree = "<group>"; };
-		6684452F20FE1CD800118F62 /* NKPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKPurchase.h; sourceTree = "<group>"; };
-		6684453020FE1CD800118F62 /* NKPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKPurchase.m; sourceTree = "<group>"; };
-		66CA3D0020FE337C0023C246 /* NKCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKCard.h; sourceTree = "<group>"; };
-		66CA3D0120FE337C0023C246 /* NKCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKCard.m; sourceTree = "<group>"; };
-		66EBCD9621062BD6009ADB30 /* NookoPayments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NookoPayments.h; sourceTree = "<group>"; };
+		6684452620FDF6B400118F62 /* MBPPayments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPPayments.h; sourceTree = "<group>"; };
+		6684452720FDF6B400118F62 /* MBPPayments.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPPayments.m; sourceTree = "<group>"; };
+		6684452920FDF78C00118F62 /* MBPUserPaymentSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPUserPaymentSettings.h; sourceTree = "<group>"; };
+		6684452A20FDF78C00118F62 /* MBPUserPaymentSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPUserPaymentSettings.m; sourceTree = "<group>"; };
+		6684452C20FE1CD000118F62 /* MBPSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPSubscription.h; sourceTree = "<group>"; };
+		6684452D20FE1CD000118F62 /* MBPSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPSubscription.m; sourceTree = "<group>"; };
+		6684452F20FE1CD800118F62 /* MBPPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPPurchase.h; sourceTree = "<group>"; };
+		6684453020FE1CD800118F62 /* MBPPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPPurchase.m; sourceTree = "<group>"; };
+		66CA3D0020FE337C0023C246 /* MBPCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPCard.h; sourceTree = "<group>"; };
+		66CA3D0120FE337C0023C246 /* MBPCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPCard.m; sourceTree = "<group>"; };
+		66EBCD9621062BD6009ADB30 /* MBPayments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPayments.h; sourceTree = "<group>"; };
 		68BB685B42D017293AD3013E /* Pods_NookoPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NookoPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF64F301FF4E57CD0D8D4027 /* Pods-NookoPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NookoPayments.release.xcconfig"; path = "Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments.release.xcconfig"; sourceTree = "<group>"; };
-		DCC046020C1906E631E771F4 /* Pods-NookoPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NookoPayments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments.debug.xcconfig"; sourceTree = "<group>"; };
+		7B6C0EEE0E3F686043D7FB26 /* Pods-MBPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBPayments.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBPayments/Pods-MBPayments.release.xcconfig"; sourceTree = "<group>"; };
+		9F2F6B16A825128CF9A198B1 /* Pods-MBPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBPayments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBPayments/Pods-MBPayments.debug.xcconfig"; sourceTree = "<group>"; };
+		D91C6BF73E3184751AFBB2B8 /* Pods_MBPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				050D8F855472B45B6F468581 /* Pods_NookoPayments.framework in Frameworks */,
+				444869D743B34C18EC618F74 /* Pods_MBPayments.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +64,8 @@
 		0B4ADA81899E068655883584 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCC046020C1906E631E771F4 /* Pods-NookoPayments.debug.xcconfig */,
-				CF64F301FF4E57CD0D8D4027 /* Pods-NookoPayments.release.xcconfig */,
+				9F2F6B16A825128CF9A198B1 /* Pods-MBPayments.debug.xcconfig */,
+				7B6C0EEE0E3F686043D7FB26 /* Pods-MBPayments.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -73,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				68BB685B42D017293AD3013E /* Pods_NookoPayments.framework */,
+				D91C6BF73E3184751AFBB2B8 /* Pods_MBPayments.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				6684450A20FDEEF700118F62 /* Example */,
-				6684452220FDF04900118F62 /* NookoPayments */,
+				6684452220FDF04900118F62 /* MBPayments */,
 				6684450920FDEEF700118F62 /* Products */,
 				0B4ADA81899E068655883584 /* Pods */,
 				52D6CB2654FC0A82561EE8AA /* Frameworks */,
@@ -91,7 +93,7 @@
 		6684450920FDEEF700118F62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6684450820FDEEF700118F62 /* NookoPayments.app */,
+				6684450820FDEEF700118F62 /* MBPayments.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,30 +114,30 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		6684452220FDF04900118F62 /* NookoPayments */ = {
+		6684452220FDF04900118F62 /* MBPayments */ = {
 			isa = PBXGroup;
 			children = (
-				66EBCD9621062BD6009ADB30 /* NookoPayments.h */,
-				6684452620FDF6B400118F62 /* NKPayments.h */,
-				6684452720FDF6B400118F62 /* NKPayments.m */,
-				6684452920FDF78C00118F62 /* NKUserPaymentSettings.h */,
-				6684452A20FDF78C00118F62 /* NKUserPaymentSettings.m */,
-				6684452C20FE1CD000118F62 /* NKSubscription.h */,
-				6684452D20FE1CD000118F62 /* NKSubscription.m */,
-				6684452F20FE1CD800118F62 /* NKPurchase.h */,
-				6684453020FE1CD800118F62 /* NKPurchase.m */,
-				66CA3D0020FE337C0023C246 /* NKCard.h */,
-				66CA3D0120FE337C0023C246 /* NKCard.m */,
+				66EBCD9621062BD6009ADB30 /* MBPayments.h */,
+				6684452620FDF6B400118F62 /* MBPPayments.h */,
+				6684452720FDF6B400118F62 /* MBPPayments.m */,
+				6684452920FDF78C00118F62 /* MBPUserPaymentSettings.h */,
+				6684452A20FDF78C00118F62 /* MBPUserPaymentSettings.m */,
+				6684452C20FE1CD000118F62 /* MBPSubscription.h */,
+				6684452D20FE1CD000118F62 /* MBPSubscription.m */,
+				6684452F20FE1CD800118F62 /* MBPPurchase.h */,
+				6684453020FE1CD800118F62 /* MBPPurchase.m */,
+				66CA3D0020FE337C0023C246 /* MBPCard.h */,
+				66CA3D0120FE337C0023C246 /* MBPCard.m */,
 			);
-			path = NookoPayments;
+			path = MBPayments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6684450720FDEEF700118F62 /* NookoPayments */ = {
+		6684450720FDEEF700118F62 /* MBPayments */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6684451E20FDEEFA00118F62 /* Build configuration list for PBXNativeTarget "NookoPayments" */;
+			buildConfigurationList = 6684451E20FDEEFA00118F62 /* Build configuration list for PBXNativeTarget "MBPayments" */;
 			buildPhases = (
 				A0002B286AD0BB535173E737 /* [CP] Check Pods Manifest.lock */,
 				6684450420FDEEF700118F62 /* Sources */,
@@ -147,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = NookoPayments;
+			name = MBPayments;
 			productName = NookoPayments;
-			productReference = 6684450820FDEEF700118F62 /* NookoPayments.app */;
+			productReference = 6684450820FDEEF700118F62 /* MBPayments.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6684450320FDEEF700118F62 /* Build configuration list for PBXProject "NookoPayments" */;
+			buildConfigurationList = 6684450320FDEEF700118F62 /* Build configuration list for PBXProject "MBPayments" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6684450720FDEEF700118F62 /* NookoPayments */,
+				6684450720FDEEF700118F62 /* MBPayments */,
 			);
 		};
 /* End PBXProject section */
@@ -209,7 +211,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NookoPayments-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MBPayments-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -222,18 +224,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-MBPayments/Pods-MBPayments-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/NookoSDK/NookoSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/MBurger/MBurger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NookoSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBurger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NookoPayments/Pods-NookoPayments-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBPayments/Pods-MBPayments-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -243,14 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6684452B20FDF78C00118F62 /* NKUserPaymentSettings.m in Sources */,
+				6684452B20FDF78C00118F62 /* MBPUserPaymentSettings.m in Sources */,
 				6684451020FDEEF700118F62 /* ViewController.m in Sources */,
-				6684452820FDF6B400118F62 /* NKPayments.m in Sources */,
+				6684452820FDF6B400118F62 /* MBPPayments.m in Sources */,
 				6684451B20FDEEFA00118F62 /* main.m in Sources */,
-				6684453120FE1CD800118F62 /* NKPurchase.m in Sources */,
+				6684453120FE1CD800118F62 /* MBPPurchase.m in Sources */,
 				6684450D20FDEEF700118F62 /* AppDelegate.m in Sources */,
-				66CA3D0220FE337C0023C246 /* NKCard.m in Sources */,
-				6684452E20FE1CD000118F62 /* NKSubscription.m in Sources */,
+				66CA3D0220FE337C0023C246 /* MBPCard.m in Sources */,
+				6684452E20FE1CD000118F62 /* MBPSubscription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +390,7 @@
 		};
 		6684451F20FDEEFA00118F62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCC046020C1906E631E771F4 /* Pods-NookoPayments.debug.xcconfig */;
+			baseConfigurationReference = 9F2F6B16A825128CF9A198B1 /* Pods-MBPayments.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,7 +401,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mumble.nooko.payments.NookoPayments;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mumble.mburger.payments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -407,7 +409,7 @@
 		};
 		6684452020FDEEFA00118F62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF64F301FF4E57CD0D8D4027 /* Pods-NookoPayments.release.xcconfig */;
+			baseConfigurationReference = 7B6C0EEE0E3F686043D7FB26 /* Pods-MBPayments.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -418,7 +420,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mumble.nooko.payments.NookoPayments;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mumble.mburger.payments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -427,7 +429,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6684450320FDEEF700118F62 /* Build configuration list for PBXProject "NookoPayments" */ = {
+		6684450320FDEEF700118F62 /* Build configuration list for PBXProject "MBPayments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6684451C20FDEEFA00118F62 /* Debug */,
@@ -436,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6684451E20FDEEFA00118F62 /* Build configuration list for PBXNativeTarget "NookoPayments" */ = {
+		6684451E20FDEEFA00118F62 /* Build configuration list for PBXNativeTarget "MBPayments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6684451F20FDEEFA00118F62 /* Debug */,

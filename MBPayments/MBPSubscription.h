@@ -1,6 +1,6 @@
 //
-//  MBSubscription.h
-//  MBurger
+//  MBPSubscription.h
+//  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
@@ -11,7 +11,7 @@
 /**
  A subscription, a recurrent payment.
  */
-@interface MBSubscription : NSObject <NSCoding, NSSecureCoding>
+@interface MBPSubscription : NSObject <NSCoding, NSSecureCoding>
 
 /**
  The id of the subscription.
@@ -82,7 +82,7 @@
  Initializes a subscription with the dictionary returned by the api.
  
  @param dictionary The response from the api.
- @return A newly created `NKSubscription` initialized with the data of the dictionary.
+ @return A newly created `MBPSubscription` initialized with the data of the dictionary.
  */
 - (nonnull instancetype) initWithDictionary: (nonnull NSDictionary *) dictionary;
 

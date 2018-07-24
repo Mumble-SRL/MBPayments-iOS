@@ -1,14 +1,14 @@
 //
-//  NKPayment.m
-//  NookoPayments
+//  MBPPurchase.m
+//  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
 //
 
-#import "NKPurchase.h"
+#import "MBPPurchase.h"
 
-@implementation NKPurchase
+@implementation MBPPurchase
 
 - (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];

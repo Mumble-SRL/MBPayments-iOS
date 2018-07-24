@@ -1,14 +1,14 @@
 //
-//  NKCard.m
-//  NookoPayments
+//  MBPCard.m
+//  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
 //
 
-#import "NKCard.h"
+#import "MBPCard.h"
 
-@implementation NKCard
+@implementation MBPCard
 
 - (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];

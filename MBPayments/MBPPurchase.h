@@ -1,6 +1,6 @@
 //
-//  NKPayment.h
-//  NookoPayments
+//  MBPPurchase.h
+//  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
@@ -11,7 +11,7 @@
 /**
  A single purchase.
  */
-@interface NKPurchase : NSObject <NSCoding, NSSecureCoding>
+@interface MBPPurchase : NSObject <NSCoding, NSSecureCoding>
 
 /**
  The id of the purchase.
@@ -37,7 +37,7 @@
  Initializes a purchase with the dictionary returned by the api.
  
  @param dictionary The response from the api.
- @return A newly created `NKPurchase` initialized with the data of the dictionary.
+ @return A newly created `MBPPurchase` initialized with the data of the dictionary.
  */
 - (nonnull instancetype) initWithDictionary: (nonnull NSDictionary *) dictionary;
 

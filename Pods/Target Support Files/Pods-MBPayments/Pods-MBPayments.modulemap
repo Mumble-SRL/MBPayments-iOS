@@ -1,0 +1,6 @@
+framework module Pods_MBPayments {
+  umbrella header "Pods-MBPayments-umbrella.h"
+
+  export *
+  module * { export * }
+}

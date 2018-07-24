@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NKPayments Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/NKPayments" class="dashAnchor"></a>
+    <a title="NKPayments Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="../index.html">NookoPayments Docs</a>
+          <span class="no-mobile"> (100% documented)</span>
+        </p>
+    
+        <p class="header-right">
+          <a href="https://github.com/Mumble-SRL/NookoPayments-Objc">
+            <img src="../img/gh.png"/>
+            <span class="no-mobile">View on GitHub</span>
+          </a>
+        </p>
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="../index.html">NookoPayments Reference</a>
+            <img id="carat" src="../img/carat.png" />
+          </span>
+          NKPayments Class Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>NKPayments</h1>
+                <div class="declaration">
+                  <div class="language">
+                    <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">NKPayments</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                  </div>
+                </div>
+              <p>The main class used to interact with Nooko Payments. All the calls have to be made with an user authenticated and will return the setting for that user.</p>
+
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/Customers"></a>
+                  <a name="//apple_ref/objc/Section/Customers" class="dashAnchor"></a>
+                  <a href="#/Customers">
+                    <h3 class="section-name">Customers</h3>
+                  </a>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)createCustomerForCurrentUserWithSuccess:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+createCustomerForCurrentUserWithSuccess:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createCustomerForCurrentUserWithSuccess:Failure:">+createCustomerForCurrentUserWithSuccess:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a customer in Nooko for the current authenticated user.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createCustomerForCurrentUserWithSuccess</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+                                        <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span>
+                                                    <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="n">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">createCustomerForCurrentUser</span><span class="p">(</span><span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/Subscriptions"></a>
+                  <a name="//apple_ref/objc/Section/Subscriptions" class="dashAnchor"></a>
+                  <a href="#/Subscriptions">
+                    <h3 class="section-name">Subscriptions</h3>
+                  </a>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:">+createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a subscription for the current authenticated user.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createSubscription</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">subscription</span>
+                     <span class="nf">Token</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">token</span>
+              <span class="nf">DiscountCode</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">discountCode</span>
+                 <span class="nf">TrialDays</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">trialDays</span>
+                  <span class="nf">Quantity</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">quantity</span>
+                      <span class="nf">Meta</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">id</span><span class="p">)</span><span class="nv">meta</span>
+                   <span class="nf">Success</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+                   <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">createSubscription</span><span class="p">(</span><span class="n">_</span> <span class="nv">subscription</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">token</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">discountCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">trialDays</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]?,</span> <span class="nv">quantity</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">meta</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>subscription</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The name of the subscription.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>token</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A Stripe token representing credit card. If it&rsquo;s not provided Nooko will attempt to charge the customer with their default card.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>discountCode</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A discount code.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>trialDays</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The trial days for the subscription.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>quantity</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The quantity of the subscription.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>meta</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Additional metadata passed with the registration. You can include an <code>NSArray</code> or <code>NSDictionary</code> in this parameter and it will be returned in the subscription. This will be converted in a json string with <code>NSJSONSerialization</code>.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)cancelSubscription:Success:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+cancelSubscription:Success:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)cancelSubscription:Success:Failure:">+cancelSubscription:Success:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Cancels a subscription and put it in the grace period if it&rsquo;s not expired yet.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">cancelSubscription</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">subscription</span>
+                   <span class="nf">Success</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+                   <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">cancelSubscription</span><span class="p">(</span><span class="n">_</span> <span class="nv">subscription</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>subscription</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The name of the subscription.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)resumeSubscription:Success:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+resumeSubscription:Success:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)resumeSubscription:Success:Failure:">+resumeSubscription:Success:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Resumes a subscription if it&rsquo;s in the grace period.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">resumeSubscription</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">subscription</span>
+                   <span class="nf">Success</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+                   <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">resumeSubscription</span><span class="p">(</span><span class="n">_</span> <span class="nv">subscription</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>subscription</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The name of the subscription.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/Payments"></a>
+                  <a name="//apple_ref/objc/Section/Payments" class="dashAnchor"></a>
+                  <a href="#/Payments">
+                    <h3 class="section-name">Payments</h3>
+                  </a>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)createPayment:Amount:Quantity:Token:Meta:Success:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+createPayment:Amount:Quantity:Token:Meta:Success:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createPayment:Amount:Quantity:Token:Meta:Success:Failure:">+createPayment:Amount:Quantity:Token:Meta:Success:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a single payments.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createPayment</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">payment</span>
+               <span class="nf">Amount</span><span class="p">:(</span><span class="kt">float</span><span class="p">)</span><span class="nv">amount</span>
+             <span class="nf">Quantity</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">quantity</span>
+                <span class="nf">Token</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">token</span>
+                 <span class="nf">Meta</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">meta</span>
+              <span class="nf">Success</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+              <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">createPayment</span><span class="p">(</span><span class="n">_</span> <span class="nv">payment</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">quantity</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">token</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">meta</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>payment</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The payment identifier.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>amount</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Amount of the payment.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>quantity</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Quantoty to buy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>token</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A Stripe token representing credit card. If it&rsquo;s not provided Nooko will attempt to charge the customer with their default card.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>meta</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Additional metadata passed with the registration. You can include an <code>NSArray</code> or <code>NSDictionary</code> in this parameter and it will be returned in the subscription. This will be converted in a json string with <code>NSJSONSerialization</code>.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/Cards"></a>
+                  <a name="//apple_ref/objc/Section/Cards" class="dashAnchor"></a>
+                  <a href="#/Cards">
+                    <h3 class="section-name">Cards</h3>
+                  </a>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)createCardWithToken:Success:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+createCardWithToken:Success:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createCardWithToken:Success:Failure:">+createCardWithToken:Success:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a card with a Stripe credit card token. If this is the first card for the user it will be set as default.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createCardWithToken</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">token</span>
+                    <span class="nf">Success</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+                    <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">createCard</span><span class="p">(</span><span class="n">withToken</span> <span class="nv">token</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>token</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A Stripe token representing credit card.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)getCardsWithSuccess:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+getCardsWithSuccess:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)getCardsWithSuccess:Failure:">+getCardsWithSuccess:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Retrieves the cards of the current authenticated user.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getCardsWithSuccess</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/NKCard.html">NKCard</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">success</span>
+                    <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">getCardsWithSuccess</span><span class="p">(</span><span class="n">_</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(([</span><span class="kt"><a href="../Classes/NKCard.html">NKCard</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes one argument: the array of cards of the current authenticated user.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)setDefaultCardWithCardId:Success:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+setDefaultCardWithCardId:Success:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)setDefaultCardWithCardId:Success:Failure:">+setDefaultCardWithCardId:Success:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Sets a card as default.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setDefaultCardWithCardId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">cardId</span>
+                         <span class="nf">Success</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+                         <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">setDefaultCardWithCardId</span><span class="p">(</span><span class="n">_</span> <span class="nv">cardId</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>cardId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The id of the card.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)NKPayments(cm)deleteCardWithCardId:Success:Failure:"></a>
+                      <a name="//apple_ref/objc/Method/+deleteCardWithCardId:Success:Failure:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)NKPayments(cm)deleteCardWithCardId:Success:Failure:">+deleteCardWithCardId:Success:Failure:</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Deletes a card.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">deleteCardWithCardId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">cardId</span>
+                     <span class="nf">Success</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">success</span>
+                     <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
+
+                          </div>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">deleteCard</span><span class="p">(</span><span class="n">withCardId</span> <span class="nv">cardId</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>cardId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The id of the card.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>success</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>failure</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="../Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Classes/NKCard.html">NKCard</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/NKPayments.html">NKPayments</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/NKPurchase.html">NKPurchase</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/NKSubscription.html">NKSubscription</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/NKUserPaymentSettings.html">NKUserPaymentSettings</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Constants.html">Constants</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@NKPaymentsUserKey">NKPaymentsUserKey</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://mumbleideas.it/" target="_blank" rel="external">Mumble</a>. All rights reserved. (Last updated: 2018-07-24)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>

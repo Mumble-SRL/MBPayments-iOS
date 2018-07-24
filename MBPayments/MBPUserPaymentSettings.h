@@ -1,5 +1,5 @@
 //
-//  MBUserPaymentSettings.h
+//  MBPUserPaymentSettings.h
 //  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
@@ -7,15 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MBSubscription.h"
-#import "NKPurchase.h"
+#import "MBPSubscription.h"
+#import "MBPPurchase.h"
 
 @import MBurger;
 
 /**
  This objects represents the payments settings of a user. It's returned only if a customer is created for the user.
  */
-@interface MBUserPaymentSettings : NSObject <NSCoding, NSSecureCoding>
+@interface MBPUserPaymentSettings : NSObject <NSCoding, NSSecureCoding>
 
 /**
  The Stripe id of the user.
@@ -40,12 +40,12 @@
 /**
  All the subscriptions of the user.
  */
-@property (nonatomic, retain, nullable) NSArray <MBSubscription *> *subscriptions;
+@property (nonatomic, retain, nullable) NSArray <MBPSubscription *> *subscriptions;
 
 /**
  All the purchases of the user.
  */
-@property (nonatomic, retain, nullable) NSArray <NKPurchase *> *purchases;
+@property (nonatomic, retain, nullable) NSArray <MBPPurchase *> *purchases;
 
 /**
  Initializes a user payments settings object with the dictionary returned by the api.

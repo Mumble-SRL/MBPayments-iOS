@@ -1,6 +1,6 @@
 //
-//  NKCard.h
-//  NookoPayments
+//  MBPCard.h
+//  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
@@ -11,7 +11,7 @@
 /**
  This object represents a credit card.
  */
-@interface NKCard : NSObject <NSCoding, NSSecureCoding>
+@interface MBPCard : NSObject <NSCoding, NSSecureCoding>
 
 /**
  The id of the credit card.
@@ -42,7 +42,7 @@
  Initializes a card with the dictionary returned by the api.
  
  @param dictionary The response from the api.
- @return A newly created `NKCard` initialized with the data of the dictionary.
+ @return A newly created `MBPCard` initialized with the data of the dictionary.
  */
 - (nonnull instancetype) initWithDictionary: (nonnull NSDictionary *) dictionary;
 

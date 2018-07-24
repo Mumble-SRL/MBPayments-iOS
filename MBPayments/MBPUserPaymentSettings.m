@@ -1,14 +1,14 @@
 //
-//  MBUserPaymentSettings.m
+//  MBPUserPaymentSettings.m
 //  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
 //
 
-#import "MBUserPaymentSettings.h"
+#import "MBPUserPaymentSettings.h"
 
-@implementation MBUserPaymentSettings
+@implementation MBPUserPaymentSettings
 
 - (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];
@@ -21,7 +21,7 @@
             NSArray *responseSubscriptions = dictionary[@"subscriptions"];
             NSMutableArray *subscriptions = [[NSMutableArray alloc] init];
             for (NSDictionary *subscriptionDict in responseSubscriptions) {
-                MBSubscription *subscription = [[MBSubscription alloc] initWithDictionary:subscriptionDict];
+                MBPSubscription *subscription = [[MBPSubscription alloc] initWithDictionary:subscriptionDict];
                 [subscriptions addObject:subscription];
             }
             self.subscriptions = subscriptions;
@@ -30,7 +30,7 @@
             NSArray *responsePurchases = dictionary[@"purchases"];
             NSMutableArray *purchases = [[NSMutableArray alloc] init];
             for (NSDictionary *purchaseDict in responsePurchases) {
-                NKPurchase *purchase = [[NKPurchase alloc] initWithDictionary:purchaseDict];
+                MBPPurchase *purchase = [[MBPPurchase alloc] initWithDictionary:purchaseDict];
                 [purchases addObject:purchase];
             }
             self.purchases = purchases;

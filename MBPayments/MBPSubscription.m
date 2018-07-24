@@ -1,14 +1,14 @@
 //
-//  MBSubscription.m
+//  MBPSubscription.m
 //  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
 //
 
-#import "MBSubscription.h"
+#import "MBPSubscription.h"
 
-@implementation MBSubscription
+@implementation MBPSubscription
 
 - (instancetype) initWithDictionary: (NSDictionary *) dictionary {
     self = [super init];

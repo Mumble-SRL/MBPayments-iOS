@@ -1,5 +1,5 @@
 //
-//  MBPaymentsClient.m
+//  MBPPayments.m
 //  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
@@ -195,7 +195,7 @@
                               }];
 }
 
-+ (void) getCardsWithSuccess: (nullable void (^)(NSArray <NKCard *> *cards)) success
++ (void) getCardsWithSuccess: (nullable void (^)(NSArray <MBPCard *> *cards)) success
                      Failure: (nullable void (^)(NSError *error)) failure {
     [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
                                Locale:[MBManager.sharedManager localeString]
@@ -208,7 +208,7 @@
                                   NSArray *cardsResponse = response.payload[@"data"];
                                   NSMutableArray *cards = [[NSMutableArray alloc] init];
                                   for (NSDictionary *cardDictionary in cardsResponse) {
-                                      [cards addObject:[[NKCard alloc] initWithDictionary:cardDictionary]];
+                                      [cards addObject:[[MBPCard alloc] initWithDictionary:cardDictionary]];
                                   }
                                   if (success){
                                       success(cards);
@@ -262,12 +262,12 @@
                               }];
 }
 
-#pragma mark - NKPlugin
+#pragma mark - MBPlugin
 
-NSString * const MBPaymentsUserKey = @"NKPaymentsUserKey";
+NSString * const MBPaymentsUserKey = @"MBPaymentsUserKey";
 
 - (id<NSCoding,NSSecureCoding>)objectForUserResponse:(NSDictionary *)userResponse {
-    MBUserPaymentSettings *settings = [[MBUserPaymentSettings alloc] initWithDictionary:userResponse];
+    MBPUserPaymentSettings *settings = [[MBPUserPaymentSettings alloc] initWithDictionary:userResponse];
     return settings;
 }
 

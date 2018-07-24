@@ -1,18 +1,18 @@
 //
-//  NookoPayments.h
-//  NookoPayments
+//  MBPayments.h
+//  MBPayments
 //
 //  Copyright © 2018 Mumble s.r.l. (https://mumbleideas.it/).
 //  All rights reserved.
 //
 
-#ifndef NookoPayments_h
-#define NookoPayments_h
+#ifndef MBPayments_h
+#define MBPayments_h
 
-#import "NKPayments.h"
-#import "NKUserPaymentSettings.h"
-#import "NKSubscription.h"
-#import "NKPurchase.h"
-#import "NKCard.h"
+#import "MBPPayments.h"
+#import "MBPUserPaymentSettings.h"
+#import "MBPSubscription.h"
+#import "MBPPurchase.h"
+#import "MBPCard.h"
 
-#endif /* NookoPayments_h */
+#endif /* MBPayments_h */
