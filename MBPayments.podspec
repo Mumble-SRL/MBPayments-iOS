@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "MBurger payements plugin"
 
-  s.homepage     = "https://gitlab.mumbleserver.it/iOS/NookoPayments"
+  s.homepage     = "https://gitlab.mumbleserver.it/iOS/MBPayments"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

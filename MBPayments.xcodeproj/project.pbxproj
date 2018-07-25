@@ -82,15 +82,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6610D210210872E400CAB47A /* MBPSubscriptionFilterParameter */ = {
-			isa = PBXGroup;
-			children = (
-				6610D20D2108701100CAB47A /* MBPSubscriptionFilterParameter.h */,
-				6610D20E2108701100CAB47A /* MBPSubscriptionFilterParameter.m */,
-			);
-			path = MBPSubscriptionFilterParameter;
-			sourceTree = "<group>";
-		};
 		668444FF20FDEEF700118F62 = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +131,8 @@
 				6684453020FE1CD800118F62 /* MBPPurchase.m */,
 				66CA3D0020FE337C0023C246 /* MBPCard.h */,
 				66CA3D0120FE337C0023C246 /* MBPCard.m */,
-				6610D210210872E400CAB47A /* MBPSubscriptionFilterParameter */,
+				6610D20D2108701100CAB47A /* MBPSubscriptionFilterParameter.h */,
+				6610D20E2108701100CAB47A /* MBPSubscriptionFilterParameter.m */,
 			);
 			path = MBPayments;
 			sourceTree = "<group>";
