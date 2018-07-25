@@ -27,9 +27,9 @@
 }
 
 - (NSDictionary *) parameterRepresentation {
-    NSString *key = @"filter[elements.geofence]";
+    NSString *key = @"filter[subscription]";
     NSString *value = self.onlyActive ? @"active" : @"inactive";
-    return [[NSDictionary alloc] initWithObjectsAndKeys:value, [MBUtilities urlEncodeStringForString:key], nil];
+    return [[NSDictionary alloc] initWithObjectsAndKeys:value, key, nil];
 }
 
 @end
