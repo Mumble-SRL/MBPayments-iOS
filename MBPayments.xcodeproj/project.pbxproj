@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		444869D743B34C18EC618F74 /* Pods_MBPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91C6BF73E3184751AFBB2B8 /* Pods_MBPayments.framework */; };
+		6610D20F2108701100CAB47A /* MBPSubscriptionFilterParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610D20E2108701100CAB47A /* MBPSubscriptionFilterParameter.m */; };
 		6684450D20FDEEF700118F62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684450C20FDEEF700118F62 /* AppDelegate.m */; };
 		6684451020FDEEF700118F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684450F20FDEEF700118F62 /* ViewController.m */; };
 		6684451320FDEEF700118F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6684451120FDEEF700118F62 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6610D20D2108701100CAB47A /* MBPSubscriptionFilterParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPSubscriptionFilterParameter.h; sourceTree = "<group>"; };
+		6610D20E2108701100CAB47A /* MBPSubscriptionFilterParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPSubscriptionFilterParameter.m; sourceTree = "<group>"; };
 		6684450820FDEEF700118F62 /* MBPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6684450B20FDEEF700118F62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6684450C20FDEEF700118F62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6610D210210872E400CAB47A /* MBPSubscriptionFilterParameter */ = {
+			isa = PBXGroup;
+			children = (
+				6610D20D2108701100CAB47A /* MBPSubscriptionFilterParameter.h */,
+				6610D20E2108701100CAB47A /* MBPSubscriptionFilterParameter.m */,
+			);
+			path = MBPSubscriptionFilterParameter;
+			sourceTree = "<group>";
+		};
 		668444FF20FDEEF700118F62 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 				6684453020FE1CD800118F62 /* MBPPurchase.m */,
 				66CA3D0020FE337C0023C246 /* MBPCard.h */,
 				66CA3D0120FE337C0023C246 /* MBPCard.m */,
+				6610D210210872E400CAB47A /* MBPSubscriptionFilterParameter */,
 			);
 			path = MBPayments;
 			sourceTree = "<group>";
@@ -253,6 +266,7 @@
 				6684450D20FDEEF700118F62 /* AppDelegate.m in Sources */,
 				66CA3D0220FE337C0023C246 /* MBPCard.m in Sources */,
 				6684452E20FE1CD000118F62 /* MBPSubscription.m in Sources */,
+				6610D20F2108701100CAB47A /* MBPSubscriptionFilterParameter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

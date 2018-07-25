@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>CFBundleIdentifier</key>
-      <string>com.jazzy.nookopayments</string>
+      <string>com.jazzy.mbpayments</string>
     <key>CFBundleName</key>
-      <string>NookoPayments</string>
+      <string>MBPayments</string>
     <key>DocSetPlatformFamily</key>
-      <string>nookopayments</string>
+      <string>mbpayments</string>
     <key>isDashDocset</key>
       <true/>
     <key>dashIndexFilePath</key>

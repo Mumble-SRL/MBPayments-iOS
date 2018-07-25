@@ -15,4 +15,6 @@
 #import "MBPPurchase.h"
 #import "MBPCard.h"
 
+#import "MBPSubscriptionFilterParameter.h"
+
 #endif /* MBPayments_h */
