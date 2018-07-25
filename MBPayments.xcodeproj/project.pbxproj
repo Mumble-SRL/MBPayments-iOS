@@ -131,10 +131,18 @@
 				6684453020FE1CD800118F62 /* MBPPurchase.m */,
 				66CA3D0020FE337C0023C246 /* MBPCard.h */,
 				66CA3D0120FE337C0023C246 /* MBPCard.m */,
+				66C3C07E21087B4D00075024 /* MBPSubscriptionFilterParameter */,
+			);
+			path = MBPayments;
+			sourceTree = "<group>";
+		};
+		66C3C07E21087B4D00075024 /* MBPSubscriptionFilterParameter */ = {
+			isa = PBXGroup;
+			children = (
 				6610D20D2108701100CAB47A /* MBPSubscriptionFilterParameter.h */,
 				6610D20E2108701100CAB47A /* MBPSubscriptionFilterParameter.m */,
 			);
-			path = MBPayments;
+			path = MBPSubscriptionFilterParameter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
