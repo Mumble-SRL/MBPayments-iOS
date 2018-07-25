@@ -13,22 +13,22 @@
 - (instancetype) init {
     self = [super init];
     if (self){
-        self.onlyActive = TRUE;
+        self.active = TRUE;
     }
     return self;
 }
 
-- (instancetype) initWithOnlyActive: (BOOL) onlyActive {
+- (instancetype) initWithActive: (BOOL) active {
     self = [super init];
     if (self){
-        self.onlyActive = onlyActive;
+        self.active = active;
     }
     return self;
 }
 
 - (NSDictionary *) parameterRepresentation {
     NSString *key = @"filter[subscription]";
-    NSString *value = self.onlyActive ? @"active" : @"inactive";
+    NSString *value = self.active ? @"active" : @"inactive";
     return [[NSDictionary alloc] initWithObjectsAndKeys:value, key, nil];
 }
 
