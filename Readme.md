@@ -26,8 +26,8 @@ To integrate the MBurger into your Xcode project using CocoaPods, specify it in 
 platform :ios, '10.0'
 
 target 'TargetName' do
-    pod 'MBPayments', git: 'https://gitlab.mumbleserver.it/iOS/MBPayments'
-    pod 'MBurger', git: 'https://gitlab.mumbleserver.it/iOS/MBurger'
+    pod 'MBPayments', git: 'https://github.com/Mumble-SRL/MBPayments-iOS'
+    pod 'MBurger', git: 'https://github.com/Mumble-SRL/MBurger-iOS'
 end
 ```
 
