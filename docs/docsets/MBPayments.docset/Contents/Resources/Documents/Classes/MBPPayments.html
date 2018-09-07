@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>NKPayments Class Reference</title>
+    <title>MBPPayments Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -11,17 +11,17 @@
     
   </head>
   <body>
-    <a name="//apple_ref/objc/Class/NKPayments" class="dashAnchor"></a>
-    <a title="NKPayments Class Reference"></a>
+    <a name="//apple_ref/objc/Class/MBPPayments" class="dashAnchor"></a>
+    <a title="MBPPayments Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p>
-          <a href="../index.html">NookoPayments Docs</a>
+          <a href="../index.html">MBPayments Docs</a>
           <span class="no-mobile"> (100% documented)</span>
         </p>
     
         <p class="header-right">
-          <a href="https://github.com/Mumble-SRL/NookoPayments-Objc">
+          <a href="https://github.com/Mumble-SRL/MBPayments-Objc">
             <img src="../img/gh.png"/>
             <span class="no-mobile">View on GitHub</span>
           </a>
@@ -33,10 +33,10 @@
       <div class="content-wrapper">
         <p id="breadcrumbs">
           <span class="no-mobile">
-            <a href="../index.html">NookoPayments Reference</a>
+            <a href="../index.html">MBPayments Reference</a>
             <img id="carat" src="../img/carat.png" />
           </span>
-          NKPayments Class Reference
+          MBPPayments Class Reference
         </p>
       </div>
     </div>
@@ -45,14 +45,14 @@
         <article class="main-content">
           <section>
             <section class="section">
-              <h1>NKPayments</h1>
+              <h1>MBPPayments</h1>
                 <div class="declaration">
                   <div class="language">
-                    <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">NKPayments</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+                    <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MBPPayments</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
 
                   </div>
                 </div>
-              <p>The main class used to interact with Nooko Payments. All the calls have to be made with an user authenticated and will return the setting for that user.</p>
+              <p>The main class used to interact with MBurger Payments. All the calls have to be made with an user authenticated and will return the setting for that user.</p>
 
             </section>
             <section class="section task-group-section">
@@ -68,9 +68,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)createCustomerForCurrentUserWithSuccess:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)createCustomerForCurrentUserWithSuccess:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+createCustomerForCurrentUserWithSuccess:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createCustomerForCurrentUserWithSuccess:Failure:">+createCustomerForCurrentUserWithSuccess:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)createCustomerForCurrentUserWithSuccess:Failure:">+createCustomerForCurrentUserWithSuccess:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -78,7 +78,7 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Creates a customer in Nooko for the current authenticated user.</p>
+                          <p>Creates a customer in MBurger for the current authenticated user.</p>
 
                         </div>
                         <div class="declaration">
@@ -144,9 +144,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:">+createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:">+createSubscription:Token:DiscountCode:TrialDays:Quantity:Meta:Success:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -201,7 +201,7 @@
                                 </td>
                                 <td>
                                   <div>
-                                    <p>A Stripe token representing credit card. If it&rsquo;s not provided Nooko will attempt to charge the customer with their default card.</p>
+                                    <p>A Stripe token representing credit card. If it&rsquo;s not provided MBurger will attempt to charge the customer with their default card.</p>
                                   </div>
                                 </td>
                               </tr>
@@ -286,9 +286,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)cancelSubscription:Success:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)cancelSubscription:Success:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+cancelSubscription:Success:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)cancelSubscription:Success:Failure:">+cancelSubscription:Success:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)cancelSubscription:Success:Failure:">+cancelSubscription:Success:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -363,9 +363,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)resumeSubscription:Success:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)resumeSubscription:Success:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+resumeSubscription:Success:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)resumeSubscription:Success:Failure:">+resumeSubscription:Success:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)resumeSubscription:Success:Failure:">+resumeSubscription:Success:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -451,9 +451,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)createPayment:Amount:Quantity:Token:Meta:Success:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)createPayment:Amount:Quantity:Token:Meta:Success:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+createPayment:Amount:Quantity:Token:Meta:Success:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createPayment:Amount:Quantity:Token:Meta:Success:Failure:">+createPayment:Amount:Quantity:Token:Meta:Success:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)createPayment:Amount:Quantity:Token:Meta:Success:Failure:">+createPayment:Amount:Quantity:Token:Meta:Success:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -531,7 +531,7 @@
                                 </td>
                                 <td>
                                   <div>
-                                    <p>A Stripe token representing credit card. If it&rsquo;s not provided Nooko will attempt to charge the customer with their default card.</p>
+                                    <p>A Stripe token representing credit card. If it&rsquo;s not provided MBurger will attempt to charge the customer with their default card.</p>
                                   </div>
                                 </td>
                               </tr>
@@ -591,9 +591,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)createCardWithToken:Success:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)createCardWithToken:Success:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+createCardWithToken:Success:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)createCardWithToken:Success:Failure:">+createCardWithToken:Success:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)createCardWithToken:Success:Failure:">+createCardWithToken:Success:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -668,9 +668,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)getCardsWithSuccess:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)getCardsWithSuccess:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+getCardsWithSuccess:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)getCardsWithSuccess:Failure:">+getCardsWithSuccess:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)getCardsWithSuccess:Failure:">+getCardsWithSuccess:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -686,13 +686,13 @@
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
                             <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getCardsWithSuccess</span><span class="p">:</span>
-            <span class="p">(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/NKCard.html">NKCard</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">success</span>
+            <span class="p">(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/MBPCard.html">MBPCard</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">success</span>
                     <span class="nf">Failure</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span><span class="nv">failure</span><span class="p">;</span></code></pre>
 
                           </div>
                           <div class="language">
                             <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">getCardsWithSuccess</span><span class="p">(</span><span class="n">_</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(([</span><span class="kt"><a href="../Classes/NKCard.html">NKCard</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">getCardsWithSuccess</span><span class="p">(</span><span class="n">_</span> <span class="nv">success</span><span class="p">:</span> <span class="p">(([</span><span class="kt"><a href="../Classes/MBPCard.html">MBPCard</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?,</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                           </div>
                         </div>
@@ -733,9 +733,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)setDefaultCardWithCardId:Success:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)setDefaultCardWithCardId:Success:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+setDefaultCardWithCardId:Success:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)setDefaultCardWithCardId:Success:Failure:">+setDefaultCardWithCardId:Success:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)setDefaultCardWithCardId:Success:Failure:">+setDefaultCardWithCardId:Success:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -810,9 +810,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/c:objc(cs)NKPayments(cm)deleteCardWithCardId:Success:Failure:"></a>
+                      <a name="/c:objc(cs)MBPPayments(cm)deleteCardWithCardId:Success:Failure:"></a>
                       <a name="//apple_ref/objc/Method/+deleteCardWithCardId:Success:Failure:" class="dashAnchor"></a>
-                      <a class="token" href="#/c:objc(cs)NKPayments(cm)deleteCardWithCardId:Success:Failure:">+deleteCardWithCardId:Success:Failure:</a>
+                      <a class="token" href="#/c:objc(cs)MBPPayments(cm)deleteCardWithCardId:Success:Failure:">+deleteCardWithCardId:Success:Failure:</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -897,19 +897,22 @@
               <a href="../Classes.html">Classes</a>
               <ul class="nav-group-tasks">
                 <li class="nav-group-task">
-                  <a href="../Classes/NKCard.html">NKCard</a>
+                  <a href="../Classes/MBPCard.html">MBPCard</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Classes/NKPayments.html">NKPayments</a>
+                  <a href="../Classes/MBPPayments.html">MBPPayments</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Classes/NKPurchase.html">NKPurchase</a>
+                  <a href="../Classes/MBPPurchase.html">MBPPurchase</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Classes/NKSubscription.html">NKSubscription</a>
+                  <a href="../Classes/MBPSubscription.html">MBPSubscription</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Classes/NKUserPaymentSettings.html">NKUserPaymentSettings</a>
+                  <a href="../Classes/MBPSubscriptionFilterParameter.html">MBPSubscriptionFilterParameter</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/MBPUserPaymentSettings.html">MBPUserPaymentSettings</a>
                 </li>
               </ul>
             </li>
@@ -917,7 +920,7 @@
               <a href="../Constants.html">Constants</a>
               <ul class="nav-group-tasks">
                 <li class="nav-group-task">
-                  <a href="../Constants.html#/c:@NKPaymentsUserKey">NKPaymentsUserKey</a>
+                  <a href="../Constants.html#/c:@MBPaymentsUserKey">MBPaymentsUserKey</a>
                 </li>
               </ul>
             </li>
@@ -926,7 +929,7 @@
       </div>
       <div class="footer-wrapper">
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://mumbleideas.it/" target="_blank" rel="external">Mumble</a>. All rights reserved. (Last updated: 2018-07-24)</p>
+          <p>&copy; 2018 <a class="link" href="https://mumbleideas.it/" target="_blank" rel="external">Mumble</a>. All rights reserved. (Last updated: 2018-07-25)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </div>
