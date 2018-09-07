@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MBPayments"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "MBurger payements plugin."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "MBurger payements plugin"
 
-  s.homepage     = "https://gitlab.mumbleserver.it/iOS/MBPayments"
+  s.homepage     = "https://github.com/Mumble-SRL/MBPayments-iOS"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { git: 'https://gitlab.mumbleserver.it/iOS/MBPayments' }
+  s.source       = { git: 'https://github.com/Mumble-SRL/MBPayments-iOS' }
   s.source_files = "MBPayments/*.{h,m,swift}", "MBPayments/**/*.{h,m,swift}"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
