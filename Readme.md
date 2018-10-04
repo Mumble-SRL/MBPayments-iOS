@@ -1,5 +1,5 @@
 <p align="center" >
-<img src="https://mumbleideas.it/wp-content/uploads/2017/12/Mumble-anim-300.gif" alt="Mumble Logo" title="Mumble Logo">
+<img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-iOS/develop/Images/logo.png" alt="MBurger https://mumbleideas.it/wp-content/uploads/2017/12/Mumble-anim-300.gif Logo" title="Mumble Logo">
 </p>
 
 ![Test Status](docs/badge.svg)
@@ -203,4 +203,4 @@ You can contuct us at [info@mumbleideas.it](mailto:info@mumbleideas.it).
 
 # License
 
-NookoSDK is released under the Apache 2.0 license. See [LICENSE](LICENSE) for details.
+MBPayments is released under the Apache 2.0 license. See [LICENSE](LICENSE) for details.
