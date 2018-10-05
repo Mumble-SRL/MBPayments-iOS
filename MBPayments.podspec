@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MBPayments"
-  s.version      = "1.0.3"
+  s.version      = "1.0.5"
   s.summary      = "MBurger payements plugin."
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { git: 'https://github.com/Mumble-SRL/MBPayments-iOS.git', tag: '1.0.3' }
+  s.source       = { git: 'https://github.com/Mumble-SRL/MBPayments-iOS.git', tag: '1.0.5' }
   s.source_files = "MBPayments/*.{h,m,swift}", "MBPayments/**/*.{h,m,swift}"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
