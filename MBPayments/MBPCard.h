@@ -39,6 +39,11 @@
 @property (nonatomic, assign) NSUInteger expirationYear;
 
 /**
+ If the card is default.
+ */
+@property (nonatomic, assign) BOOL isDefault;
+
+/**
  Initializes a card with the dictionary returned by the api.
  
  @param dictionary The response from the api.

@@ -225,7 +225,7 @@
                           Failure: (void (^)(NSError *error)) failure {
     [MBApiManager callApiWithApiToken:MBManager.sharedManager.apiToken
                                Locale:[MBManager.sharedManager localeString]
-                              ApiName:[NSString stringWithFormat:@"cards/%@", cardId]
+                              ApiName:[NSString stringWithFormat:@"cards/%@/default", cardId]
                            HTTPMethod:MBHTTPMethodGet
                            Parameters:nil
                      HeaderParameters:nil
