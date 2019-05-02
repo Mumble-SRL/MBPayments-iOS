@@ -16,7 +16,7 @@
  The key used to fetch the pyaments settings of a user.
  You can access the `MBUserPaymentSettings` object of a `MBUser` like this user.pluginsObjects[MBPaymentsUserKey].
  */
-FOUNDATION_EXPORT NSString * const MBPaymentsUserKey;
+FOUNDATION_EXPORT NSString * _Nonnull const MBPaymentsUserKey;
 
 /**
  The main class used to interact with MBurger Payments. All the calls have to be made with an user authenticated and will return the setting for that user.
@@ -96,7 +96,7 @@ FOUNDATION_EXPORT NSString * const MBPaymentsUserKey;
                 Amount: (float) amount
               Quantity: (NSInteger) quantity
                  Token: (nullable NSString *) token
-                  Meta: (id) meta
+                  Meta: (nullable id) meta
                Success: (nullable void (^)(void)) success
                Failure: (nullable void (^)(NSError * _Nonnull error)) failure;
 
@@ -129,7 +129,7 @@ FOUNDATION_EXPORT NSString * const MBPaymentsUserKey;
  @param success A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.
  @param failure A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.
  */
-+ (void) setDefaultCardWithCardId: (NSString *) cardId
++ (void) setDefaultCardWithCardId: (nonnull NSString *) cardId
                           Success: (nullable void (^)(void)) success
                           Failure: (nullable void (^)(NSError * _Nonnull error)) failure;
 
@@ -140,7 +140,7 @@ FOUNDATION_EXPORT NSString * const MBPaymentsUserKey;
  @param success A block object to be executed when the task finishes successfully. This block has no return value and takes no arguments.
  @param failure A block object to be executed when the task finishes unsuccessfully, or that finishes successfully, but the server encountered an error. This block has no return value and takes a one argument: the error describing the error that occurred.
  */
-+ (void) deleteCardWithCardId: (NSString *) cardId
++ (void) deleteCardWithCardId: (nonnull NSString *) cardId
                       Success: (nullable void (^)(void)) success
                       Failure: (nullable void (^)(NSError * _Nonnull error)) failure;
 
